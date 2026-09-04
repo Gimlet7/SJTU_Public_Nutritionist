@@ -19,13 +19,29 @@ const config = {
 const DB_NAME = "nutritionist-question-bank";
 const DB_VERSION = 1;
 const MAX_ATTEMPTS = 10000;
-const state = { authorized: false, questions: [], manifest: null, route: "gate", session: null, wrong: new Map(), bookmarks: new Set(), attempts: 0, attemptedQuestionIds: new Set(), storage: true };
+const DISPLAY_SETTINGS_KEY = "nutritionist-display-settings";
+const DEFAULT_DISPLAY_SETTINGS = { theme: "paper", fontSize: "medium" };
+const state = { authorized: false, questions: [], manifest: null, route: "gate", session: null, wrong: new Map(), bookmarks: new Set(), attempts: 0, attemptedQuestionIds: new Set(), passedQuestionIds: new Set(), storage: true, display: { ...DEFAULT_DISPLAY_SETTINGS } };
 
 const esc = (value) => String(value ?? "").replace(/[&<>"']/g, (char) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#039;" }[char]));
 const resourceUrl = (relativePath) => new URL(relativePath, document.baseURI).href;
 const hash = () => location.hash.replace(/^#/, "") || "/";
 const go = (path) => { location.hash = path; };
 const text = (value) => esc(value).replace(/\n/g, "<br>");
+
+function loadDisplaySettings() {
+  try { state.display = { ...DEFAULT_DISPLAY_SETTINGS, ...JSON.parse(localStorage.getItem(DISPLAY_SETTINGS_KEY) || "{}") }; } catch { state.display = { ...DEFAULT_DISPLAY_SETTINGS }; }
+  applyDisplaySettings();
+}
+function applyDisplaySettings() {
+  document.documentElement.dataset.theme = state.display.theme;
+  document.documentElement.dataset.fontSize = state.display.fontSize;
+}
+function saveDisplaySettings(next) {
+  state.display = { ...state.display, ...next };
+  localStorage.setItem(DISPLAY_SETTINGS_KEY, JSON.stringify(state.display));
+  applyDisplaySettings();
+}
 
 function openDb() {
   return new Promise((resolve, reject) => {
@@ -55,6 +71,11 @@ async function loadLocal() {
     state.bookmarks = new Set(bookmarks.map((item) => item.id));
     state.attempts = attempts.length;
     state.attemptedQuestionIds = new Set(attempts.map((item) => item.questionId));
+    const latestAttempts = new Map();
+    attempts.forEach((item) => {
+      if (!latestAttempts.has(item.questionId) || latestAttempts.get(item.questionId).answeredAt <= item.answeredAt) latestAttempts.set(item.questionId, item);
+    });
+    state.passedQuestionIds = new Set([...latestAttempts.values()].filter((item) => item.correct).map((item) => item.questionId));
     state.progress = progress[0] || null;
   } catch { state.storage = false; state.progress = null; }
 }
@@ -81,6 +102,12 @@ async function loadQuestions() {
 }
 function question(id) { return state.questions.find((item) => item.id === id); }
 function pct(value, total) { return total ? `${Math.round(value / total * 100)}%` : "0%"; }
+function questionStatus(id) {
+  const wrong = state.wrong.get(id);
+  if (wrong && !wrong.mastered) return "wrong";
+  if ((wrong && wrong.mastered) || state.passedQuestionIds.has(id)) return "passed";
+  return "unanswered";
+}
 function layout(content, actions = "") { app.innerHTML = `<div class="shell"><header class="topbar"><div class="brand"><span class="brand-mark">营</span><span>公共营养师题库</span></div><div class="top-actions">${actions}</div></header><main class="page">${content}</main><footer class="footer"><span>© 2026 上海交通大学医学院 · 内部学习资料</span><span>答题记录仅保存在当前浏览器</span></footer></div>`; }
 
 function renderGate(message = "") {
@@ -94,13 +121,13 @@ function renderHome() {
   const completion = state.questions.length ? Math.round(completed / state.questions.length * 100) : 0;
   const resume = state.progress ? `<button class="btn" id="resume">继续上次练习</button>` : "";
   const cards = [{ key: "all", name: "全部题库", count: state.questions.length }, ...["A", "B", "C", "D"].map((key) => ({ key, name: `${key} 题库`, count: state.questions.filter((q) => q.bank === key).length })), { key: "bookmarks", name: "收藏题库", count: state.bookmarks.size }].map((item) => `<button class="bank-card ${item.key === "bookmarks" ? "favorite-card" : ""}" data-bank="${item.key}"><h3>${item.name}</h3><p>${item.count} 道${item.key === "bookmarks" ? "已收藏题目" : "可练习题"}</p></button>`).join("");
-  layout(`<section class="dashboard"><div class="dashboard-copy"><p class="eyebrow">YOUR LOCAL DASHBOARD</p><h1 class="dashboard-title">开始今天的练习</h1><p class="lede">普通练习随机出题，并自动避开当前错题本中的题目。错题可进入错题本集中巩固。</p><div class="stats"><div class="stat"><strong>${state.attempts}</strong>累计作答</div><div class="stat"><strong>${wrongCount}</strong>待复习错题</div><div class="stat"><strong>${state.bookmarks.size}</strong>收藏题目</div></div></div><aside class="progress-panel"><div class="progress-ring" style="--progress:${completion * 3.6}deg"><span>${completion}%</span></div><div><p class="eyebrow">TOTAL PROGRESS</p><h2>已刷 ${completed} / ${state.questions.length}</h2><p>按本机已作答的不同题目统计</p></div></aside></section><section class="quick-row"><div><strong>${state.storage ? "本地记忆已开启" : "临时模式"}</strong><span>${state.storage ? "错题、完成度和练习进度保存在本设备" : "当前浏览器无法保存学习记录"}</span></div><div class="quick-actions">${resume}<button class="btn secondary" id="wrong-link">错题本</button><button class="btn ghost" id="settings-link">本地设置</button></div></section><section><div class="section-head"><div><p class="eyebrow">RANDOM PRACTICE</p><h2>选择题库</h2><p class="section-note">点击后随机开始，当前错题不会混入普通练习。</p></div></div><div class="bank-grid">${cards}</div></section>`, `<button class="btn ghost" id="exit">退出</button>`);
+  layout(`<section class="dashboard"><div class="dashboard-copy"><p class="eyebrow">YOUR LOCAL DASHBOARD</p><h1 class="dashboard-title">开始今天的练习</h1><p class="lede">各题库按题目顺序练习，并自动避开当前错题本中的题目。错题可进入错题本集中巩固。</p><div class="stats"><div class="stat"><strong>${state.attempts}</strong>累计作答</div><div class="stat"><strong>${wrongCount}</strong>待复习错题</div><div class="stat"><strong>${state.bookmarks.size}</strong>收藏题目</div></div></div><aside class="progress-panel"><div class="progress-ring" style="--progress:${completion * 3.6}deg"><span>${completion}%</span></div><div><p class="eyebrow">TOTAL PROGRESS</p><h2>已刷 ${completed} / ${state.questions.length}</h2><p>按本机已作答的不同题目统计</p></div></aside></section><section class="quick-row"><div><strong>${state.storage ? "本地记忆已开启" : "临时模式"}</strong><span>${state.storage ? "错题、完成度和练习进度保存在本设备" : "当前浏览器无法保存学习记录"}</span></div><div class="quick-actions">${resume}<button class="btn secondary" id="wrong-link">错题本</button><button class="btn ghost" id="settings-link">显示与数据设置</button></div></section><section><div class="section-head"><div><p class="eyebrow">SEQUENTIAL PRACTICE</p><h2>选择题库</h2><p class="section-note">点击后按顺序开始，当前错题不会混入普通练习。</p></div></div><div class="bank-grid">${cards}</div></section>`, `<button class="btn ghost" id="exit">退出</button>`);
   document.querySelectorAll("[data-bank]").forEach((button) => button.onclick = () => startPractice(button.dataset.bank));
-  if (state.progress) document.querySelector("#resume").onclick = () => { const activeWrongIds = new Set([...state.wrong.values()].filter((item) => !item.mastered).map((item) => item.id)); const ids = state.progress.questionIds; const source = ids.map(question).filter(Boolean); const blockedGroups = new Set(source.filter((item) => item.groupId && activeWrongIds.has(item.id)).map((item) => item.groupId)); const pool = source.filter((item) => !activeWrongIds.has(item.id) && (!item.groupId || !blockedGroups.has(item.groupId))); if (pool.length) { state.session = { id: state.progress.id, bank: state.progress.bank, mode: state.progress.mode, questions: pool, index: Math.min(state.progress.currentIndex, pool.length - 1), selected: [], submitted: false, results: [], startedAt: Date.now() }; go("/practice"); } else { clearStore("practiceProgress"); state.progress = null; renderHome(); } };
+  if (state.progress) document.querySelector("#resume").onclick = () => { const activeWrongIds = new Set([...state.wrong.values()].filter((item) => !item.mastered).map((item) => item.id)); const ids = state.progress.questionIds; const source = ids.map(question).filter(Boolean); const currentId = source[state.progress.currentIndex]?.id; const blockedGroups = new Set(source.filter((item) => item.groupId && activeWrongIds.has(item.id)).map((item) => item.groupId)); const pool = source.filter((item) => !activeWrongIds.has(item.id) && (!item.groupId || !blockedGroups.has(item.groupId))); const ordered = orderPracticeQuestions(pool); if (ordered.length) { const restoredIndex = ordered.findIndex((item) => item.id === currentId); state.session = { id: state.progress.id, bank: state.progress.bank, mode: state.progress.mode === "wrong-only" ? "wrong-only" : "sequential", questions: ordered, index: restoredIndex >= 0 ? restoredIndex : Math.min(state.progress.currentIndex, ordered.length - 1), selected: [], submitted: false, results: [], startedAt: Date.now() }; go("/practice"); } else { clearStore("practiceProgress"); state.progress = null; renderHome(); } };
   document.querySelector("#wrong-link").onclick = () => go("/wrong-questions"); document.querySelector("#settings-link").onclick = () => go("/settings"); document.querySelector("#exit").onclick = () => { state.authorized = false; localStorage.removeItem("nutritionist-authorized"); go("/"); };
 }
 
-function orderPracticeQuestions(source, mode) {
+function orderPracticeQuestions(source) {
   const groups = new Map();
   source.forEach((item, index) => {
     const groupId = item.groupId || `single-${item.id}`;
@@ -108,20 +135,20 @@ function orderPracticeQuestions(source, mode) {
     group.questions.push(item);
     groups.set(groupId, group);
   });
-  const orderedGroups = [...groups.values()].map((group) => ({ ...group, questions: group.questions.sort((a, b) => (a.groupOrder ?? 0) - (b.groupOrder ?? 0)) }));
-  if (mode === "random") orderedGroups.sort(() => Math.random() - 0.5);
+  const orderedGroups = [...groups.values()].sort((a, b) => a.order - b.order).map((group) => ({ ...group, questions: group.questions.sort((a, b) => (a.groupOrder ?? 0) - (b.groupOrder ?? 0)) }));
   return orderedGroups.flatMap((group) => group.questions);
 }
 
-function startPractice(bank, mode = "random", ids = null) {
+function startPractice(bank, mode = "sequential", ids = null) {
   const activeWrongIds = new Set([...state.wrong.values()].filter((item) => !item.mastered).map((item) => item.id));
-  const requested = ids ? ids.map(question).filter(Boolean) : state.questions.filter((q) => bank === "all" || bank === "bookmarks" || q.bank === bank);
+  const requestedIds = ids ? new Set(ids) : null;
+  const requested = state.questions.filter((q) => requestedIds ? requestedIds.has(q.id) : bank === "all" || bank === "bookmarks" || q.bank === bank);
   const pool = ids
     ? requested
     : bank === "bookmarks"
       ? requested.filter((q) => state.bookmarks.has(q.id))
     : requested.filter((q) => !activeWrongIds.has(q.id) && (!q.groupId || ![...activeWrongIds].some((id) => question(id)?.groupId === q.groupId)));
-  const ordered = orderPracticeQuestions(pool, mode);
+  const ordered = orderPracticeQuestions(pool);
   if (!ordered.length) { alert("该题库暂无可用的新题，请先处理错题本或选择其他题库。"); return; }
   state.session = { id: crypto.randomUUID(), bank, mode, questions: ordered, index: 0, selected: [], submitted: false, results: [], startedAt: Date.now() };
   saveProgress();
@@ -132,19 +159,56 @@ function renderPractice() {
   const session = state.session; const q = session.questions[session.index]; const selected = new Set(session.selected); const submitted = session.submitted; const correct = submitted && q.answers.length === selected.size && q.answers.every((answer) => selected.has(answer));
   const optionHtml = Object.entries(q.options).map(([key, content]) => { const isCorrect = submitted && q.answers.includes(key); const isWrong = submitted && selected.has(key) && !isCorrect; return `<button class="option ${selected.has(key) ? "selected" : ""} ${isCorrect ? "correct" : ""} ${isWrong ? "wrong" : ""}" data-option="${key}" ${submitted ? "disabled" : ""}><span class="option-key">${key}</span><span>${text(content)}</span></button>`; }).join("");
   const feedback = submitted ? `<div class="feedback ${correct ? "ok" : "bad"}"><strong>${correct ? "回答正确" : "回答错误"}</strong><div>正确答案：${q.answers.join("、")}</div>${q.explanation ? `<p>${text(q.explanation)}</p>` : ""}</div>` : "";
-  layout(`<div class="practice-head"><button class="btn ghost" id="back-home">退出练习</button><span class="progress">${session.index + 1} / ${session.questions.length}</span></div><article class="panel"><div class="question-meta"><span class="badge">${q.type === "multiple" ? "多选题" : "单选题"}</span><span class="progress">${q.bank} 题库 · 原题 ${q.sourceQuestionNo}</span></div>${q.sharedStem ? `<div class="shared-stem">${text(q.sharedStem)}</div>` : ""}<h2 class="question-stem">${text(q.stem)}</h2><div class="options">${optionHtml}</div>${feedback}<div class="practice-actions"><button class="btn ghost" id="bookmark">${state.bookmarks.has(q.id) ? "已收藏" : "收藏本题"}</button>${submitted ? `<button class="btn" id="next">${session.index === session.questions.length - 1 ? "查看结果" : "下一题"}</button>` : `<button class="btn" id="submit">提交答案</button>`}</div></article>`, "");
+  const numberGrid = session.questions.map((item, index) => `<button class="question-number ${questionStatus(item.id)} ${index === session.index ? "current" : ""}" data-jump="${index}" title="第 ${index + 1} 题">${index + 1}</button>`).join("");
+  const picker = `<details class="question-picker"><summary>题目选择 <strong>${session.index + 1} / ${session.questions.length}</strong></summary><div class="question-picker-panel"><div class="question-legend"><span><i class="unanswered"></i>未作答</span><span><i class="wrong"></i>错题</span><span><i class="passed"></i>已通过</span></div><div class="question-number-grid">${numberGrid}</div></div></details>`;
+  layout(`<div class="practice-head"><button class="btn ghost" id="back-home">退出练习</button><span class="progress">按顺序练习 · ${session.index + 1} / ${session.questions.length}</span></div>${picker}<article class="panel question-panel"><div class="question-meta"><span class="badge">${q.type === "multiple" ? "多选题" : "单选题"}</span><span class="progress">${q.bank} 题库 · 原题 ${q.sourceQuestionNo}</span></div>${q.sharedStem ? `<div class="shared-stem">${text(q.sharedStem)}</div>` : ""}<h2 class="question-stem">${text(q.stem)}</h2><div class="options">${optionHtml}</div>${feedback}<div class="practice-actions"><button class="btn ghost" id="bookmark">${state.bookmarks.has(q.id) ? "已收藏" : "收藏本题"}</button>${submitted ? `<button class="btn" id="next">${session.index === session.questions.length - 1 ? "查看结果" : "下一题"}</button>` : `<button class="btn" id="submit">提交答案</button>`}</div></article>`, "");
   document.querySelector("#back-home").onclick = () => { saveProgress(); go("/home"); }; document.querySelector("#bookmark").onclick = async () => { if (state.bookmarks.has(q.id)) { state.bookmarks.delete(q.id); await remove("bookmarks", q.id); } else { state.bookmarks.add(q.id); await put("bookmarks", { id: q.id, createdAt: Date.now() }); } renderPractice(); };
+  document.querySelectorAll("[data-jump]").forEach((button) => button.onclick = () => { session.index = Number(button.dataset.jump); session.selected = []; session.submitted = false; saveProgress(); renderPractice(); });
   document.querySelectorAll("[data-option]").forEach((button) => button.onclick = () => { const key = button.dataset.option; if (q.type === "single") session.selected = [key]; else session.selected = selected.has(key) ? session.selected.filter((item) => item !== key) : [...session.selected, key]; renderPractice(); });
   if (submitted) document.querySelector("#next").onclick = () => { if (session.index === session.questions.length - 1) { state.lastResults = session.results; remove("practiceProgress", "current"); go("/result"); } else { session.index++; session.selected = []; session.submitted = false; saveProgress(); renderPractice(); } };
-  else document.querySelector("#submit").onclick = async () => { if (!session.selected.length) return; const isCorrect = q.answers.length === session.selected.length && q.answers.every((answer) => session.selected.includes(answer)); session.submitted = true; session.results.push({ questionId: q.id, correct: isCorrect }); const attempt = { id: crypto.randomUUID(), questionId: q.id, selectedAnswers: session.selected, correct: isCorrect, answeredAt: Date.now(), questionBankVersion: state.manifest?.version || "unknown" }; state.attempts += 1; state.attemptedQuestionIds.add(q.id); if (state.storage) { await put("attempts", attempt).catch(() => { state.storage = false; }); if (!isCorrect) { const previous = state.wrong.get(q.id) || { id: q.id, wrongCount: 0, correctCountAfterWrong: 0, mastered: false }; const record = { ...previous, wrongCount: previous.wrongCount + 1, lastWrongAt: Date.now(), mastered: false }; state.wrong.set(q.id, record); await put("wrongQuestions", record).catch(() => { state.storage = false; }); } else if (state.wrong.has(q.id)) { const record = { ...state.wrong.get(q.id), correctCountAfterWrong: (state.wrong.get(q.id).correctCountAfterWrong || 0) + 1, mastered: session.mode === "wrong-only" }; state.wrong.set(q.id, record); await put("wrongQuestions", record).catch(() => { state.storage = false; }); } } renderPractice(); };
+  else document.querySelector("#submit").onclick = async () => {
+    if (!session.selected.length) return;
+    const isCorrect = q.answers.length === session.selected.length && q.answers.every((answer) => session.selected.includes(answer));
+    session.submitted = true;
+    session.results.push({ questionId: q.id, correct: isCorrect });
+    const attempt = { id: crypto.randomUUID(), questionId: q.id, selectedAnswers: session.selected, correct: isCorrect, answeredAt: Date.now(), questionBankVersion: state.manifest?.version || "unknown" };
+    state.attempts += 1;
+    state.attemptedQuestionIds.add(q.id);
+    if (isCorrect) {
+      state.passedQuestionIds.add(q.id);
+      if (state.wrong.has(q.id)) {
+        const previous = state.wrong.get(q.id);
+        const record = { ...previous, correctCountAfterWrong: (previous.correctCountAfterWrong || 0) + 1, mastered: true };
+        state.wrong.set(q.id, record);
+        if (state.storage) await put("wrongQuestions", record).catch(() => { state.storage = false; });
+      }
+    } else {
+      state.passedQuestionIds.delete(q.id);
+      const previous = state.wrong.get(q.id) || { id: q.id, wrongCount: 0, correctCountAfterWrong: 0, mastered: false };
+      const record = { ...previous, wrongCount: previous.wrongCount + 1, lastWrongAt: Date.now(), mastered: false };
+      state.wrong.set(q.id, record);
+      if (state.storage) await put("wrongQuestions", record).catch(() => { state.storage = false; });
+    }
+    if (state.storage) await put("attempts", attempt).catch(() => { state.storage = false; });
+    renderPractice();
+  };
 }
 
 function renderResult() { const results = state.lastResults || []; const good = results.filter((r) => r.correct).length; layout(`<section class="hero"><div><p class="eyebrow">SESSION COMPLETE</p><h1>这一轮，完成得很好。</h1><p class="lede">结果已经更新到本机错题本。你可以继续挑战，也可以先处理刚刚答错的题。</p></div><div class="panel"><p class="eyebrow">SCORE</p><h2>${good} / ${results.length}</h2><p class="lede" style="font-size:16px">本轮正确率 ${pct(good, results.length)}</p><button class="btn" id="wrong">去错题本</button><button class="btn secondary" id="home">返回首页</button></div></section>`); document.querySelector("#wrong").onclick = () => go("/wrong-questions"); document.querySelector("#home").onclick = () => go("/home"); }
 
 function renderWrong() { const records = [...state.wrong.values()].filter((item) => !item.mastered); const ids = records.map((item) => item.id); const items = records.map((record) => { const q = question(record.id); return q ? `<div class="wrong-item"><div class="wrong-copy"><span class="badge">${q.bank} · ${q.type === "multiple" ? "多选" : "单选"}</span><strong>${text(q.stem.slice(0, 120))}${q.stem.length > 120 ? "..." : ""}</strong><p>累计错误 ${record.wrongCount} 次${record.correctCountAfterWrong ? ` · 重做正确 ${record.correctCountAfterWrong} 次` : ""}</p></div><div class="item-actions"><button class="btn ghost" data-master="${q.id}">标记掌握</button><button class="btn secondary" data-review="${q.id}">单题重做</button></div></div>` : ""; }).join(""); layout(`<div class="section-head wrong-head"><div><p class="eyebrow">REVIEW LIST</p><h1 class="page-title">错题本</h1><p class="lede">${records.length ? `共 ${records.length} 道待巩固题目。集中练习时答对的题会自动标记为已掌握。` : "当前没有待复习错题。"}</p></div><div class="head-actions">${records.length ? `<button class="btn" id="review-all">练习全部错题</button>` : ""}<button class="btn ghost" id="home">返回首页</button></div></div><div class="wrong-list">${items || `<div class="empty">答错的题目会自动出现在这里。</div>`}</div>`, ""); document.querySelector("#home").onclick = () => go("/home"); if (records.length) document.querySelector("#review-all").onclick = () => startPractice("all", "wrong-only", ids); document.querySelectorAll("[data-review]").forEach((button) => button.onclick = () => startPractice("all", "wrong-only", [button.dataset.review])); document.querySelectorAll("[data-master]").forEach((button) => button.onclick = async () => { const record = { ...state.wrong.get(button.dataset.master), mastered: true }; state.wrong.set(record.id, record); await put("wrongQuestions", record).catch(() => { state.storage = false; }); renderWrong(); }); }
 
-async function renderSettings() { const [attempts, wrong, bookmarks] = state.storage ? await Promise.all([getAll("attempts"), getAll("wrongQuestions"), getAll("bookmarks")]) : [[], [], []]; layout(`<div class="section-head"><div><p class="eyebrow">LOCAL DATA</p><h1 style="font-size:clamp(38px,5vw,62px)">本地设置</h1><p class="lede">数据只保存在当前浏览器，不会上传，也不会跨设备同步。</p></div><button class="btn ghost" id="home">返回首页</button></div><div class="panel"><div class="stats"><div class="stat"><strong>${attempts.length}</strong>答题记录</div><div class="stat"><strong>${wrong.length}</strong>错题</div><div class="stat"><strong>${bookmarks.length}</strong>收藏</div></div><hr style="border:0;border-top:1px solid var(--line);margin:30px 0"><p class="notice">存储状态：${state.storage ? "IndexedDB 可用，支持恢复进度" : "不可用，将以临时模式运行"}</p><button class="btn secondary" id="clear-attempts">清除答题历史</button> <button class="btn secondary" id="clear-wrong">清除错题本</button> <button class="btn" id="clear-all">清除全部本地数据</button></div>`); document.querySelector("#home").onclick = () => go("/home"); document.querySelector("#clear-attempts").onclick = async () => { if (confirm("确定清除全部答题历史吗？")) { await clearStore("attempts"); await loadLocal(); renderSettings(); } }; document.querySelector("#clear-wrong").onclick = async () => { if (confirm("确定清除错题本吗？")) { await clearStore("wrongQuestions"); await loadLocal(); renderSettings(); } }; document.querySelector("#clear-all").onclick = async () => { if (confirm("确定清除全部本地数据并退出吗？")) { for (const name of ["attempts", "wrongQuestions", "bookmarks", "notes", "practiceProgress", "meta"]) await clearStore(name); localStorage.removeItem("nutritionist-authorized"); location.hash = "/"; location.reload(); } }; }
+async function renderSettings() {
+  const [attempts, wrong, bookmarks] = state.storage ? await Promise.all([getAll("attempts"), getAll("wrongQuestions"), getAll("bookmarks")]) : [[], [], []];
+  layout(`<div class="section-head"><div><p class="eyebrow">DISPLAY & LOCAL DATA</p><h1 class="page-title">显示与本地设置</h1><p class="lede">显示偏好和学习数据仅保存在当前浏览器，不会上传或同步到其他设备。</p></div><button class="btn ghost" id="home">返回首页</button></div><div class="settings-grid"><section class="panel"><h2>阅读显示</h2><div class="settings-controls"><label>护眼底色<select id="theme-select"><option value="paper" ${state.display.theme === "paper" ? "selected" : ""}>暖白纸张</option><option value="sage" ${state.display.theme === "sage" ? "selected" : ""}>浅草绿色</option><option value="mist" ${state.display.theme === "mist" ? "selected" : ""}>雾灰蓝色</option><option value="night" ${state.display.theme === "night" ? "selected" : ""}>深色护眼</option></select></label><label>正文字号<select id="font-select"><option value="small" ${state.display.fontSize === "small" ? "selected" : ""}>小</option><option value="medium" ${state.display.fontSize === "medium" ? "selected" : ""}>标准</option><option value="large" ${state.display.fontSize === "large" ? "selected" : ""}>大</option></select></label></div><p class="notice">切换后立即生效，文字、边框和面板颜色会同步调整。</p></section><section class="panel"><h2>本机学习数据</h2><div class="stats"><div class="stat"><strong>${attempts.length}</strong>答题记录</div><div class="stat"><strong>${wrong.length}</strong>错题</div><div class="stat"><strong>${bookmarks.length}</strong>收藏</div></div><p class="notice">存储状态：${state.storage ? "IndexedDB 可用，支持恢复进度" : "不可用，将以临时模式运行"}</p><div class="settings-actions"><button class="btn secondary" id="clear-attempts">清除答题历史</button><button class="btn secondary" id="clear-wrong">清除错题本</button><button class="btn" id="clear-all">清除全部本地数据</button></div></section></div>`);
+  document.querySelector("#home").onclick = () => go("/home");
+  document.querySelector("#theme-select").onchange = (event) => saveDisplaySettings({ theme: event.target.value });
+  document.querySelector("#font-select").onchange = (event) => saveDisplaySettings({ fontSize: event.target.value });
+  document.querySelector("#clear-attempts").onclick = async () => { if (confirm("确定清除全部答题历史吗？")) { await clearStore("attempts"); await loadLocal(); renderSettings(); } };
+  document.querySelector("#clear-wrong").onclick = async () => { if (confirm("确定清除错题本吗？")) { await clearStore("wrongQuestions"); await loadLocal(); renderSettings(); } };
+  document.querySelector("#clear-all").onclick = async () => { if (confirm("确定清除全部本地数据并退出吗？")) { for (const name of ["attempts", "wrongQuestions", "bookmarks", "notes", "practiceProgress", "meta"]) await clearStore(name); localStorage.removeItem("nutritionist-authorized"); localStorage.removeItem(DISPLAY_SETTINGS_KEY); location.hash = "/"; location.reload(); } };
+}
 
 async function render() { const route = hash(); state.route = route; if (!state.authorized) return renderGate(); if (route === "/") return go("/home"); if (route === "/home") return renderHome(); if (route === "/practice" && state.session) return renderPractice(); if (route === "/result") return renderResult(); if (route === "/wrong-questions") return renderWrong(); if (route === "/settings") return renderSettings(); go("/home"); }
 window.addEventListener("hashchange", render);
-(async () => { if (await isAuthorized()) { try { state.authorized = true; await loadQuestions(); await loadLocal(); if (hash() === "/") return go("/home"); } catch (error) { state.authorized = false; renderGate(error.message || "题库文件加载失败，请检查部署文件。"); return; } } await render(); })();
+(async () => { loadDisplaySettings(); if (await isAuthorized()) { try { state.authorized = true; await loadQuestions(); await loadLocal(); if (hash() === "/") return go("/home"); } catch (error) { state.authorized = false; renderGate(error.message || "题库文件加载失败，请检查部署文件。"); return; } } await render(); })();

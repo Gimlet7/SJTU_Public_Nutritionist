@@ -17,10 +17,6 @@
 │   └── review/             # 清洗全量、待复核题和报告
 ├── scripts/
 │   └── build-project-bank.js
-├── docs/
-│   └── 方案.md
-└── .github/workflows/
-    └── deploy-pages.yml
 ```
 
 ## 本地记忆

@@ -1,14 +1,21 @@
 // Adjust these paths when the repository layout changes.
 const APP_PATHS = {
-  questions: "./SJTU_Public_Nutritionist/data/questions.json",
-  manifest: "./SJTU_Public_Nutritionist/data/manifest.json",
+  questions: ["./data/questions.json", "./questions.json"],
+  manifest: ["./data/manifest.json", "./manifest.json"],
 };
+// Fallback used when config.js is missing or temporarily cached by static hosting.
 const DEFAULT_CONFIG = {
   accessKeyHash: "4836f7ae932396e81d9a543fe646e28c21064535a243f06f914ecdc3ff74edb5",
   rememberAccess: true,
 };
 const app = document.querySelector("#app");
-const config = { ...DEFAULT_CONFIG, ...(window.APP_CONFIG || {}) };
+const externalConfig = window.APP_CONFIG || {};
+const externalHashIsValid = /^[a-f0-9]{64}$/i.test(externalConfig.accessKeyHash || "");
+const config = {
+  ...DEFAULT_CONFIG,
+  ...externalConfig,
+  accessKeyHash: externalHashIsValid ? externalConfig.accessKeyHash : DEFAULT_CONFIG.accessKeyHash,
+};
 const DB_NAME = "nutritionist-question-bank";
 const DB_VERSION = 1;
 const MAX_ATTEMPTS = 10000;
@@ -55,11 +62,22 @@ async function sha256(value) { const data = new TextEncoder().encode(value); con
 async function isAuthorized() { return localStorage.getItem("nutritionist-authorized") === config.accessKeyHash; }
 async function authorize(key, remember) { const digest = await sha256(key); if (!config.accessKeyHash || config.accessKeyHash.startsWith("REPLACE_")) return { ok: false, setup: true }; if (digest !== config.accessKeyHash.toLowerCase()) return { ok: false }; state.authorized = true; if (remember) localStorage.setItem("nutritionist-authorized", config.accessKeyHash); else localStorage.removeItem("nutritionist-authorized"); return { ok: true }; }
 
+async function fetchFirst(paths) {
+  const attempted = [];
+  for (const path of paths) {
+    const url = resourceUrl(path);
+    attempted.push(url);
+    try {
+      const response = await fetch(url, { cache: "no-store" });
+      if (response.ok) return response;
+    } catch { /* Try the next layout. */ }
+  }
+  throw new Error(`题库文件加载失败，请确认文件已上传：${attempted.join(" 或 ")}`);
+}
 async function loadQuestions() {
-  const response = await fetch(resourceUrl(APP_PATHS.questions));
-  if (!response.ok) throw new Error("题库文件加载失败");
+  const response = await fetchFirst(APP_PATHS.questions);
   state.questions = await response.json();
-  try { const r = await fetch(resourceUrl(APP_PATHS.manifest)); state.manifest = r.ok ? await r.json() : null; } catch { state.manifest = null; }
+  try { const r = await fetchFirst(APP_PATHS.manifest); state.manifest = await r.json(); } catch { state.manifest = null; }
 }
 function question(id) { return state.questions.find((item) => item.id === id); }
 function pct(value, total) { return total ? `${Math.round(value / total * 100)}%` : "0%"; }
@@ -129,4 +147,4 @@ async function renderSettings() { const [attempts, wrong, bookmarks] = state.sto
 
 async function render() { const route = hash(); state.route = route; if (!state.authorized) return renderGate(); if (route === "/") return go("/home"); if (route === "/home") return renderHome(); if (route === "/practice" && state.session) return renderPractice(); if (route === "/result") return renderResult(); if (route === "/wrong-questions") return renderWrong(); if (route === "/settings") return renderSettings(); go("/home"); }
 window.addEventListener("hashchange", render);
-(async () => { if (await isAuthorized()) { try { state.authorized = true; await loadQuestions(); await loadLocal(); if (hash() === "/") return go("/home"); } catch { state.authorized = false; } } await render(); })();
+(async () => { if (await isAuthorized()) { try { state.authorized = true; await loadQuestions(); await loadLocal(); if (hash() === "/") return go("/home"); } catch (error) { state.authorized = false; renderGate(error.message || "题库文件加载失败，请检查部署文件。"); return; } } await render(); })();

@@ -1,0 +1,6064 @@
+[
+  {
+    "id": "A-0028",
+    "bank": "A",
+    "sourceFile": "Exercises_A_decrypted.pdf",
+    "sourceQuestionNo": 28,
+    "sourcePages": [
+      3
+    ],
+    "type": "single",
+    "stem": "2025 年全民营养周传播主题为（ ）",
+    "sharedStem": null,
+    "options": {
+      "A": "奶豆添营养，少油更健康",
+      "B": "合理膳食，食养是良医",
+      "C": "会烹会选，会看标签",
+      "D": "吃动平衡，健康体重，全民行动"
+    },
+    "answers": [
+      "D"
+    ],
+    "explanation": null,
+    "reviewStatus": "需人工核对",
+    "answerSource": "source",
+    "rawStem": "2025 年全民营养周传播主题为(   )\nA.奶豆添营养，少油更健康\nB.合理膳食，食养是良医\nC.会烹会选，会看标签\nD.吃动平衡，健康体重，全民行动",
+    "qualityIssues": [
+      "source_not_reviewed",
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "ai_structure_review",
+      "confidence": "medium"
+    },
+    "publishable": false,
+    "contentFingerprint": "2025年全民营养周传播主题为",
+    "groupId": null,
+    "groupOrder": 27,
+    "duplicateCandidateIds": [
+      "C-0715"
+    ]
+  },
+  {
+    "id": "A-0034",
+    "bank": "A",
+    "sourceFile": "Exercises_A_decrypted.pdf",
+    "sourceQuestionNo": 34,
+    "sourcePages": [
+      4
+    ],
+    "type": "single",
+    "stem": "菌落总数是（ ）的指标。",
+    "sharedStem": null,
+    "options": {
+      "A": "食品被粪便污染 B. 肠道致病菌污染",
+      "C": "食品腐败变质 D. 食品清洁状态"
+    },
+    "answers": [
+      "D"
+    ],
+    "explanation": null,
+    "reviewStatus": "需人工核对",
+    "answerSource": "source",
+    "rawStem": "菌落总数是(    )的指标。",
+    "qualityIssues": [
+      "incomplete_options",
+      "non_contiguous_options",
+      "answer_not_in_options",
+      "source_not_reviewed"
+    ],
+    "verification": {
+      "method": "ai_structure_review",
+      "confidence": "medium"
+    },
+    "publishable": false,
+    "contentFingerprint": "菌落总数是的指标",
+    "groupId": null,
+    "groupOrder": 33,
+    "duplicateCandidateIds": []
+  },
+  {
+    "id": "A-0035",
+    "bank": "A",
+    "sourceFile": "Exercises_A_decrypted.pdf",
+    "sourceQuestionNo": 35,
+    "sourcePages": [
+      4
+    ],
+    "type": "single",
+    "stem": "在任何情况下，选择营养干预措施最重要的原则是干预措施与所解决问题的 （ ）",
+    "sharedStem": null,
+    "options": {
+      "A": "相关性 B. 可行性 C. 整合性 D. 有效性"
+    },
+    "answers": [
+      "A"
+    ],
+    "explanation": null,
+    "reviewStatus": "需人工核对",
+    "answerSource": "source",
+    "rawStem": "在任何情况下，选择营养干预措施最重要的原则是干预措施与所解决问题的\n(   )",
+    "qualityIssues": [
+      "incomplete_options",
+      "source_not_reviewed"
+    ],
+    "verification": {
+      "method": "ai_structure_review",
+      "confidence": "medium"
+    },
+    "publishable": false,
+    "contentFingerprint": "在任何情况下选择营养干预措施最重要的原则是干预措施与所解决问题的",
+    "groupId": null,
+    "groupOrder": 34,
+    "duplicateCandidateIds": []
+  },
+  {
+    "id": "A-0092",
+    "bank": "A",
+    "sourceFile": "Exercises_A_decrypted.pdf",
+    "sourceQuestionNo": 92,
+    "sourcePages": [
+      13
+    ],
+    "type": "single",
+    "stem": "叶酸对于孕妇的重要性主要体现在",
+    "sharedStem": null,
+    "options": {
+      "A": "提高孕妇免疫力",
+      "B": "促进胎儿脑部和骨髓发育",
+      "D": "促进胎儿骨骼生长"
+    },
+    "answers": [
+      "C"
+    ],
+    "explanation": null,
+    "reviewStatus": "需人工核对",
+    "answerSource": "source",
+    "rawStem": "叶酸对于孕妇的重要性主要体现在\nA、提高孕妇免疫力               B、预防孕妇贫血\nB、促进胎儿脑部和骨髓发育       D、促进胎儿骨骼生长",
+    "qualityIssues": [
+      "incomplete_options",
+      "non_contiguous_options",
+      "answer_not_in_options",
+      "source_not_reviewed"
+    ],
+    "verification": {
+      "method": "ai_structure_review",
+      "confidence": "medium"
+    },
+    "publishable": false,
+    "contentFingerprint": "叶酸对于孕妇的重要性主要体现在",
+    "groupId": null,
+    "groupOrder": 91,
+    "duplicateCandidateIds": []
+  },
+  {
+    "id": "A-0097",
+    "bank": "A",
+    "sourceFile": "Exercises_A_decrypted.pdf",
+    "sourceQuestionNo": 97,
+    "sourcePages": [
+      14
+    ],
+    "type": "single",
+    "stem": "辅酶Q10 在人体中的主要生理功能",
+    "sharedStem": null,
+    "options": {
+      "A": "促进钙的吸收",
+      "B": "促进蛋白质合成",
+      "D": "保护心血管系统功能"
+    },
+    "answers": [
+      "D"
+    ],
+    "explanation": null,
+    "reviewStatus": "需人工核对",
+    "answerSource": "source",
+    "rawStem": "辅酶Q10 在人体中的主要生理功能\nA、促进钙的吸收            B、提高血糖水平\nB、促进蛋白质合成          D、保护心血管系统功能",
+    "qualityIssues": [
+      "incomplete_options",
+      "non_contiguous_options",
+      "source_not_reviewed"
+    ],
+    "verification": {
+      "method": "ai_structure_review",
+      "confidence": "medium"
+    },
+    "publishable": false,
+    "contentFingerprint": "辅酶q10在人体中的主要生理功能",
+    "groupId": null,
+    "groupOrder": 96,
+    "duplicateCandidateIds": []
+  },
+  {
+    "id": "A-0105",
+    "bank": "A",
+    "sourceFile": "Exercises_A_decrypted.pdf",
+    "sourceQuestionNo": 105,
+    "sourcePages": [
+      14
+    ],
+    "type": "single",
+    "stem": "参与构成谷胱甘肽过氧化物酶的微量元素是",
+    "sharedStem": null,
+    "options": {
+      "A": "锌",
+      "B": "硒",
+      "C": "镉",
+      "D": "铁"
+    },
+    "answers": [
+      "B"
+    ],
+    "explanation": null,
+    "reviewStatus": "需人工核对",
+    "answerSource": "source",
+    "rawStem": "参与构成谷胱甘肽过氧化物酶的微量元素是\nA、锌         B、硒         C、镉         D、铁",
+    "qualityIssues": [
+      "source_not_reviewed",
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "ai_structure_review",
+      "confidence": "medium"
+    },
+    "publishable": false,
+    "contentFingerprint": "参与构成谷胱甘肽过氧化物酶的微量元素是",
+    "groupId": null,
+    "groupOrder": 104,
+    "duplicateCandidateIds": [
+      "C-0038",
+      "C-0456",
+      "C-0690"
+    ]
+  },
+  {
+    "id": "A-0122",
+    "bank": "A",
+    "sourceFile": "Exercises_A_decrypted.pdf",
+    "sourceQuestionNo": 122,
+    "sourcePages": [
+      16
+    ],
+    "type": "single",
+    "stem": "对于有咀嚼吞咽障碍的老人可以选择的食物质地",
+    "sharedStem": null,
+    "options": {
+      "A": "流质食物",
+      "B": "软食",
+      "C": "糊状食物",
+      "D": "半流质食物"
+    },
+    "answers": [
+      "C"
+    ],
+    "explanation": null,
+    "reviewStatus": "需人工核对",
+    "answerSource": "source",
+    "rawStem": "对于有咀嚼吞咽障碍的老人可以选择的食物质地\nA、流质食物       B、软食        C、糊状食物        D、半流质食物",
+    "qualityIssues": [
+      "source_not_reviewed",
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "ai_structure_review",
+      "confidence": "medium"
+    },
+    "publishable": false,
+    "contentFingerprint": "对于有咀嚼吞咽障碍的老人可以选择的食物质地",
+    "groupId": null,
+    "groupOrder": 121,
+    "duplicateCandidateIds": [
+      "A-0176"
+    ]
+  },
+  {
+    "id": "A-0163",
+    "bank": "A",
+    "sourceFile": "Exercises_A_decrypted.pdf",
+    "sourceQuestionNo": 5,
+    "sourcePages": [
+      21
+    ],
+    "type": "multiple",
+    "stem": "一份标准份苹果能和以下哪些食物互换 （ ）",
+    "sharedStem": null,
+    "options": {
+      "A": "250g 西兰花",
+      "B": "300g 草莓 C160g 猕猴桃 D225g 柚子"
+    },
+    "answers": [
+      "B",
+      "C",
+      "D"
+    ],
+    "explanation": null,
+    "reviewStatus": "需人工核对",
+    "answerSource": "source",
+    "rawStem": "[多选题]一份标准份苹果能和以下哪些食物互换 (   )\nA.250g 西兰花\nB.300g 草莓\nC160g 猕猴桃\nD225g 柚子",
+    "qualityIssues": [
+      "incomplete_options",
+      "answer_not_in_options",
+      "source_not_reviewed"
+    ],
+    "verification": {
+      "method": "ai_structure_review",
+      "confidence": "medium"
+    },
+    "publishable": false,
+    "contentFingerprint": "一份标准份苹果能和以下哪些食物互换",
+    "groupId": null,
+    "groupOrder": 162,
+    "duplicateCandidateIds": []
+  },
+  {
+    "id": "A-0176",
+    "bank": "A",
+    "sourceFile": "Exercises_A_decrypted.pdf",
+    "sourceQuestionNo": 18,
+    "sourcePages": [
+      23
+    ],
+    "type": "multiple",
+    "stem": "对于有咀嚼吞咽障碍的老人可以选择的食物质地",
+    "sharedStem": null,
+    "options": {
+      "A": "流质食物",
+      "B": "软食",
+      "C": "糊状食物",
+      "D": "半流质食物"
+    },
+    "answers": [
+      "A",
+      "C",
+      "D"
+    ],
+    "explanation": null,
+    "reviewStatus": "需人工核对",
+    "answerSource": "source",
+    "rawStem": "对于有咀嚼吞咽障碍的老人可以选择的食物质地\nA、流质食物       B、软食       C、糊状食物      D、半流质食物",
+    "qualityIssues": [
+      "source_not_reviewed",
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "ai_structure_review",
+      "confidence": "medium"
+    },
+    "publishable": false,
+    "contentFingerprint": "对于有咀嚼吞咽障碍的老人可以选择的食物质地",
+    "groupId": null,
+    "groupOrder": 175,
+    "duplicateCandidateIds": [
+      "A-0122"
+    ]
+  },
+  {
+    "id": "A-0192",
+    "bank": "A",
+    "sourceFile": "Exercises_A_decrypted.pdf",
+    "sourceQuestionNo": 4,
+    "sourcePages": [
+      26
+    ],
+    "type": "single",
+    "stem": "根据该调查结果可知，该调查对象禽肉的摄入频率为（ ）",
+    "sharedStem": "某公共营养师采用食物频率法对某社区居民进行膳食调查，部分结果见下表，根据表格提供的信息回答下列问题：表：某社区居民的膳食调查记录（食物频率法）食物名称是否食用①否 ②是进食次数平均每次食用量次/日次/周 次/月次/年1 大米211 两2 小麦面粉221 两3 粗杂粮14 猪肉221 两5 牛、羊肉222 两6 禽肉232 两7 内脏类18 鱼虾类19 鲜奶211 袋（248g）10 奶粉221 勺（8g）11 蛋类231 个12 豆腐221 两13 新鲜蔬菜222 两14 新鲜水果222 两15 坚果1",
+    "options": {
+      "A": "3 次/月 B. 3 次/周 C. 2 次/日 D. 不吃"
+    },
+    "answers": [
+      "B"
+    ],
+    "explanation": null,
+    "reviewStatus": "需人工核对",
+    "answerSource": "source",
+    "rawStem": "根据该调查结果可知，该调查对象禽肉的摄入频率为(   )",
+    "qualityIssues": [
+      "incomplete_options",
+      "answer_not_in_options",
+      "source_not_reviewed"
+    ],
+    "verification": {
+      "method": "ai_structure_review",
+      "confidence": "medium"
+    },
+    "publishable": false,
+    "contentFingerprint": "根据该调查结果可知该调查对象禽肉的摄入频率为",
+    "groupId": "A-group-0189",
+    "groupOrder": 191,
+    "duplicateCandidateIds": []
+  },
+  {
+    "id": "A-0195",
+    "bank": "A",
+    "sourceFile": "Exercises_A_decrypted.pdf",
+    "sourceQuestionNo": 1,
+    "sourcePages": [
+      27
+    ],
+    "type": "single",
+    "stem": "大米 ② 2 1.5 碗 (150g)",
+    "sharedStem": "某公共营养师采用食物频率法对一名45 岁男性办公室职员进行膳食调查，部分结果见下表请根据表格提供的信息回答下列问题表：某办公室职员的膳食调查记录（食物频率法）食物名称是否食用①否 ②是进食次数平均每次食用量次/日次/周 次/月次/年",
+    "options": {},
+    "answers": [],
+    "explanation": null,
+    "reviewStatus": "需人工核对",
+    "answerSource": "missing",
+    "rawStem": "大米\n②\n2\n1.5\n碗\n(150g)",
+    "qualityIssues": [
+      "incomplete_options",
+      "missing_answer",
+      "single_answer_count_error",
+      "shared_stem_needs_review",
+      "source_not_reviewed"
+    ],
+    "verification": {
+      "method": "ai_structure_review",
+      "confidence": "medium"
+    },
+    "publishable": false,
+    "contentFingerprint": "大米②215碗150g",
+    "groupId": "A-group-0195",
+    "groupOrder": 194,
+    "duplicateCandidateIds": []
+  },
+  {
+    "id": "A-0196",
+    "bank": "A",
+    "sourceFile": "Exercises_A_decrypted.pdf",
+    "sourceQuestionNo": 2,
+    "sourcePages": [
+      27
+    ],
+    "type": "single",
+    "stem": "小麦面粉 ② 1 1 碗 (100g)",
+    "sharedStem": "某公共营养师采用食物频率法对一名45 岁男性办公室职员进行膳食调查，部分结果见下表请根据表格提供的信息回答下列问题表：某办公室职员的膳食调查记录（食物频率法）食物名称是否食用①否 ②是进食次数平均每次食用量次/日次/周 次/月次/年",
+    "options": {},
+    "answers": [],
+    "explanation": null,
+    "reviewStatus": "需人工核对",
+    "answerSource": "missing",
+    "rawStem": "小麦面粉\n②\n1\n1 碗 (100g)",
+    "qualityIssues": [
+      "incomplete_options",
+      "missing_answer",
+      "single_answer_count_error",
+      "source_not_reviewed"
+    ],
+    "verification": {
+      "method": "ai_structure_review",
+      "confidence": "medium"
+    },
+    "publishable": false,
+    "contentFingerprint": "小麦面粉②11碗100g",
+    "groupId": "A-group-0195",
+    "groupOrder": 195,
+    "duplicateCandidateIds": []
+  },
+  {
+    "id": "A-0197",
+    "bank": "A",
+    "sourceFile": "Exercises_A_decrypted.pdf",
+    "sourceQuestionNo": 3,
+    "sourcePages": [
+      27
+    ],
+    "type": "single",
+    "stem": "粗杂粮 ①",
+    "sharedStem": "某公共营养师采用食物频率法对一名45 岁男性办公室职员进行膳食调查，部分结果见下表请根据表格提供的信息回答下列问题表：某办公室职员的膳食调查记录（食物频率法）食物名称是否食用①否 ②是进食次数平均每次食用量次/日次/周 次/月次/年",
+    "options": {},
+    "answers": [],
+    "explanation": null,
+    "reviewStatus": "需人工核对",
+    "answerSource": "missing",
+    "rawStem": "粗杂粮\n①",
+    "qualityIssues": [
+      "incomplete_options",
+      "missing_answer",
+      "single_answer_count_error",
+      "source_not_reviewed"
+    ],
+    "verification": {
+      "method": "ai_structure_review",
+      "confidence": "medium"
+    },
+    "publishable": false,
+    "contentFingerprint": "粗杂粮①",
+    "groupId": "A-group-0195",
+    "groupOrder": 196,
+    "duplicateCandidateIds": []
+  },
+  {
+    "id": "A-0198",
+    "bank": "A",
+    "sourceFile": "Exercises_A_decrypted.pdf",
+    "sourceQuestionNo": 4,
+    "sourcePages": [
+      27
+    ],
+    "type": "single",
+    "stem": "猪肉 ② 5 2 两 (100g)",
+    "sharedStem": "某公共营养师采用食物频率法对一名45 岁男性办公室职员进行膳食调查，部分结果见下表请根据表格提供的信息回答下列问题表：某办公室职员的膳食调查记录（食物频率法）食物名称是否食用①否 ②是进食次数平均每次食用量次/日次/周 次/月次/年",
+    "options": {},
+    "answers": [],
+    "explanation": null,
+    "reviewStatus": "需人工核对",
+    "answerSource": "missing",
+    "rawStem": "猪肉\n②\n5\n2 两 (100g)",
+    "qualityIssues": [
+      "incomplete_options",
+      "missing_answer",
+      "single_answer_count_error",
+      "source_not_reviewed"
+    ],
+    "verification": {
+      "method": "ai_structure_review",
+      "confidence": "medium"
+    },
+    "publishable": false,
+    "contentFingerprint": "猪肉②52两100g",
+    "groupId": "A-group-0195",
+    "groupOrder": 197,
+    "duplicateCandidateIds": []
+  },
+  {
+    "id": "A-0199",
+    "bank": "A",
+    "sourceFile": "Exercises_A_decrypted.pdf",
+    "sourceQuestionNo": 5,
+    "sourcePages": [
+      27
+    ],
+    "type": "single",
+    "stem": "牛、羊肉 ② 2 2 两 (100g)",
+    "sharedStem": "某公共营养师采用食物频率法对一名45 岁男性办公室职员进行膳食调查，部分结果见下表请根据表格提供的信息回答下列问题表：某办公室职员的膳食调查记录（食物频率法）食物名称是否食用①否 ②是进食次数平均每次食用量次/日次/周 次/月次/年",
+    "options": {},
+    "answers": [],
+    "explanation": null,
+    "reviewStatus": "需人工核对",
+    "answerSource": "missing",
+    "rawStem": "牛、羊肉\n②\n2\n2 两 (100g)",
+    "qualityIssues": [
+      "incomplete_options",
+      "missing_answer",
+      "single_answer_count_error",
+      "source_not_reviewed"
+    ],
+    "verification": {
+      "method": "ai_structure_review",
+      "confidence": "medium"
+    },
+    "publishable": false,
+    "contentFingerprint": "牛羊肉②22两100g",
+    "groupId": "A-group-0195",
+    "groupOrder": 198,
+    "duplicateCandidateIds": []
+  },
+  {
+    "id": "A-0200",
+    "bank": "A",
+    "sourceFile": "Exercises_A_decrypted.pdf",
+    "sourceQuestionNo": 6,
+    "sourcePages": [
+      27
+    ],
+    "type": "single",
+    "stem": "禽肉 ② 3 2 两 (100g)",
+    "sharedStem": null,
+    "options": {},
+    "answers": [],
+    "explanation": null,
+    "reviewStatus": "需人工核对",
+    "answerSource": "missing",
+    "rawStem": "禽肉\n②\n3\n2 两 (100g)",
+    "qualityIssues": [
+      "incomplete_options",
+      "missing_answer",
+      "single_answer_count_error",
+      "source_not_reviewed"
+    ],
+    "verification": {
+      "method": "ai_structure_review",
+      "confidence": "medium"
+    },
+    "publishable": false,
+    "contentFingerprint": "禽肉②32两100g",
+    "groupId": null,
+    "groupOrder": 199,
+    "duplicateCandidateIds": []
+  },
+  {
+    "id": "A-0201",
+    "bank": "A",
+    "sourceFile": "Exercises_A_decrypted.pdf",
+    "sourceQuestionNo": 7,
+    "sourcePages": [
+      27
+    ],
+    "type": "single",
+    "stem": "鱼虾类 ② 1 2 两 (100g)",
+    "sharedStem": null,
+    "options": {},
+    "answers": [],
+    "explanation": null,
+    "reviewStatus": "需人工核对",
+    "answerSource": "missing",
+    "rawStem": "鱼虾类\n②\n1\n2 两 (100g)",
+    "qualityIssues": [
+      "incomplete_options",
+      "missing_answer",
+      "single_answer_count_error",
+      "source_not_reviewed"
+    ],
+    "verification": {
+      "method": "ai_structure_review",
+      "confidence": "medium"
+    },
+    "publishable": false,
+    "contentFingerprint": "鱼虾类②12两100g",
+    "groupId": null,
+    "groupOrder": 200,
+    "duplicateCandidateIds": []
+  },
+  {
+    "id": "A-0202",
+    "bank": "A",
+    "sourceFile": "Exercises_A_decrypted.pdf",
+    "sourceQuestionNo": 8,
+    "sourcePages": [
+      27
+    ],
+    "type": "single",
+    "stem": "蛋类 ② 1 1 个 (50g)",
+    "sharedStem": null,
+    "options": {},
+    "answers": [],
+    "explanation": null,
+    "reviewStatus": "需人工核对",
+    "answerSource": "missing",
+    "rawStem": "蛋类\n②\n1\n1 个 (50g)",
+    "qualityIssues": [
+      "incomplete_options",
+      "missing_answer",
+      "single_answer_count_error",
+      "source_not_reviewed"
+    ],
+    "verification": {
+      "method": "ai_structure_review",
+      "confidence": "medium"
+    },
+    "publishable": false,
+    "contentFingerprint": "蛋类②11个50g",
+    "groupId": null,
+    "groupOrder": 201,
+    "duplicateCandidateIds": []
+  },
+  {
+    "id": "A-0203",
+    "bank": "A",
+    "sourceFile": "Exercises_A_decrypted.pdf",
+    "sourceQuestionNo": 9,
+    "sourcePages": [
+      27
+    ],
+    "type": "single",
+    "stem": "鲜奶 ①",
+    "sharedStem": null,
+    "options": {},
+    "answers": [],
+    "explanation": null,
+    "reviewStatus": "需人工核对",
+    "answerSource": "missing",
+    "rawStem": "鲜奶\n①",
+    "qualityIssues": [
+      "incomplete_options",
+      "missing_answer",
+      "single_answer_count_error",
+      "source_not_reviewed"
+    ],
+    "verification": {
+      "method": "ai_structure_review",
+      "confidence": "medium"
+    },
+    "publishable": false,
+    "contentFingerprint": "鲜奶①",
+    "groupId": null,
+    "groupOrder": 202,
+    "duplicateCandidateIds": []
+  },
+  {
+    "id": "A-0204",
+    "bank": "A",
+    "sourceFile": "Exercises_A_decrypted.pdf",
+    "sourceQuestionNo": 10,
+    "sourcePages": [
+      27
+    ],
+    "type": "single",
+    "stem": "酸奶 ② 2 1 杯 (100g)",
+    "sharedStem": null,
+    "options": {},
+    "answers": [],
+    "explanation": null,
+    "reviewStatus": "需人工核对",
+    "answerSource": "missing",
+    "rawStem": "酸奶\n②\n2\n1 杯 (100g)",
+    "qualityIssues": [
+      "incomplete_options",
+      "missing_answer",
+      "single_answer_count_error",
+      "source_not_reviewed"
+    ],
+    "verification": {
+      "method": "ai_structure_review",
+      "confidence": "medium"
+    },
+    "publishable": false,
+    "contentFingerprint": "酸奶②21杯100g",
+    "groupId": null,
+    "groupOrder": 203,
+    "duplicateCandidateIds": []
+  },
+  {
+    "id": "A-0205",
+    "bank": "A",
+    "sourceFile": "Exercises_A_decrypted.pdf",
+    "sourceQuestionNo": 11,
+    "sourcePages": [
+      27
+    ],
+    "type": "single",
+    "stem": "豆腐 ①",
+    "sharedStem": null,
+    "options": {},
+    "answers": [],
+    "explanation": null,
+    "reviewStatus": "需人工核对",
+    "answerSource": "missing",
+    "rawStem": "豆腐\n①",
+    "qualityIssues": [
+      "incomplete_options",
+      "missing_answer",
+      "single_answer_count_error",
+      "source_not_reviewed"
+    ],
+    "verification": {
+      "method": "ai_structure_review",
+      "confidence": "medium"
+    },
+    "publishable": false,
+    "contentFingerprint": "豆腐①",
+    "groupId": null,
+    "groupOrder": 204,
+    "duplicateCandidateIds": []
+  },
+  {
+    "id": "A-0206",
+    "bank": "A",
+    "sourceFile": "Exercises_A_decrypted.pdf",
+    "sourceQuestionNo": 12,
+    "sourcePages": [
+      27
+    ],
+    "type": "single",
+    "stem": "新鲜蔬菜 ② 2 1 碟 (150g)",
+    "sharedStem": null,
+    "options": {},
+    "answers": [],
+    "explanation": null,
+    "reviewStatus": "需人工核对",
+    "answerSource": "missing",
+    "rawStem": "新鲜蔬菜 ②\n2\n1 碟 (150g)",
+    "qualityIssues": [
+      "incomplete_options",
+      "missing_answer",
+      "single_answer_count_error",
+      "source_not_reviewed"
+    ],
+    "verification": {
+      "method": "ai_structure_review",
+      "confidence": "medium"
+    },
+    "publishable": false,
+    "contentFingerprint": "新鲜蔬菜②21碟150g",
+    "groupId": null,
+    "groupOrder": 205,
+    "duplicateCandidateIds": []
+  },
+  {
+    "id": "A-0207",
+    "bank": "A",
+    "sourceFile": "Exercises_A_decrypted.pdf",
+    "sourceQuestionNo": 13,
+    "sourcePages": [
+      27
+    ],
+    "type": "single",
+    "stem": "新鲜水果 ② 3 1 个 (150g)",
+    "sharedStem": null,
+    "options": {},
+    "answers": [],
+    "explanation": null,
+    "reviewStatus": "需人工核对",
+    "answerSource": "missing",
+    "rawStem": "新鲜水果 ②\n3\n1 个 (150g)",
+    "qualityIssues": [
+      "incomplete_options",
+      "missing_answer",
+      "single_answer_count_error",
+      "source_not_reviewed"
+    ],
+    "verification": {
+      "method": "ai_structure_review",
+      "confidence": "medium"
+    },
+    "publishable": false,
+    "contentFingerprint": "新鲜水果②31个150g",
+    "groupId": null,
+    "groupOrder": 206,
+    "duplicateCandidateIds": []
+  },
+  {
+    "id": "A-0208",
+    "bank": "A",
+    "sourceFile": "Exercises_A_decrypted.pdf",
+    "sourceQuestionNo": 14,
+    "sourcePages": [
+      27
+    ],
+    "type": "single",
+    "stem": "坚果 ①",
+    "sharedStem": null,
+    "options": {},
+    "answers": [],
+    "explanation": null,
+    "reviewStatus": "需人工核对",
+    "answerSource": "missing",
+    "rawStem": "坚果\n①",
+    "qualityIssues": [
+      "incomplete_options",
+      "missing_answer",
+      "single_answer_count_error",
+      "source_not_reviewed"
+    ],
+    "verification": {
+      "method": "ai_structure_review",
+      "confidence": "medium"
+    },
+    "publishable": false,
+    "contentFingerprint": "坚果①",
+    "groupId": null,
+    "groupOrder": 207,
+    "duplicateCandidateIds": []
+  },
+  {
+    "id": "A-0209",
+    "bank": "A",
+    "sourceFile": "Exercises_A_decrypted.pdf",
+    "sourceQuestionNo": 7,
+    "sourcePages": [
+      27
+    ],
+    "type": "single",
+    "stem": "根据表格数据，该调查对象猪肉的周摄入量是（ ）",
+    "sharedStem": null,
+    "options": {
+      "A": "100g B. 200g C. 500g D. 1000g"
+    },
+    "answers": [
+      "C"
+    ],
+    "explanation": null,
+    "reviewStatus": "需人工核对",
+    "answerSource": "source",
+    "rawStem": "根据表格数据，该调查对象猪肉的周摄入量是(   )",
+    "qualityIssues": [
+      "incomplete_options",
+      "answer_not_in_options",
+      "source_not_reviewed"
+    ],
+    "verification": {
+      "method": "ai_structure_review",
+      "confidence": "medium"
+    },
+    "publishable": false,
+    "contentFingerprint": "根据表格数据该调查对象猪肉的周摄入量是",
+    "groupId": null,
+    "groupOrder": 208,
+    "duplicateCandidateIds": []
+  },
+  {
+    "id": "A-0210",
+    "bank": "A",
+    "sourceFile": "Exercises_A_decrypted.pdf",
+    "sourceQuestionNo": 8,
+    "sourcePages": [
+      27
+    ],
+    "type": "single",
+    "stem": "根据《中国居民膳食指南》该调查对象在下列哪类食物上摄入明显不足（ ）",
+    "sharedStem": null,
+    "options": {
+      "A": "畜肉类 B. 谷薯类 C. 奶类及奶制品 D. 蔬菜类"
+    },
+    "answers": [
+      "C"
+    ],
+    "explanation": null,
+    "reviewStatus": "需人工核对",
+    "answerSource": "source",
+    "rawStem": "根据《中国居民膳食指南》该调查对象在下列哪类食物上摄入明显不足(   )",
+    "qualityIssues": [
+      "incomplete_options",
+      "answer_not_in_options",
+      "source_not_reviewed"
+    ],
+    "verification": {
+      "method": "ai_structure_review",
+      "confidence": "medium"
+    },
+    "publishable": false,
+    "contentFingerprint": "根据《中国居民膳食指南》该调查对象在下列哪类食物上摄入明显不足",
+    "groupId": null,
+    "groupOrder": 209,
+    "duplicateCandidateIds": []
+  },
+  {
+    "id": "A-0211",
+    "bank": "A",
+    "sourceFile": "Exercises_A_decrypted.pdf",
+    "sourceQuestionNo": 9,
+    "sourcePages": [
+      27
+    ],
+    "type": "single",
+    "stem": "该办公室职员每日主食的摄入量是（ ）",
+    "sharedStem": null,
+    "options": {
+      "A": "150g B. 300g C. 400g D. 500g"
+    },
+    "answers": [
+      "C"
+    ],
+    "explanation": null,
+    "reviewStatus": "需人工核对",
+    "answerSource": "source",
+    "rawStem": "该办公室职员每日主食的摄入量是(   )",
+    "qualityIssues": [
+      "incomplete_options",
+      "answer_not_in_options",
+      "source_not_reviewed"
+    ],
+    "verification": {
+      "method": "ai_structure_review",
+      "confidence": "medium"
+    },
+    "publishable": false,
+    "contentFingerprint": "该办公室职员每日主食的摄入量是",
+    "groupId": null,
+    "groupOrder": 210,
+    "duplicateCandidateIds": []
+  },
+  {
+    "id": "A-0212",
+    "bank": "A",
+    "sourceFile": "Exercises_A_decrypted.pdf",
+    "sourceQuestionNo": 10,
+    "sourcePages": [
+      28
+    ],
+    "type": "multiple",
+    "stem": "根据调查结果，该调查对象几乎不摄入的食物包括（ ）",
+    "sharedStem": null,
+    "options": {
+      "A": "粗杂粮 B. 大豆及其制品 C. 奶类 D. 坚果"
+    },
+    "answers": [
+      "A",
+      "B",
+      "D"
+    ],
+    "explanation": null,
+    "reviewStatus": "需人工核对",
+    "answerSource": "source",
+    "rawStem": "[多选题]根据调查结果，该调查对象几乎不摄入的食物包括(   )",
+    "qualityIssues": [
+      "incomplete_options",
+      "answer_not_in_options",
+      "source_not_reviewed"
+    ],
+    "verification": {
+      "method": "ai_structure_review",
+      "confidence": "medium"
+    },
+    "publishable": false,
+    "contentFingerprint": "根据调查结果该调查对象几乎不摄入的食物包括",
+    "groupId": null,
+    "groupOrder": 211,
+    "duplicateCandidateIds": []
+  },
+  {
+    "id": "A-0215",
+    "bank": "A",
+    "sourceFile": "Exercises_A_decrypted.pdf",
+    "sourceQuestionNo": 13,
+    "sourcePages": [
+      28
+    ],
+    "type": "single",
+    "stem": "该消费人群的奶类食物每月平均消费频次是（ ）C",
+    "sharedStem": "对200 人奶类食物消费频率的调查中，50 人每天食用一次，30 人每周食用一次，20 人每月食用一次，平均每次牛乳摄入量为200g（牛乳热量为55kcal/100g）",
+    "options": {
+      "A": "30.0 次/月 B. 18.5 次/月 C. 16.4 次/月 D. 4.3 次/月"
+    },
+    "answers": [
+      "C"
+    ],
+    "explanation": null,
+    "reviewStatus": "需人工核对",
+    "answerSource": "inline_key",
+    "rawStem": "[单选题]该消费人群的奶类食物每月平均消费频次是(   )C",
+    "qualityIssues": [
+      "incomplete_options",
+      "answer_not_in_options",
+      "source_not_reviewed"
+    ],
+    "verification": {
+      "method": "inline_answer_recovery",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "该消费人群的奶类食物每月平均消费频次是c",
+    "groupId": "A-group-0214",
+    "groupOrder": 214,
+    "duplicateCandidateIds": []
+  },
+  {
+    "id": "A-0216",
+    "bank": "A",
+    "sourceFile": "Exercises_A_decrypted.pdf",
+    "sourceQuestionNo": 14,
+    "sourcePages": [
+      28
+    ],
+    "type": "single",
+    "stem": "该消费人群的奶类食物每周平均消费频次约为（ ）C",
+    "sharedStem": "对200 人奶类食物消费频率的调查中，50 人每天食用一次，30 人每周食用一次，20 人每月食用一次，平均每次牛乳摄入量为200g（牛乳热量为55kcal/100g）",
+    "options": {
+      "A": "1.0 次/周 B. 3.8 次/周 C. 4.5 次/周 D. 7.0 次/周"
+    },
+    "answers": [
+      "C"
+    ],
+    "explanation": null,
+    "reviewStatus": "需人工核对",
+    "answerSource": "inline_key",
+    "rawStem": "[单选题]该消费人群的奶类食物每周平均消费频次约为(   )C",
+    "qualityIssues": [
+      "incomplete_options",
+      "answer_not_in_options",
+      "source_not_reviewed"
+    ],
+    "verification": {
+      "method": "inline_answer_recovery",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "该消费人群的奶类食物每周平均消费频次约为c",
+    "groupId": "A-group-0214",
+    "groupOrder": 215,
+    "duplicateCandidateIds": []
+  },
+  {
+    "id": "A-0217",
+    "bank": "A",
+    "sourceFile": "Exercises_A_decrypted.pdf",
+    "sourceQuestionNo": 15,
+    "sourcePages": [
+      28
+    ],
+    "type": "single",
+    "stem": "该消费人群的奶类食物每天平均消费频次约为（ ）A",
+    "sharedStem": "对200 人奶类食物消费频率的调查中，50 人每天食用一次，30 人每周食用一次，20 人每月食用一次，平均每次牛乳摄入量为200g（牛乳热量为55kcal/100g）",
+    "options": {
+      "A": "0.55 次/天 B. 1.00 次/天 C. 0.25 次/天 D. 0.85 次/天"
+    },
+    "answers": [
+      "A"
+    ],
+    "explanation": null,
+    "reviewStatus": "需人工核对",
+    "answerSource": "inline_key",
+    "rawStem": "[单选题]该消费人群的奶类食物每天平均消费频次约为(   )A",
+    "qualityIssues": [
+      "incomplete_options",
+      "source_not_reviewed"
+    ],
+    "verification": {
+      "method": "inline_answer_recovery",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "该消费人群的奶类食物每天平均消费频次约为a",
+    "groupId": "A-group-0214",
+    "groupOrder": 216,
+    "duplicateCandidateIds": []
+  },
+  {
+    "id": "A-0218",
+    "bank": "A",
+    "sourceFile": "Exercises_A_decrypted.pdf",
+    "sourceQuestionNo": 16,
+    "sourcePages": [
+      28
+    ],
+    "type": "single",
+    "stem": "该人群平均每人每天由奶类提供的能量大约是（ ）B",
+    "sharedStem": "对200 人奶类食物消费频率的调查中，50 人每天食用一次，30 人每周食用一次，20 人每月食用一次，平均每次牛乳摄入量为200g（牛乳热量为55kcal/100g）",
+    "options": {
+      "A": "0 kcal B. 60.5 kcal C. 110.0 kcal D. 121.0 kcal"
+    },
+    "answers": [
+      "B"
+    ],
+    "explanation": null,
+    "reviewStatus": "需人工核对",
+    "answerSource": "inline_key",
+    "rawStem": "[单选题]该人群平均每人每天由奶类提供的能量大约是(   )B",
+    "qualityIssues": [
+      "incomplete_options",
+      "answer_not_in_options",
+      "source_not_reviewed"
+    ],
+    "verification": {
+      "method": "inline_answer_recovery",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "该人群平均每人每天由奶类提供的能量大约是b",
+    "groupId": "A-group-0214",
+    "groupOrder": 217,
+    "duplicateCandidateIds": []
+  },
+  {
+    "id": "A-0231",
+    "bank": "A",
+    "sourceFile": "Exercises_A_decrypted.pdf",
+    "sourceQuestionNo": 29,
+    "sourcePages": [
+      30,
+      31
+    ],
+    "type": "multiple",
+    "stem": "为防治高血压食谱中应增加哪些营养素（ ）",
+    "sharedStem": "男、72 岁，身高165cm，体重72kg，血压70/130mmHg",
+    "options": {
+      "A": "钾",
+      "B": "镁",
+      "C": "钠"
+    },
+    "answers": [
+      "A",
+      "B",
+      "D"
+    ],
+    "explanation": null,
+    "reviewStatus": "需人工核对",
+    "answerSource": "source",
+    "rawStem": "[多选题]为防治高血压食谱中应增加哪些营养素(   )\nA 钾\nB.镁\nC.钠\nD.",
+    "qualityIssues": [
+      "incomplete_options",
+      "answer_not_in_options",
+      "source_not_reviewed"
+    ],
+    "verification": {
+      "method": "ai_structure_review",
+      "confidence": "medium"
+    },
+    "publishable": false,
+    "contentFingerprint": "为防治高血压食谱中应增加哪些营养素",
+    "groupId": "A-group-0229",
+    "groupOrder": 230,
+    "duplicateCandidateIds": []
+  },
+  {
+    "id": "A-0247",
+    "bank": "A",
+    "sourceFile": "Exercises_A_decrypted.pdf",
+    "sourceQuestionNo": 45,
+    "sourcePages": [
+      34
+    ],
+    "type": "multiple",
+    "stem": "癞皮病的典型症状“3D”包括下列哪些（ ）",
+    "sharedStem": "老李，50 岁，农民嗜酒多年，长期以玉米为主食最近发现其面部和手背均出现皮疹，有些部位出现糜烂和结痂.",
+    "options": {
+      "A": "腹泻 (Diarrhea) B. 痴呆 (Dementia)",
+      "C": "皮炎 (Dermatitis) D. 脱水 (Dehydration)"
+    },
+    "answers": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": null,
+    "reviewStatus": "需人工核对",
+    "answerSource": "source",
+    "rawStem": "[多选题]癞皮病的典型症状“3D”包括下列哪些（   ）",
+    "qualityIssues": [
+      "incomplete_options",
+      "non_contiguous_options",
+      "answer_not_in_options",
+      "source_not_reviewed"
+    ],
+    "verification": {
+      "method": "ai_structure_review",
+      "confidence": "medium"
+    },
+    "publishable": false,
+    "contentFingerprint": "癞皮病的典型症状“3d”包括下列哪些",
+    "groupId": "A-group-0246",
+    "groupOrder": 246,
+    "duplicateCandidateIds": []
+  },
+  {
+    "id": "A-0281",
+    "bank": "A",
+    "sourceFile": "Exercises_A_decrypted.pdf",
+    "sourceQuestionNo": 79,
+    "sourcePages": [
+      40
+    ],
+    "type": "multiple",
+    "stem": "为保证优质蛋白摄入并控制脂肪，该患者应优先选择的蛋白质食物 是（ ）",
+    "sharedStem": "某男，55 岁，身高170cm,体重58 公斤，诊断为糖尿病，请为该糖尿病人提供每日膳食的注意事项",
+    "options": {
+      "A": "动物内脏 B. 鱼禽肉 C. 豆制品 D. 瘦肉"
+    },
+    "answers": [
+      "B",
+      "C",
+      "D"
+    ],
+    "explanation": null,
+    "reviewStatus": "需人工核对",
+    "answerSource": "source",
+    "rawStem": "[多选题]为保证优质蛋白摄入并控制脂肪，该患者应优先选择的蛋白质食物\n是（   ）",
+    "qualityIssues": [
+      "incomplete_options",
+      "answer_not_in_options",
+      "source_not_reviewed"
+    ],
+    "verification": {
+      "method": "ai_structure_review",
+      "confidence": "medium"
+    },
+    "publishable": false,
+    "contentFingerprint": "为保证优质蛋白摄入并控制脂肪该患者应优先选择的蛋白质食物是",
+    "groupId": "A-group-0279",
+    "groupOrder": 280,
+    "duplicateCandidateIds": []
+  },
+  {
+    "id": "C-0009",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 9,
+    "sourcePages": [
+      2
+    ],
+    "type": "single",
+    "stem": "下列不属于骨软化病常见症状的是？",
+    "sharedStem": null,
+    "options": {
+      "A": "O 型腿",
+      "B": "肌无力",
+      "C": "骨痛",
+      "D": "骨压痛"
+    },
+    "answers": [
+      "A"
+    ],
+    "explanation": null,
+    "reviewStatus": "已核对",
+    "answerSource": "source",
+    "rawStem": "下列不属于骨软化病常见症状的是？",
+    "qualityIssues": [
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "source_reviewed",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "下列不属于骨软化病常见症状的是",
+    "groupId": null,
+    "groupOrder": 8,
+    "duplicateCandidateIds": [
+      "C-0349"
+    ]
+  },
+  {
+    "id": "C-0025",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 25,
+    "sourcePages": [
+      5
+    ],
+    "type": "single",
+    "stem": "对脑和视网膜发育有重要作用的脂肪酸是？",
+    "sharedStem": null,
+    "options": {
+      "A": "花生四烯酸和二十二碳六烯酸",
+      "B": "软脂酸和二十二碳六烯酸",
+      "C": "花生四烯酸和硬脂酸",
+      "D": "花生四烯酸和软脂酸"
+    },
+    "answers": [
+      "A"
+    ],
+    "explanation": null,
+    "reviewStatus": "已核对",
+    "answerSource": "source",
+    "rawStem": "对脑和视网膜发育有重要作用的脂肪酸是？",
+    "qualityIssues": [
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "source_reviewed",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "对脑和视网膜发育有重要作用的脂肪酸是",
+    "groupId": null,
+    "groupOrder": 24,
+    "duplicateCandidateIds": [
+      "C-0254",
+      "C-0322"
+    ]
+  },
+  {
+    "id": "C-0038",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 38,
+    "sourcePages": [
+      7
+    ],
+    "type": "single",
+    "stem": "参与构成谷胱甘肽过氧化物酶的微量元素是？",
+    "sharedStem": null,
+    "options": {
+      "A": "硒",
+      "B": "铜",
+      "C": "锌",
+      "D": "铁"
+    },
+    "answers": [
+      "A"
+    ],
+    "explanation": null,
+    "reviewStatus": "已核对",
+    "answerSource": "source",
+    "rawStem": "参与构成谷胱甘肽过氧化物酶的微量元素是？",
+    "qualityIssues": [
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "source_reviewed",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "参与构成谷胱甘肽过氧化物酶的微量元素是",
+    "groupId": null,
+    "groupOrder": 37,
+    "duplicateCandidateIds": [
+      "A-0105",
+      "C-0456",
+      "C-0690"
+    ]
+  },
+  {
+    "id": "C-0045",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 45,
+    "sourcePages": [
+      8
+    ],
+    "type": "single",
+    "stem": "当体内缺铁处于红细胞生成缺铁期时表现为？",
+    "sharedStem": null,
+    "options": {
+      "A": "运铁蛋白浓度升高",
+      "B": "游离原卟啉浓度升高",
+      "C": "出现临床症状",
+      "D": "血红蛋白浓度下降"
+    },
+    "answers": [
+      "B"
+    ],
+    "explanation": null,
+    "reviewStatus": "已核对",
+    "answerSource": "source",
+    "rawStem": "当体内缺铁处于红细胞生成缺铁期时表现为？",
+    "qualityIssues": [
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "source_reviewed",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "当体内缺铁处于红细胞生成缺铁期时表现为",
+    "groupId": null,
+    "groupOrder": 44,
+    "duplicateCandidateIds": [
+      "C-0079"
+    ]
+  },
+  {
+    "id": "C-0048",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 48,
+    "sourcePages": [
+      8
+    ],
+    "type": "single",
+    "stem": "谷类中氨基酸的含量较低的是",
+    "sharedStem": null,
+    "options": {
+      "A": "色氨酸",
+      "B": "蛋氨酸",
+      "C": "亮氨酸",
+      "D": "赖氨酸"
+    },
+    "answers": [
+      "D"
+    ],
+    "explanation": null,
+    "reviewStatus": "已核对",
+    "answerSource": "source",
+    "rawStem": "谷类中氨基酸的含量较低的是",
+    "qualityIssues": [
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "source_reviewed",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "谷类中氨基酸的含量较低的是",
+    "groupId": null,
+    "groupOrder": 47,
+    "duplicateCandidateIds": [
+      "C-0336"
+    ]
+  },
+  {
+    "id": "C-0072",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 72,
+    "sourcePages": [
+      12
+    ],
+    "type": "single",
+    "stem": "维生素 A 缺乏时，出现最早的体征是",
+    "sharedStem": null,
+    "options": {
+      "A": "骨骼发育迟缓",
+      "B": "皮肤症状",
+      "C": "眼部症状",
+      "D": "免疫功能下降"
+    },
+    "answers": [
+      "C"
+    ],
+    "explanation": null,
+    "reviewStatus": "已核对",
+    "answerSource": "source",
+    "rawStem": "维生素 A 缺乏时，出现最早的体征是",
+    "qualityIssues": [
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "source_reviewed",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "维生素a缺乏时出现最早的体征是",
+    "groupId": null,
+    "groupOrder": 71,
+    "duplicateCandidateIds": [
+      "C-0608"
+    ]
+  },
+  {
+    "id": "C-0078",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 78,
+    "sourcePages": [
+      13
+    ],
+    "type": "single",
+    "stem": "公共营养师职业守则不对从事公共营养师职业的人员的进行要求。",
+    "sharedStem": null,
+    "options": {
+      "A": "与同行、社会关系",
+      "B": "职业责任",
+      "C": "专业技术胜任能力",
+      "D": "职业目标"
+    },
+    "answers": [
+      "D"
+    ],
+    "explanation": null,
+    "reviewStatus": "已核对",
+    "answerSource": "source",
+    "rawStem": "公共营养师职业守则不对从事公共营养师职业的人员的进行要求。",
+    "qualityIssues": [
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "source_reviewed",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "公共营养师职业守则不对从事公共营养师职业的人员的进行要求",
+    "groupId": null,
+    "groupOrder": 77,
+    "duplicateCandidateIds": [
+      "C-0275"
+    ]
+  },
+  {
+    "id": "C-0079",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 79,
+    "sourcePages": [
+      13
+    ],
+    "type": "single",
+    "stem": "当体内缺铁，处于红细胞生成缺铁期时表现为",
+    "sharedStem": null,
+    "options": {
+      "A": "游离原卟啉浓度升高",
+      "B": "运铁蛋白浓度升高",
+      "C": "血红蛋白浓度下降",
+      "D": "出现临床症状"
+    },
+    "answers": [
+      "A"
+    ],
+    "explanation": null,
+    "reviewStatus": "已核对",
+    "answerSource": "source",
+    "rawStem": "当体内缺铁，处于红细胞生成缺铁期时表现为",
+    "qualityIssues": [
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "source_reviewed",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "当体内缺铁处于红细胞生成缺铁期时表现为",
+    "groupId": null,
+    "groupOrder": 78,
+    "duplicateCandidateIds": [
+      "C-0045"
+    ]
+  },
+  {
+    "id": "C-0080",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 80,
+    "sourcePages": [
+      13
+    ],
+    "type": "single",
+    "stem": "一条食物成分数据在食物成分表中具有",
+    "sharedStem": null,
+    "options": {
+      "A": "重复性",
+      "B": "唯一性",
+      "C": "难以检素性",
+      "D": "可变性"
+    },
+    "answers": [
+      "B"
+    ],
+    "explanation": null,
+    "reviewStatus": "已核对",
+    "answerSource": "source",
+    "rawStem": "一条食物成分数据在食物成分表中具有",
+    "qualityIssues": [
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "source_reviewed",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "一条食物成分数据在食物成分表中具有",
+    "groupId": null,
+    "groupOrder": 79,
+    "duplicateCandidateIds": [
+      "C-0582"
+    ]
+  },
+  {
+    "id": "C-0081",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 81,
+    "sourcePages": [
+      14
+    ],
+    "type": "single",
+    "stem": "健康信念模式是运用解释健康相关行为的理论模式",
+    "sharedStem": null,
+    "options": {
+      "A": "社会认识学方法",
+      "B": "社会心理学方法",
+      "C": "社会价值学方法",
+      "D": "社会学方法"
+    },
+    "answers": [
+      "B"
+    ],
+    "explanation": null,
+    "reviewStatus": "已核对",
+    "answerSource": "source",
+    "rawStem": "健康信念模式是运用解释健康相关行为的理论模式",
+    "qualityIssues": [
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "source_reviewed",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "健康信念模式是运用解释健康相关行为的理论模式",
+    "groupId": null,
+    "groupOrder": 80,
+    "duplicateCandidateIds": [
+      "C-0594"
+    ]
+  },
+  {
+    "id": "C-0084",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 84,
+    "sourcePages": [
+      14
+    ],
+    "type": "single",
+    "stem": "营养教育是的重要组成部分",
+    "sharedStem": null,
+    "options": {
+      "A": "健康教育",
+      "B": "德育教育",
+      "C": "素质教育",
+      "D": "价值观教育"
+    },
+    "answers": [
+      "A"
+    ],
+    "explanation": null,
+    "reviewStatus": "已核对",
+    "answerSource": "source",
+    "rawStem": "营养教育是的重要组成部分",
+    "qualityIssues": [
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "source_reviewed",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "营养教育是的重要组成部分",
+    "groupId": null,
+    "groupOrder": 83,
+    "duplicateCandidateIds": [
+      "C-0306"
+    ]
+  },
+  {
+    "id": "C-0094",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 94,
+    "sourcePages": [
+      16
+    ],
+    "type": "single",
+    "stem": "幼儿全部 20 颗乳牙出齐应不迟于岁",
+    "sharedStem": null,
+    "options": {
+      "A": "2.5",
+      "B": "3",
+      "C": "2",
+      "D": "3.5"
+    },
+    "answers": [
+      "A"
+    ],
+    "explanation": null,
+    "reviewStatus": "已核对",
+    "answerSource": "source",
+    "rawStem": "幼儿全部 20 颗乳牙出齐应不迟于岁",
+    "qualityIssues": [
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "source_reviewed",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "幼儿全部20颗乳牙出齐应不迟于岁",
+    "groupId": null,
+    "groupOrder": 93,
+    "duplicateCandidateIds": [
+      "C-0626"
+    ]
+  },
+  {
+    "id": "C-0102",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 102,
+    "sourcePages": [
+      17
+    ],
+    "type": "single",
+    "stem": "婴幼儿和青少年的蛋白质代谢状况应维持",
+    "sharedStem": null,
+    "options": {
+      "A": "正氮平衡",
+      "B": "排除足够的尿素氮",
+      "C": "零氮平衡",
+      "D": "负氮平衡"
+    },
+    "answers": [
+      "A"
+    ],
+    "explanation": null,
+    "reviewStatus": "已核对",
+    "answerSource": "source",
+    "rawStem": "婴幼儿和青少年的蛋白质代谢状况应维持",
+    "qualityIssues": [
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "source_reviewed",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "婴幼儿和青少年的蛋白质代谢状况应维持",
+    "groupId": null,
+    "groupOrder": 101,
+    "duplicateCandidateIds": [
+      "C-0312",
+      "C-0646",
+      "C-0665"
+    ]
+  },
+  {
+    "id": "C-0129",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 129,
+    "sourcePages": [
+      22
+    ],
+    "type": "single",
+    "stem": "下列属于抗氧化营养素的是",
+    "sharedStem": null,
+    "options": {
+      "A": "胡萝卜素",
+      "B": "烟酸",
+      "C": "泛酸",
+      "D": "维生素B1"
+    },
+    "answers": [
+      "A"
+    ],
+    "explanation": null,
+    "reviewStatus": "已核对",
+    "answerSource": "source",
+    "rawStem": "下列属于抗氧化营养素的是",
+    "qualityIssues": [
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "source_reviewed",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "下列属于抗氧化营养素的是",
+    "groupId": null,
+    "groupOrder": 128,
+    "duplicateCandidateIds": [
+      "C-0620"
+    ]
+  },
+  {
+    "id": "C-0133",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 133,
+    "sourcePages": [
+      22
+    ],
+    "type": "single",
+    "stem": "下列不是 WHO 推荐选用皮褶厚度的测量点为",
+    "sharedStem": null,
+    "options": {
+      "A": "肱三头肌",
+      "B": "脐旁",
+      "C": "肩胛下角",
+      "D": "肩峰"
+    },
+    "answers": [
+      "D"
+    ],
+    "explanation": null,
+    "reviewStatus": "已核对",
+    "answerSource": "source",
+    "rawStem": "下列不是 WHO 推荐选用皮褶厚度的测量点为",
+    "qualityIssues": [
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "source_reviewed",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "下列不是who推荐选用皮褶厚度的测量点为",
+    "groupId": null,
+    "groupOrder": 132,
+    "duplicateCandidateIds": [
+      "C-0696"
+    ]
+  },
+  {
+    "id": "C-0137",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 137,
+    "sourcePages": [
+      23
+    ],
+    "type": "single",
+    "stem": "标准量床或量板用于年龄在的婴幼儿体格发育测量指标的测定",
+    "sharedStem": null,
+    "options": {
+      "A": "3岁以下",
+      "B": "2岁以下",
+      "C": "1岁以下",
+      "D": "6月以下"
+    },
+    "answers": [
+      "A"
+    ],
+    "explanation": null,
+    "reviewStatus": "已核对",
+    "answerSource": "source",
+    "rawStem": "标准量床或量板用于年龄在的婴幼儿体格发育测量指标的测定",
+    "qualityIssues": [
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "source_reviewed",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "标准量床或量板用于年龄在的婴幼儿体格发育测量指标的测定",
+    "groupId": null,
+    "groupOrder": 136,
+    "duplicateCandidateIds": [
+      "C-0302",
+      "C-0615"
+    ]
+  },
+  {
+    "id": "C-0140",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 140,
+    "sourcePages": [
+      23
+    ],
+    "type": "single",
+    "stem": "营养教育时，医学科普文章必须坚持的第一原则是",
+    "sharedStem": null,
+    "options": {
+      "A": "艺术性",
+      "B": "实用性",
+      "C": "思想性",
+      "D": "科学性"
+    },
+    "answers": [
+      "D"
+    ],
+    "explanation": null,
+    "reviewStatus": "已核对",
+    "answerSource": "source",
+    "rawStem": "营养教育时，医学科普文章必须坚持的第一原则是",
+    "qualityIssues": [
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "source_reviewed",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "营养教育时医学科普文章必须坚持的第一原则是",
+    "groupId": null,
+    "groupOrder": 139,
+    "duplicateCandidateIds": [
+      "C-0318"
+    ]
+  },
+  {
+    "id": "C-0155",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 155,
+    "sourcePages": [
+      26
+    ],
+    "type": "single",
+    "stem": "菌落总数对食品卫生学的意义",
+    "sharedStem": null,
+    "options": {
+      "A": "食品曾受动物粪便污染",
+      "B": "预测致病菌污染可能性",
+      "C": "食品清洁状态和预测食品耐保藏性标志",
+      "D": "食品对人体的危害程度"
+    },
+    "answers": [
+      "C"
+    ],
+    "explanation": null,
+    "reviewStatus": "已核对",
+    "answerSource": "source",
+    "rawStem": "菌落总数对食品卫生学的意义",
+    "qualityIssues": [
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "source_reviewed",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "菌落总数对食品卫生学的意义",
+    "groupId": null,
+    "groupOrder": 154,
+    "duplicateCandidateIds": [
+      "C-0323"
+    ]
+  },
+  {
+    "id": "C-0161",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 161,
+    "sourcePages": [
+      26,
+      27
+    ],
+    "type": "single",
+    "stem": "缺乏会影响性成熟的营养素是？",
+    "sharedStem": null,
+    "options": {
+      "A": "维生素C",
+      "B": "维生素D",
+      "C": "锌",
+      "D": "铁"
+    },
+    "answers": [
+      "C"
+    ],
+    "explanation": null,
+    "reviewStatus": "已核对",
+    "answerSource": "source",
+    "rawStem": "缺乏会影响性成熟的营养素是？",
+    "qualityIssues": [
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "source_reviewed",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "缺乏会影响性成熟的营养素是",
+    "groupId": null,
+    "groupOrder": 160,
+    "duplicateCandidateIds": [
+      "C-0332"
+    ]
+  },
+  {
+    "id": "C-0188",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 188,
+    "sourcePages": [
+      31
+    ],
+    "type": "single",
+    "stem": "巴氏杀菌主要用于",
+    "sharedStem": null,
+    "options": {
+      "E": "多数用于牛奶、发酵产品等灭菌 F. 瓜果蔬菜 G. 酒类灌装 H. 熟食包装"
+    },
+    "answers": [
+      "A"
+    ],
+    "explanation": null,
+    "reviewStatus": "需人工核对",
+    "answerSource": "source",
+    "rawStem": "巴氏杀菌主要用于",
+    "qualityIssues": [
+      "incomplete_options",
+      "non_contiguous_options",
+      "answer_not_in_options",
+      "source_not_reviewed"
+    ],
+    "verification": {
+      "method": "ai_structure_review",
+      "confidence": "medium"
+    },
+    "publishable": false,
+    "contentFingerprint": "巴氏杀菌主要用于",
+    "groupId": null,
+    "groupOrder": 187,
+    "duplicateCandidateIds": []
+  },
+  {
+    "id": "C-0193",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 193,
+    "sourcePages": [
+      31,
+      32
+    ],
+    "type": "single",
+    "stem": "消化管最长的一段是",
+    "sharedStem": null,
+    "options": {
+      "A": "食管",
+      "B": "咽",
+      "C": "小肠",
+      "D": "大肠"
+    },
+    "answers": [
+      "C"
+    ],
+    "explanation": null,
+    "reviewStatus": "已核对",
+    "answerSource": "source",
+    "rawStem": "消化管最长的一段是",
+    "qualityIssues": [
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "source_reviewed",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "消化管最长的一段是",
+    "groupId": null,
+    "groupOrder": 192,
+    "duplicateCandidateIds": [
+      "C-0307"
+    ]
+  },
+  {
+    "id": "C-0228",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 228,
+    "sourcePages": [
+      37
+    ],
+    "type": "single",
+    "stem": "缺乏可影响性成熟的营养素为",
+    "sharedStem": null,
+    "options": {
+      "A": "维生素C",
+      "B": "锌",
+      "C": "维生素D",
+      "D": "铁"
+    },
+    "answers": [
+      "B"
+    ],
+    "explanation": null,
+    "reviewStatus": "已核对",
+    "answerSource": "source",
+    "rawStem": "缺乏可影响性成熟的营养素为",
+    "qualityIssues": [
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "source_reviewed",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "缺乏可影响性成熟的营养素为",
+    "groupId": null,
+    "groupOrder": 227,
+    "duplicateCandidateIds": [
+      "C-0303",
+      "C-0556"
+    ]
+  },
+  {
+    "id": "C-0230",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 230,
+    "sourcePages": [
+      37
+    ],
+    "type": "single",
+    "stem": "膳食中蛋白质、脂肪和碳水化合物产热系数分别为",
+    "sharedStem": null,
+    "options": {
+      "A": "4kcal/g、9kcal/g、9kcal/g",
+      "B": "4kcal/g、9kcal/g、4kcal/g",
+      "C": "9kcal/g、4kcal/g、4kcal/g",
+      "D": "4kcal/g、4kcal/g、4kcal/g"
+    },
+    "answers": [
+      "B"
+    ],
+    "explanation": null,
+    "reviewStatus": "已核对",
+    "answerSource": "source",
+    "rawStem": "膳食中蛋白质、脂肪和碳水化合物产热系数分别为",
+    "qualityIssues": [
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "source_reviewed",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "膳食中蛋白质脂肪和碳水化合物产热系数分别为",
+    "groupId": null,
+    "groupOrder": 229,
+    "duplicateCandidateIds": [
+      "C-0314"
+    ]
+  },
+  {
+    "id": "C-0234",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 234,
+    "sourcePages": [
+      38
+    ],
+    "type": "single",
+    "stem": "下列烹调方法中，肉中维生素损失最少的是",
+    "sharedStem": null,
+    "options": {
+      "A": "清炖",
+      "B": "红烧",
+      "C": "煎炸",
+      "D": "炒肉"
+    },
+    "answers": [
+      "D"
+    ],
+    "explanation": null,
+    "reviewStatus": "已核对",
+    "answerSource": "source",
+    "rawStem": "下列烹调方法中，肉中维生素损失最少的是",
+    "qualityIssues": [
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "source_reviewed",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "下列烹调方法中肉中维生素损失最少的是",
+    "groupId": null,
+    "groupOrder": 233,
+    "duplicateCandidateIds": [
+      "C-0568"
+    ]
+  },
+  {
+    "id": "C-0252",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 252,
+    "sourcePages": [
+      41
+    ],
+    "type": "single",
+    "stem": "科普文章的准确性不包括。",
+    "sharedStem": null,
+    "options": {
+      "A": "字数准确",
+      "B": "概念准确",
+      "C": "数据准确",
+      "D": "事实准确"
+    },
+    "answers": [
+      "A"
+    ],
+    "explanation": null,
+    "reviewStatus": "已核对",
+    "answerSource": "source",
+    "rawStem": "科普文章的准确性不包括。",
+    "qualityIssues": [
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "source_reviewed",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "科普文章的准确性不包括",
+    "groupId": null,
+    "groupOrder": 251,
+    "duplicateCandidateIds": [
+      "C-0673"
+    ]
+  },
+  {
+    "id": "C-0253",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 253,
+    "sourcePages": [
+      41
+    ],
+    "type": "single",
+    "stem": "菜肴原料先洗后切，主要是为了减少的损失。",
+    "sharedStem": null,
+    "options": {
+      "A": "脂肪",
+      "B": "脂溶性维生素",
+      "C": "水溶性营养素",
+      "D": "蛋白质"
+    },
+    "answers": [
+      "C"
+    ],
+    "explanation": null,
+    "reviewStatus": "已核对",
+    "answerSource": "source",
+    "rawStem": "菜肴原料先洗后切，主要是为了减少的损失。",
+    "qualityIssues": [
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "source_reviewed",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "菜肴原料先洗后切主要是为了减少的损失",
+    "groupId": null,
+    "groupOrder": 252,
+    "duplicateCandidateIds": [
+      "C-0675"
+    ]
+  },
+  {
+    "id": "C-0254",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 254,
+    "sourcePages": [
+      41
+    ],
+    "type": "single",
+    "stem": "对脑和视网膜发育有重要作用的脂肪酸是",
+    "sharedStem": null,
+    "options": {
+      "A": "花生四烯酸和软脂酸",
+      "B": "二十二碳六烯酸和软脂酸",
+      "C": "花生四烯酸和二十二碳六烯酸",
+      "D": "硬脂酸和花生四烯酸硬脂酸和花生四烯酸"
+    },
+    "answers": [
+      "C"
+    ],
+    "explanation": null,
+    "reviewStatus": "已核对",
+    "answerSource": "source",
+    "rawStem": "对脑和视网膜发育有重要作用的脂肪酸是",
+    "qualityIssues": [
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "source_reviewed",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "对脑和视网膜发育有重要作用的脂肪酸是",
+    "groupId": null,
+    "groupOrder": 253,
+    "duplicateCandidateIds": [
+      "C-0025",
+      "C-0322"
+    ]
+  },
+  {
+    "id": "C-0257",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 257,
+    "sourcePages": [
+      41
+    ],
+    "type": "single",
+    "stem": "患病率的特点不包括。",
+    "sharedStem": null,
+    "options": {
+      "A": "分子为特定时间所调查人群中某病新旧病例数",
+      "B": "分子为一定时期暴露人群中新发生的病例数",
+      "C": "是一种静态指标",
+      "D": "由横断面调查获得的疾病频率"
+    },
+    "answers": [
+      "B"
+    ],
+    "explanation": null,
+    "reviewStatus": "已核对",
+    "answerSource": "source",
+    "rawStem": "患病率的特点不包括。",
+    "qualityIssues": [
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "source_reviewed",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "患病率的特点不包括",
+    "groupId": null,
+    "groupOrder": 256,
+    "duplicateCandidateIds": [
+      "C-0563"
+    ]
+  },
+  {
+    "id": "C-0275",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 275,
+    "sourcePages": [
+      44
+    ],
+    "type": "single",
+    "stem": "公共营养师职业守则不对从事公共营养师职业的人员的进行要求。",
+    "sharedStem": null,
+    "options": {
+      "A": "专业技术胜任能力",
+      "B": "职业责任",
+      "C": "职业目标",
+      "D": "与同行、社会关系"
+    },
+    "answers": [
+      "C"
+    ],
+    "explanation": null,
+    "reviewStatus": "已核对",
+    "answerSource": "source",
+    "rawStem": "公共营养师职业守则不对从事公共营养师职业的人员的进行要求。",
+    "qualityIssues": [
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "source_reviewed",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "公共营养师职业守则不对从事公共营养师职业的人员的进行要求",
+    "groupId": null,
+    "groupOrder": 274,
+    "duplicateCandidateIds": [
+      "C-0078"
+    ]
+  },
+  {
+    "id": "C-0286",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 286,
+    "sourcePages": [
+      46
+    ],
+    "type": "single",
+    "stem": "常见的社区营养问题有。",
+    "sharedStem": null,
+    "options": {
+      "A": "营养不良",
+      "B": "其他选项均是",
+      "C": "超重和肥胖",
+      "D": "铁缺乏和缺铁性贫血"
+    },
+    "answers": [
+      "B"
+    ],
+    "explanation": null,
+    "reviewStatus": "已核对",
+    "answerSource": "source",
+    "rawStem": "常见的社区营养问题有。",
+    "qualityIssues": [
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "source_reviewed",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "常见的社区营养问题有",
+    "groupId": null,
+    "groupOrder": 285,
+    "duplicateCandidateIds": [
+      "C-0640"
+    ]
+  },
+  {
+    "id": "C-0292",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 292,
+    "sourcePages": [
+      47
+    ],
+    "type": "single",
+    "stem": "乳中的可促进肠道对钙的吸收。",
+    "sharedStem": null,
+    "options": {
+      "A": "乳清蛋白",
+      "B": "乳糖",
+      "C": "短链脂肪酸",
+      "D": "酪蛋白"
+    },
+    "answers": [
+      "B"
+    ],
+    "explanation": null,
+    "reviewStatus": "已核对",
+    "answerSource": "source",
+    "rawStem": "乳中的可促进肠道对钙的吸收。",
+    "qualityIssues": [
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "source_reviewed",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "乳中的可促进肠道对钙的吸收",
+    "groupId": null,
+    "groupOrder": 291,
+    "duplicateCandidateIds": [
+      "C-0543"
+    ]
+  },
+  {
+    "id": "C-0302",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 302,
+    "sourcePages": [
+      48,
+      49
+    ],
+    "type": "single",
+    "stem": "标准量床或量板用于年龄在的婴幼儿体格发育测量指标的测定。",
+    "sharedStem": null,
+    "options": {
+      "A": "2岁以下",
+      "B": "1岁以下",
+      "C": "3岁以下",
+      "D": "6月以下"
+    },
+    "answers": [
+      "C"
+    ],
+    "explanation": null,
+    "reviewStatus": "已核对",
+    "answerSource": "source",
+    "rawStem": "标准量床或量板用于年龄在的婴幼儿体格发育测量指标的测定。",
+    "qualityIssues": [
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "source_reviewed",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "标准量床或量板用于年龄在的婴幼儿体格发育测量指标的测定",
+    "groupId": null,
+    "groupOrder": 301,
+    "duplicateCandidateIds": [
+      "C-0137",
+      "C-0615"
+    ]
+  },
+  {
+    "id": "C-0303",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 303,
+    "sourcePages": [
+      49
+    ],
+    "type": "single",
+    "stem": "缺乏可影响性成熟的营养素为。",
+    "sharedStem": null,
+    "options": {
+      "A": "锌",
+      "B": "铁",
+      "C": "维生素C",
+      "D": "维生素D"
+    },
+    "answers": [
+      "A"
+    ],
+    "explanation": null,
+    "reviewStatus": "已核对",
+    "answerSource": "source",
+    "rawStem": "缺乏可影响性成熟的营养素为。",
+    "qualityIssues": [
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "source_reviewed",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "缺乏可影响性成熟的营养素为",
+    "groupId": null,
+    "groupOrder": 302,
+    "duplicateCandidateIds": [
+      "C-0228",
+      "C-0556"
+    ]
+  },
+  {
+    "id": "C-0306",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 306,
+    "sourcePages": [
+      49
+    ],
+    "type": "single",
+    "stem": "营养教育是的重要组成部分。",
+    "sharedStem": null,
+    "options": {
+      "A": "价值观教育",
+      "B": "德育教育",
+      "C": "素质教育",
+      "D": "健康教育"
+    },
+    "answers": [
+      "D"
+    ],
+    "explanation": null,
+    "reviewStatus": "已核对",
+    "answerSource": "source",
+    "rawStem": "营养教育是的重要组成部分。",
+    "qualityIssues": [
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "source_reviewed",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "营养教育是的重要组成部分",
+    "groupId": null,
+    "groupOrder": 305,
+    "duplicateCandidateIds": [
+      "C-0084"
+    ]
+  },
+  {
+    "id": "C-0307",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 307,
+    "sourcePages": [
+      49
+    ],
+    "type": "single",
+    "stem": "消化管最长的一段是。",
+    "sharedStem": null,
+    "options": {
+      "A": "小肠",
+      "B": "食管",
+      "C": "胃",
+      "D": "大肠"
+    },
+    "answers": [
+      "A"
+    ],
+    "explanation": null,
+    "reviewStatus": "已核对",
+    "answerSource": "source",
+    "rawStem": "消化管最长的一段是。",
+    "qualityIssues": [
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "source_reviewed",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "消化管最长的一段是",
+    "groupId": null,
+    "groupOrder": 306,
+    "duplicateCandidateIds": [
+      "C-0193"
+    ]
+  },
+  {
+    "id": "C-0309",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 309,
+    "sourcePages": [
+      50
+    ],
+    "type": "single",
+    "stem": "食物脂肪在血液中主要的运输形式是。",
+    "sharedStem": null,
+    "options": {
+      "A": "长链脂肪酸",
+      "B": "短链脂肪酸",
+      "C": "中链脂肪酸",
+      "D": "乳糜微粒"
+    },
+    "answers": [
+      "D"
+    ],
+    "explanation": null,
+    "reviewStatus": "已核对",
+    "answerSource": "source",
+    "rawStem": "食物脂肪在血液中主要的运输形式是。",
+    "qualityIssues": [
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "source_reviewed",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "食物脂肪在血液中主要的运输形式是",
+    "groupId": null,
+    "groupOrder": 308,
+    "duplicateCandidateIds": [
+      "C-0443"
+    ]
+  },
+  {
+    "id": "C-0310",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 310,
+    "sourcePages": [
+      50
+    ],
+    "type": "single",
+    "stem": "天然色素的优势是。",
+    "sharedStem": null,
+    "options": {
+      "A": "稳定性高",
+      "B": "安全性高",
+      "C": "色泽艳丽",
+      "D": "易着色"
+    },
+    "answers": [
+      "B"
+    ],
+    "explanation": null,
+    "reviewStatus": "已核对",
+    "answerSource": "source",
+    "rawStem": "天然色素的优势是。",
+    "qualityIssues": [
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "source_reviewed",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "天然色素的优势是",
+    "groupId": null,
+    "groupOrder": 309,
+    "duplicateCandidateIds": [
+      "C-0546"
+    ]
+  },
+  {
+    "id": "C-0312",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 312,
+    "sourcePages": [
+      50
+    ],
+    "type": "single",
+    "stem": "婴幼儿和青少年的蛋白质代谢状况应维持。",
+    "sharedStem": null,
+    "options": {
+      "A": "排除足够的尿素氮",
+      "B": "正氮平衡",
+      "C": "负氮平衡",
+      "D": "氮平衡"
+    },
+    "answers": [
+      "B"
+    ],
+    "explanation": null,
+    "reviewStatus": "已核对",
+    "answerSource": "source",
+    "rawStem": "婴幼儿和青少年的蛋白质代谢状况应维持。",
+    "qualityIssues": [
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "source_reviewed",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "婴幼儿和青少年的蛋白质代谢状况应维持",
+    "groupId": null,
+    "groupOrder": 311,
+    "duplicateCandidateIds": [
+      "C-0102",
+      "C-0646",
+      "C-0665"
+    ]
+  },
+  {
+    "id": "C-0314",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 314,
+    "sourcePages": [
+      50
+    ],
+    "type": "single",
+    "stem": "膳食中蛋白质、脂肪和碳水化合物产热系数分别为。",
+    "sharedStem": null,
+    "options": {
+      "A": "9kcal/g、4kcal/g、4kcal/g",
+      "B": "17kJ/g、17kJ/g、37kJ/g",
+      "C": "4kJ/g、9kJ/g、4kJ/g",
+      "D": "4kcal/g、9kcal/g、4kcal/g"
+    },
+    "answers": [
+      "D"
+    ],
+    "explanation": null,
+    "reviewStatus": "已核对",
+    "answerSource": "source",
+    "rawStem": "膳食中蛋白质、脂肪和碳水化合物产热系数分别为。",
+    "qualityIssues": [
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "source_reviewed",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "膳食中蛋白质脂肪和碳水化合物产热系数分别为",
+    "groupId": null,
+    "groupOrder": 313,
+    "duplicateCandidateIds": [
+      "C-0230"
+    ]
+  },
+  {
+    "id": "C-0317",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 317,
+    "sourcePages": [
+      51
+    ],
+    "type": "single",
+    "stem": "纵向测量指标主要与的生长有关。",
+    "sharedStem": null,
+    "options": {
+      "A": "头围",
+      "B": "上臂围",
+      "C": "牙齿",
+      "D": "骨骼"
+    },
+    "answers": [
+      "D"
+    ],
+    "explanation": null,
+    "reviewStatus": "已核对",
+    "answerSource": "source",
+    "rawStem": "纵向测量指标主要与的生长有关。",
+    "qualityIssues": [
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "source_reviewed",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "纵向测量指标主要与的生长有关",
+    "groupId": null,
+    "groupOrder": 316,
+    "duplicateCandidateIds": [
+      "C-0578"
+    ]
+  },
+  {
+    "id": "C-0318",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 318,
+    "sourcePages": [
+      51
+    ],
+    "type": "single",
+    "stem": "营养教育时，医学科普文章必须坚持的第一原则是。",
+    "sharedStem": null,
+    "options": {
+      "A": "实用性",
+      "B": "思想性",
+      "C": "艺术性",
+      "D": "科学性"
+    },
+    "answers": [
+      "D"
+    ],
+    "explanation": null,
+    "reviewStatus": "已核对",
+    "answerSource": "source",
+    "rawStem": "营养教育时，医学科普文章必须坚持的第一原则是。",
+    "qualityIssues": [
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "source_reviewed",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "营养教育时医学科普文章必须坚持的第一原则是",
+    "groupId": null,
+    "groupOrder": 317,
+    "duplicateCandidateIds": [
+      "C-0140"
+    ]
+  },
+  {
+    "id": "C-0322",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 322,
+    "sourcePages": [
+      52
+    ],
+    "type": "single",
+    "stem": "对脑和视网膜发育有重要作用的脂肪酸是",
+    "sharedStem": null,
+    "options": {
+      "A": "硬脂酸和花生四烯酸",
+      "B": "花生四烯酸和二十二碳六烯酸",
+      "C": "二十二碳六烯酸和软脂酸",
+      "D": "花生四烯酸和软脂酸"
+    },
+    "answers": [
+      "B"
+    ],
+    "explanation": null,
+    "reviewStatus": "已核对",
+    "answerSource": "source",
+    "rawStem": "对脑和视网膜发育有重要作用的脂肪酸是",
+    "qualityIssues": [
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "source_reviewed",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "对脑和视网膜发育有重要作用的脂肪酸是",
+    "groupId": null,
+    "groupOrder": 321,
+    "duplicateCandidateIds": [
+      "C-0025",
+      "C-0254"
+    ]
+  },
+  {
+    "id": "C-0323",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 323,
+    "sourcePages": [
+      52
+    ],
+    "type": "single",
+    "stem": "菌落总数对食品卫生学的意义",
+    "sharedStem": null,
+    "options": {
+      "A": "食品曾受动物粪便污染",
+      "B": "预测致病菌污染可能性",
+      "C": "食品清洁状态和预测食品耐保藏性标志",
+      "D": "食品对人体的危害程度"
+    },
+    "answers": [
+      "C"
+    ],
+    "explanation": null,
+    "reviewStatus": "已核对",
+    "answerSource": "source",
+    "rawStem": "菌落总数对食品卫生学的意义",
+    "qualityIssues": [
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "source_reviewed",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "菌落总数对食品卫生学的意义",
+    "groupId": null,
+    "groupOrder": 322,
+    "duplicateCandidateIds": [
+      "C-0155"
+    ]
+  },
+  {
+    "id": "C-0332",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 332,
+    "sourcePages": [
+      53
+    ],
+    "type": "single",
+    "stem": "缺乏会影响性成熟的营养素是",
+    "sharedStem": null,
+    "options": {
+      "A": "铁",
+      "B": "锌",
+      "C": "维生素C",
+      "D": "维生素D"
+    },
+    "answers": [
+      "B"
+    ],
+    "explanation": null,
+    "reviewStatus": "已核对",
+    "answerSource": "source",
+    "rawStem": "缺乏会影响性成熟的营养素是",
+    "qualityIssues": [
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "source_reviewed",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "缺乏会影响性成熟的营养素是",
+    "groupId": null,
+    "groupOrder": 331,
+    "duplicateCandidateIds": [
+      "C-0161"
+    ]
+  },
+  {
+    "id": "C-0336",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 336,
+    "sourcePages": [
+      54
+    ],
+    "type": "single",
+    "stem": "谷类中氨基酸的含量较低的是",
+    "sharedStem": null,
+    "options": {
+      "A": "赖氨酸",
+      "B": "亮氨酸",
+      "C": "蛋氨酸",
+      "D": "色氨酸"
+    },
+    "answers": [
+      "A"
+    ],
+    "explanation": null,
+    "reviewStatus": "已核对",
+    "answerSource": "source",
+    "rawStem": "谷类中氨基酸的含量较低的是",
+    "qualityIssues": [
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "source_reviewed",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "谷类中氨基酸的含量较低的是",
+    "groupId": null,
+    "groupOrder": 335,
+    "duplicateCandidateIds": [
+      "C-0048"
+    ]
+  },
+  {
+    "id": "C-0338",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 338,
+    "sourcePages": [
+      54
+    ],
+    "type": "single",
+    "stem": "摄取过多的亚硝酸盐，可使血液中正常的血红蛋白变为而推动携氧 能力，导致组织缺氧。",
+    "sharedStem": null,
+    "options": {
+      "A": "缺铁血红蛋白",
+      "B": "高铁血红蛋白",
+      "C": "亚铁血红蛋白",
+      "D": "无铁血红蛋白"
+    },
+    "answers": [
+      "B"
+    ],
+    "explanation": null,
+    "reviewStatus": "已核对",
+    "answerSource": "source",
+    "rawStem": "摄取过多的亚硝酸盐，可使血液中正常的血红蛋白变为而推动携氧\n能力，导致组织缺氧。",
+    "qualityIssues": [
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "source_reviewed",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "摄取过多的亚硝酸盐可使血液中正常的血红蛋白变为而推动携氧能力导致组织缺氧",
+    "groupId": null,
+    "groupOrder": 337,
+    "duplicateCandidateIds": [
+      "C-0575"
+    ]
+  },
+  {
+    "id": "C-0340",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 340,
+    "sourcePages": [
+      54
+    ],
+    "type": "single",
+    "stem": "下列有关唾液作用的描述，错误的是",
+    "sharedStem": null,
+    "options": {
+      "A": "唾液可湿润与溶解食物，以引起味觉",
+      "B": "唾液可杀灭进入口腔内的微生物",
+      "C": "唾液可清洁和保护口腔",
+      "D": "唾液淀粉酶可对淀粉进行彻底的分解"
+    },
+    "answers": [
+      "D"
+    ],
+    "explanation": null,
+    "reviewStatus": "已核对",
+    "answerSource": "source",
+    "rawStem": "下列有关唾液作用的描述，错误的是",
+    "qualityIssues": [
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "source_reviewed",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "下列有关唾液作用的描述错误的是",
+    "groupId": null,
+    "groupOrder": 339,
+    "duplicateCandidateIds": [
+      "C-0671"
+    ]
+  },
+  {
+    "id": "C-0349",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 349,
+    "sourcePages": [
+      56
+    ],
+    "type": "single",
+    "stem": "下列不属于骨软化病常见症状的是",
+    "sharedStem": null,
+    "options": {
+      "A": "O形腿",
+      "B": "骨痛",
+      "C": "肌无力",
+      "D": "骨压痛"
+    },
+    "answers": [
+      "A"
+    ],
+    "explanation": null,
+    "reviewStatus": "已核对",
+    "answerSource": "source",
+    "rawStem": "下列不属于骨软化病常见症状的是",
+    "qualityIssues": [
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "source_reviewed",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "下列不属于骨软化病常见症状的是",
+    "groupId": null,
+    "groupOrder": 348,
+    "duplicateCandidateIds": [
+      "C-0009"
+    ]
+  },
+  {
+    "id": "C-0443",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 445,
+    "sourcePages": [
+      72
+    ],
+    "type": "single",
+    "stem": "食物脂肪在血液中主要的运输形式是",
+    "sharedStem": null,
+    "options": {
+      "A": "长链脂肪酸",
+      "B": "中链脂肪酸",
+      "C": "短链脂肪酸",
+      "D": "乳糜微粒",
+      "E": "磷脂"
+    },
+    "answers": [
+      "D"
+    ],
+    "explanation": null,
+    "reviewStatus": "需人工核对",
+    "answerSource": "source",
+    "rawStem": "食物脂肪在血液中主要的运输形式是",
+    "qualityIssues": [
+      "source_not_reviewed",
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "ai_structure_review",
+      "confidence": "medium"
+    },
+    "publishable": false,
+    "contentFingerprint": "食物脂肪在血液中主要的运输形式是",
+    "groupId": null,
+    "groupOrder": 442,
+    "duplicateCandidateIds": [
+      "C-0309"
+    ]
+  },
+  {
+    "id": "C-0445",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 447,
+    "sourcePages": [
+      72,
+      73
+    ],
+    "type": "single",
+    "stem": "下列氨基酸中，不是人体必需氨基酸的是",
+    "sharedStem": null,
+    "options": {
+      "A": "谷氨酸",
+      "B": "苏氨酸",
+      "C": "蛋氨酸",
+      "D": "赖氨酸",
+      "E": "缬氨酸"
+    },
+    "answers": [
+      "A"
+    ],
+    "explanation": null,
+    "reviewStatus": "需人工核对",
+    "answerSource": "source",
+    "rawStem": "下列氨基酸中，不是人体必需氨基酸的是",
+    "qualityIssues": [
+      "source_not_reviewed",
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "ai_structure_review",
+      "confidence": "medium"
+    },
+    "publishable": false,
+    "contentFingerprint": "下列氨基酸中不是人体必需氨基酸的是",
+    "groupId": null,
+    "groupOrder": 444,
+    "duplicateCandidateIds": [
+      "C-0479"
+    ]
+  },
+  {
+    "id": "C-0456",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 459,
+    "sourcePages": [
+      75
+    ],
+    "type": "single",
+    "stem": "参与构成谷胱甘肽过氧化物酶的微量元素是",
+    "sharedStem": null,
+    "options": {
+      "A": "铁",
+      "B": "锌",
+      "C": "硒",
+      "D": "铜",
+      "E": "碘"
+    },
+    "answers": [
+      "C"
+    ],
+    "explanation": null,
+    "reviewStatus": "需人工核对",
+    "answerSource": "source",
+    "rawStem": "参与构成谷胱甘肽过氧化物酶的微量元素是",
+    "qualityIssues": [
+      "source_not_reviewed",
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "ai_structure_review",
+      "confidence": "medium"
+    },
+    "publishable": false,
+    "contentFingerprint": "参与构成谷胱甘肽过氧化物酶的微量元素是",
+    "groupId": null,
+    "groupOrder": 455,
+    "duplicateCandidateIds": [
+      "A-0105",
+      "C-0038",
+      "C-0690"
+    ]
+  },
+  {
+    "id": "C-0479",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 482,
+    "sourcePages": [
+      79
+    ],
+    "type": "single",
+    "stem": "下列氨基酸中，不是人体必需氨基酸的是",
+    "sharedStem": null,
+    "options": {
+      "A": "丙氨酸",
+      "B": "色氨酸",
+      "C": "蛋氨酸",
+      "D": "赖氨酸",
+      "E": "亮氨酸"
+    },
+    "answers": [
+      "A"
+    ],
+    "explanation": null,
+    "reviewStatus": "需人工核对",
+    "answerSource": "source",
+    "rawStem": "下列氨基酸中，不是人体必需氨基酸的是",
+    "qualityIssues": [
+      "source_not_reviewed",
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "ai_structure_review",
+      "confidence": "medium"
+    },
+    "publishable": false,
+    "contentFingerprint": "下列氨基酸中不是人体必需氨基酸的是",
+    "groupId": null,
+    "groupOrder": 478,
+    "duplicateCandidateIds": [
+      "C-0445"
+    ]
+  },
+  {
+    "id": "C-0541",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 548,
+    "sourcePages": [
+      89
+    ],
+    "type": "single",
+    "stem": "下列解释诚实守信的说法哪一种是错误的?",
+    "sharedStem": null,
+    "options": {
+      "A": "投机取巧，趁机捞好处",
+      "B": "讲信誉、重信用",
+      "C": "不讲假话，不歪曲事实",
+      "D": "在职业上履行自己承担的义务"
+    },
+    "answers": [
+      "A"
+    ],
+    "explanation": null,
+    "reviewStatus": "需人工核对",
+    "answerSource": "source",
+    "rawStem": "下列解释诚实守信的说法哪一种是错误的?\nA．投机取巧，趁机捞好处         B．讲信誉、重信用\nC．不讲假话，不歪曲事实         D．在职业上履行自己承担的义务",
+    "qualityIssues": [
+      "source_not_reviewed",
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "ai_structure_review",
+      "confidence": "medium"
+    },
+    "publishable": false,
+    "contentFingerprint": "下列解释诚实守信的说法哪一种是错误的",
+    "groupId": null,
+    "groupOrder": 540,
+    "duplicateCandidateIds": [
+      "C-0611"
+    ]
+  },
+  {
+    "id": "C-0543",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 550,
+    "sourcePages": [
+      89
+    ],
+    "type": "single",
+    "stem": "乳中的可促进肠道对钙的吸收、",
+    "sharedStem": null,
+    "options": {
+      "A": "乳糖",
+      "B": "短链脂肪酸",
+      "C": "精蛋白",
+      "D": "乳清蛋白"
+    },
+    "answers": [
+      "A"
+    ],
+    "explanation": null,
+    "reviewStatus": "需人工核对",
+    "answerSource": "source",
+    "rawStem": "乳中的可促进肠道对钙的吸收、\nA．乳糖        B．短链脂肪酸         C．精蛋白        D．乳清蛋白",
+    "qualityIssues": [
+      "source_not_reviewed",
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "ai_structure_review",
+      "confidence": "medium"
+    },
+    "publishable": false,
+    "contentFingerprint": "乳中的可促进肠道对钙的吸收",
+    "groupId": null,
+    "groupOrder": 542,
+    "duplicateCandidateIds": [
+      "C-0292"
+    ]
+  },
+  {
+    "id": "C-0546",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 553,
+    "sourcePages": [
+      90
+    ],
+    "type": "single",
+    "stem": "天然色素的优势是。",
+    "sharedStem": null,
+    "options": {
+      "A": "色泽艳丽",
+      "B": "稳定性高",
+      "C": "安全性高",
+      "D": "易着色"
+    },
+    "answers": [
+      "C"
+    ],
+    "explanation": null,
+    "reviewStatus": "需人工核对",
+    "answerSource": "source",
+    "rawStem": "天然色素的优势是。\nA．色泽艳丽       B．稳定性高         C．安全性高        D．易着色",
+    "qualityIssues": [
+      "source_not_reviewed",
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "ai_structure_review",
+      "confidence": "medium"
+    },
+    "publishable": false,
+    "contentFingerprint": "天然色素的优势是",
+    "groupId": null,
+    "groupOrder": 545,
+    "duplicateCandidateIds": [
+      "C-0310"
+    ]
+  },
+  {
+    "id": "C-0556",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 563,
+    "sourcePages": [
+      91
+    ],
+    "type": "single",
+    "stem": "缺乏可影响性成熟的营养素为。",
+    "sharedStem": null,
+    "options": {
+      "A": "锌",
+      "B": "维生素C",
+      "C": "维生素D",
+      "D": "铁"
+    },
+    "answers": [
+      "A"
+    ],
+    "explanation": null,
+    "reviewStatus": "需人工核对",
+    "answerSource": "source",
+    "rawStem": "缺乏可影响性成熟的营养素为。\nA．锌       B．维生素C       C．维生素D         D．铁",
+    "qualityIssues": [
+      "source_not_reviewed",
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "ai_structure_review",
+      "confidence": "medium"
+    },
+    "publishable": false,
+    "contentFingerprint": "缺乏可影响性成熟的营养素为",
+    "groupId": null,
+    "groupOrder": 555,
+    "duplicateCandidateIds": [
+      "C-0228",
+      "C-0303"
+    ]
+  },
+  {
+    "id": "C-0563",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 570,
+    "sourcePages": [
+      91
+    ],
+    "type": "single",
+    "stem": "患病率的特点不包括",
+    "sharedStem": null,
+    "options": {
+      "A": "可用于评价人群健康状况",
+      "B": "是特定时间内总人口中某病病例数的比例",
+      "C": "反映了疾病在特定时间内的新发病例数",
+      "D": "受人口年龄、性别构成的影响"
+    },
+    "answers": [
+      "C"
+    ],
+    "explanation": null,
+    "reviewStatus": "需人工核对",
+    "answerSource": "source",
+    "rawStem": "患病率的特点不包括\nA．可用于评价人群健康状况\nB．是特定时间内总人口中某病病例数的比例\nC．反映了疾病在特定时间内的新发病例数\nD．受人口年龄、性别构成的影响",
+    "qualityIssues": [
+      "source_not_reviewed",
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "ai_structure_review",
+      "confidence": "medium"
+    },
+    "publishable": false,
+    "contentFingerprint": "患病率的特点不包括",
+    "groupId": null,
+    "groupOrder": 562,
+    "duplicateCandidateIds": [
+      "C-0257"
+    ]
+  },
+  {
+    "id": "C-0568",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 575,
+    "sourcePages": [
+      92
+    ],
+    "type": "single",
+    "stem": "下列烹调方法中，肉中维生素损失最少的是",
+    "sharedStem": null,
+    "options": {
+      "A": "炒肉",
+      "B": "红烧",
+      "C": "清炖",
+      "D": "煎炸"
+    },
+    "answers": [
+      "A"
+    ],
+    "explanation": null,
+    "reviewStatus": "需人工核对",
+    "answerSource": "source",
+    "rawStem": "下列烹调方法中，肉中维生素损失最少的是\nA．炒肉         B．红烧         C．清炖        D．煎炸",
+    "qualityIssues": [
+      "source_not_reviewed",
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "ai_structure_review",
+      "confidence": "medium"
+    },
+    "publishable": false,
+    "contentFingerprint": "下列烹调方法中肉中维生素损失最少的是",
+    "groupId": null,
+    "groupOrder": 567,
+    "duplicateCandidateIds": [
+      "C-0234"
+    ]
+  },
+  {
+    "id": "C-0575",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 582,
+    "sourcePages": [
+      92
+    ],
+    "type": "single",
+    "stem": "摄取过多的亚硝酸盐，可使血液中正常的血红蛋白变为而推动携氧 能力，导致组织缺氧。",
+    "sharedStem": null,
+    "options": {
+      "A": "亚铁血红蛋白",
+      "B": "无铁血红蛋白",
+      "C": "正铁血红蛋白",
+      "D": "缺铁血红蛋白"
+    },
+    "answers": [
+      "C"
+    ],
+    "explanation": null,
+    "reviewStatus": "需人工核对",
+    "answerSource": "source",
+    "rawStem": "摄取过多的亚硝酸盐，可使血液中正常的血红蛋白变为而推动携氧\n能力，导致组织缺氧。\nA．亚铁血红蛋白         B．无铁血红蛋白\nC．正铁血红蛋白         D．缺铁血红蛋白",
+    "qualityIssues": [
+      "source_not_reviewed",
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "ai_structure_review",
+      "confidence": "medium"
+    },
+    "publishable": false,
+    "contentFingerprint": "摄取过多的亚硝酸盐可使血液中正常的血红蛋白变为而推动携氧能力导致组织缺氧",
+    "groupId": null,
+    "groupOrder": 574,
+    "duplicateCandidateIds": [
+      "C-0338"
+    ]
+  },
+  {
+    "id": "C-0578",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 585,
+    "sourcePages": [
+      92
+    ],
+    "type": "single",
+    "stem": "纵向测量指标主要与的生长有关。",
+    "sharedStem": null,
+    "options": {
+      "A": "头颅",
+      "B": "骨骼",
+      "C": "心脏",
+      "D": "牙齿"
+    },
+    "answers": [
+      "B"
+    ],
+    "explanation": null,
+    "reviewStatus": "需人工核对",
+    "answerSource": "source",
+    "rawStem": "纵向测量指标主要与的生长有关。\nA．头颅       B．骨骼        C．心脏        D．牙齿",
+    "qualityIssues": [
+      "source_not_reviewed",
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "ai_structure_review",
+      "confidence": "medium"
+    },
+    "publishable": false,
+    "contentFingerprint": "纵向测量指标主要与的生长有关",
+    "groupId": null,
+    "groupOrder": 577,
+    "duplicateCandidateIds": [
+      "C-0317"
+    ]
+  },
+  {
+    "id": "C-0579",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 586,
+    "sourcePages": [
+      92
+    ],
+    "type": "single",
+    "stem": "生长发育期的儿童应注意优质蛋白质的摄入和足够的来保证蛋白质 能在体内被有效利用。",
+    "sharedStem": null,
+    "options": {
+      "A": "水",
+      "B": "能量",
+      "C": "膳食纤维",
+      "D": "矿物质"
+    },
+    "answers": [
+      "B"
+    ],
+    "explanation": null,
+    "reviewStatus": "需人工核对",
+    "answerSource": "source",
+    "rawStem": "生长发育期的儿童应注意优质蛋白质的摄入和足够的来保证蛋白质\n能在体内被有效利用。\nA．水          B．能量        C．膳食纤维        D．矿物质",
+    "qualityIssues": [
+      "source_not_reviewed",
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "ai_structure_review",
+      "confidence": "medium"
+    },
+    "publishable": false,
+    "contentFingerprint": "生长发育期的儿童应注意优质蛋白质的摄入和足够的来保证蛋白质能在体内被有效利用",
+    "groupId": null,
+    "groupOrder": 578,
+    "duplicateCandidateIds": [
+      "C-0664"
+    ]
+  },
+  {
+    "id": "C-0582",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 589,
+    "sourcePages": [
+      93
+    ],
+    "type": "single",
+    "stem": "一条食物成分数据在食物成分表中具有（ ）？",
+    "sharedStem": null,
+    "options": {
+      "A": "可变性 B. 唯一性 C. 难以检索性 D. 重复性 答案：B 解析：《三级技能》P5，每种食物成分在食物成分表中唯一的编码一一对应。"
+    },
+    "answers": [
+      "B"
+    ],
+    "explanation": "《三级技能》P5，每种食物成分在食物成分表中唯一的编码一一对应。",
+    "reviewStatus": "需人工核对",
+    "answerSource": "embedded",
+    "rawStem": "一条食物成分数据在食物成分表中具有（   ）？",
+    "qualityIssues": [
+      "incomplete_options",
+      "answer_not_in_options",
+      "source_not_reviewed",
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "embedded_answer_and_explanation",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "一条食物成分数据在食物成分表中具有",
+    "groupId": null,
+    "groupOrder": 581,
+    "duplicateCandidateIds": [
+      "C-0080"
+    ]
+  },
+  {
+    "id": "C-0583",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 590,
+    "sourcePages": [
+      93
+    ],
+    "type": "single",
+    "stem": "亚硫酸盐最能破坏（ ）",
+    "sharedStem": null,
+    "options": {
+      "A": "维生素A B. 维生素B1 C. 维生素B2 D. 维生素B12 答案：B 解析：亚硫酸盐（防腐剂）会破坏维生素B1（硫胺素）"
+    },
+    "answers": [
+      "B"
+    ],
+    "explanation": "亚硫酸盐（防腐剂）会破坏维生素B1（硫胺素）",
+    "reviewStatus": "需人工核对",
+    "answerSource": "embedded",
+    "rawStem": "亚硫酸盐最能破坏（   ）",
+    "qualityIssues": [
+      "incomplete_options",
+      "answer_not_in_options",
+      "source_not_reviewed"
+    ],
+    "verification": {
+      "method": "embedded_answer_and_explanation",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "亚硫酸盐最能破坏",
+    "groupId": null,
+    "groupOrder": 582,
+    "duplicateCandidateIds": []
+  },
+  {
+    "id": "C-0584",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 591,
+    "sourcePages": [
+      93
+    ],
+    "type": "single",
+    "stem": "含维生素E 活性最高的生育酚是（ ）",
+    "sharedStem": null,
+    "options": {
+      "A": "γ 生育酚 B. β 生育酚 C. α 生育酚 D. 三烯生育酚 答案：C 解析：《基础知识》P131，α-生育酚是人体内活性最高的维生素E 形式"
+    },
+    "answers": [
+      "C"
+    ],
+    "explanation": "《基础知识》P131，α-生育酚是人体内活性最高的维生素E 形式",
+    "reviewStatus": "需人工核对",
+    "answerSource": "embedded",
+    "rawStem": "含维生素E 活性最高的生育酚是（   ）",
+    "qualityIssues": [
+      "incomplete_options",
+      "answer_not_in_options",
+      "source_not_reviewed"
+    ],
+    "verification": {
+      "method": "embedded_answer_and_explanation",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "含维生素e活性最高的生育酚是",
+    "groupId": null,
+    "groupOrder": 583,
+    "duplicateCandidateIds": []
+  },
+  {
+    "id": "C-0585",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 592,
+    "sourcePages": [
+      93
+    ],
+    "type": "single",
+    "stem": "过量食用鱼肝油，更容易会导致（ ）中毒？",
+    "sharedStem": null,
+    "options": {
+      "A": "维生素A B. 维生素B1 C. 维生素B6 D. 维生素D 答案：A 解析：《基础知识》P126-127，脂溶性维生素容易积蓄，鱼肝油富含维生素A， 过量易蓄积中毒（高于维生素D 过量风险）"
+    },
+    "answers": [
+      "A"
+    ],
+    "explanation": "《基础知识》P126-127，脂溶性维生素容易积蓄，鱼肝油富含维生素A， 过量易蓄积中毒（高于维生素D 过量风险）",
+    "reviewStatus": "需人工核对",
+    "answerSource": "embedded",
+    "rawStem": "过量食用鱼肝油，更容易会导致（   ）中毒？",
+    "qualityIssues": [
+      "incomplete_options",
+      "source_not_reviewed"
+    ],
+    "verification": {
+      "method": "embedded_answer_and_explanation",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "过量食用鱼肝油更容易会导致中毒",
+    "groupId": null,
+    "groupOrder": 584,
+    "duplicateCandidateIds": []
+  },
+  {
+    "id": "C-0586",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 593,
+    "sourcePages": [
+      93
+    ],
+    "type": "single",
+    "stem": "下列不属于食品防腐剂的是（ ）",
+    "sharedStem": null,
+    "options": {
+      "A": "苯甲酸钠 B. 木糖醇 C. 山梨酸钾 D. 二氧化硫 答案：B 解析：木糖醇是甜味剂，其他选项（苯甲酸钠、山梨酸钾、二氧化硫）均为防腐 剂"
+    },
+    "answers": [
+      "B"
+    ],
+    "explanation": "木糖醇是甜味剂，其他选项（苯甲酸钠、山梨酸钾、二氧化硫）均为防腐 剂",
+    "reviewStatus": "需人工核对",
+    "answerSource": "embedded",
+    "rawStem": "下列不属于食品防腐剂的是（   ）",
+    "qualityIssues": [
+      "incomplete_options",
+      "answer_not_in_options",
+      "source_not_reviewed"
+    ],
+    "verification": {
+      "method": "embedded_answer_and_explanation",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "下列不属于食品防腐剂的是",
+    "groupId": null,
+    "groupOrder": 585,
+    "duplicateCandidateIds": []
+  },
+  {
+    "id": "C-0587",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 594,
+    "sourcePages": [
+      93
+    ],
+    "type": "single",
+    "stem": "6 岁儿童每天蛋白质摄入量为（ ）",
+    "sharedStem": null,
+    "options": {
+      "A": "35 B. 25 C. 45 D. 55 答案：A 解析：根据《中国居民膳食营养素参考摄入量（2023 版）》，6 岁男童和女童的 每日蛋白质摄入量35g."
+    },
+    "answers": [
+      "A"
+    ],
+    "explanation": "根据《中国居民膳食营养素参考摄入量（2023 版）》，6 岁男童和女童的 每日蛋白质摄入量35g.",
+    "reviewStatus": "需人工核对",
+    "answerSource": "embedded",
+    "rawStem": "6 岁儿童每天蛋白质摄入量为（   ）",
+    "qualityIssues": [
+      "incomplete_options",
+      "source_not_reviewed"
+    ],
+    "verification": {
+      "method": "embedded_answer_and_explanation",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "6岁儿童每天蛋白质摄入量为",
+    "groupId": null,
+    "groupOrder": 586,
+    "duplicateCandidateIds": []
+  },
+  {
+    "id": "C-0588",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 595,
+    "sourcePages": [
+      94
+    ],
+    "type": "single",
+    "stem": "必需脂肪酸的良好来源油脂是（ ）",
+    "sharedStem": null,
+    "options": {
+      "A": "大豆油 B. 橄榄油 C. 椰子油 D. 可可油 答案：A 解析：必需脂肪酸（亚油酸ω-6、α-亚麻酸ω-3）在大豆油中含量丰富。橄榄 油以单不饱和脂肪酸为主（油酸ω-9），椰子油和可可油富含饱和脂肪酸。"
+    },
+    "answers": [
+      "A"
+    ],
+    "explanation": "必需脂肪酸（亚油酸ω-6、α-亚麻酸ω-3）在大豆油中含量丰富。橄榄 油以单不饱和脂肪酸为主（油酸ω-9），椰子油和可可油富含饱和脂肪酸。",
+    "reviewStatus": "需人工核对",
+    "answerSource": "embedded",
+    "rawStem": "必需脂肪酸的良好来源油脂是（   ）",
+    "qualityIssues": [
+      "incomplete_options",
+      "source_not_reviewed"
+    ],
+    "verification": {
+      "method": "embedded_answer_and_explanation",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "必需脂肪酸的良好来源油脂是",
+    "groupId": null,
+    "groupOrder": 587,
+    "duplicateCandidateIds": []
+  },
+  {
+    "id": "C-0589",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 596,
+    "sourcePages": [
+      94
+    ],
+    "type": "single",
+    "stem": "赖氨酸在（ ）中含量较高。",
+    "sharedStem": null,
+    "options": {
+      "A": "面粉 B. 大米 C. 鸡蛋 D. 牛肉 答案：D 解析：《基础知识》P76，表3-6。"
+    },
+    "answers": [
+      "D"
+    ],
+    "explanation": "《基础知识》P76，表3-6。",
+    "reviewStatus": "需人工核对",
+    "answerSource": "embedded",
+    "rawStem": "赖氨酸在（   ）中含量较高。",
+    "qualityIssues": [
+      "incomplete_options",
+      "answer_not_in_options",
+      "source_not_reviewed"
+    ],
+    "verification": {
+      "method": "embedded_answer_and_explanation",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "赖氨酸在中含量较高",
+    "groupId": null,
+    "groupOrder": 588,
+    "duplicateCandidateIds": []
+  },
+  {
+    "id": "C-0590",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 597,
+    "sourcePages": [
+      94
+    ],
+    "type": "single",
+    "stem": "进行气体交换的场所是（ ）。",
+    "sharedStem": null,
+    "options": {
+      "A": "鼻 B. 气管 C. 肺 D. 咽 答案：C 解析：《基础知识》P18，肺是气体交换的场所。"
+    },
+    "answers": [
+      "C"
+    ],
+    "explanation": "《基础知识》P18，肺是气体交换的场所。",
+    "reviewStatus": "需人工核对",
+    "answerSource": "embedded",
+    "rawStem": "进行气体交换的场所是（   ）。",
+    "qualityIssues": [
+      "incomplete_options",
+      "answer_not_in_options",
+      "source_not_reviewed"
+    ],
+    "verification": {
+      "method": "embedded_answer_and_explanation",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "进行气体交换的场所是",
+    "groupId": null,
+    "groupOrder": 589,
+    "duplicateCandidateIds": []
+  },
+  {
+    "id": "C-0591",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 598,
+    "sourcePages": [
+      94
+    ],
+    "type": "single",
+    "stem": "硒在人体组织与器官中含量相对最低的是（ ）",
+    "sharedStem": null,
+    "options": {
+      "A": "肝脏 B. 胰脏 C. 肾 D. 脂肪 答案：D 解析：《基础知识》P117，肾中硒浓度最高，肝脏次之，血液中相对低些，脂肪 组织中含量最低。"
+    },
+    "answers": [
+      "D"
+    ],
+    "explanation": "《基础知识》P117，肾中硒浓度最高，肝脏次之，血液中相对低些，脂肪 组织中含量最低。",
+    "reviewStatus": "需人工核对",
+    "answerSource": "embedded",
+    "rawStem": "硒在人体组织与器官中含量相对最低的是（   ）",
+    "qualityIssues": [
+      "incomplete_options",
+      "answer_not_in_options",
+      "source_not_reviewed"
+    ],
+    "verification": {
+      "method": "embedded_answer_and_explanation",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "硒在人体组织与器官中含量相对最低的是",
+    "groupId": null,
+    "groupOrder": 590,
+    "duplicateCandidateIds": []
+  },
+  {
+    "id": "C-0592",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 599,
+    "sourcePages": [
+      94
+    ],
+    "type": "single",
+    "stem": "机体的免疫系统不包括（ ）",
+    "sharedStem": null,
+    "options": {
+      "A": "肝脏 B. 淋巴结 C. 骨髓 D. 脾 答案：A 解析：《基础知识》P24，免疫系统包括免疫器官、免疫细胞、免疫分子。免疫 器官分为中枢和外周免疫器官中枢免疫器官包括胸腺、骨髓；外周免疫器官包括 脾脏、淋巴结和淋巴组织。肝脏虽参与解毒，但不属于免疫系统主要组成部分。"
+    },
+    "answers": [
+      "A"
+    ],
+    "explanation": "《基础知识》P24，免疫系统包括免疫器官、免疫细胞、免疫分子。免疫 器官分为中枢和外周免疫器官中枢免疫器官包括胸腺、骨髓；外周免疫器官包括 脾脏、淋巴结和淋巴组织。肝脏虽参与解毒，但不属于免疫系统主要组成部分。",
+    "reviewStatus": "需人工核对",
+    "answerSource": "embedded",
+    "rawStem": "机体的免疫系统不包括（   ）",
+    "qualityIssues": [
+      "incomplete_options",
+      "source_not_reviewed",
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "embedded_answer_and_explanation",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "机体的免疫系统不包括",
+    "groupId": null,
+    "groupOrder": 591,
+    "duplicateCandidateIds": [
+      "C-0680"
+    ]
+  },
+  {
+    "id": "C-0593",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 600,
+    "sourcePages": [
+      94
+    ],
+    "type": "single",
+    "stem": "以下哪种细菌具有嗜盐性（ ）",
+    "sharedStem": null,
+    "options": {
+      "A": "副溶血性弧菌 B. 沙门氏菌 C. 葡萄球菌 D. 变形杆菌 答案：A 解析：《基础知识》P379，副溶血性弧菌是嗜盐菌，需高盐环境生长，常见于海 产品。"
+    },
+    "answers": [
+      "A"
+    ],
+    "explanation": "《基础知识》P379，副溶血性弧菌是嗜盐菌，需高盐环境生长，常见于海 产品。",
+    "reviewStatus": "需人工核对",
+    "answerSource": "embedded",
+    "rawStem": "以下哪种细菌具有嗜盐性（   ）",
+    "qualityIssues": [
+      "incomplete_options",
+      "source_not_reviewed"
+    ],
+    "verification": {
+      "method": "embedded_answer_and_explanation",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "以下哪种细菌具有嗜盐性",
+    "groupId": null,
+    "groupOrder": 592,
+    "duplicateCandidateIds": []
+  },
+  {
+    "id": "C-0594",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 601,
+    "sourcePages": [
+      94
+    ],
+    "type": "single",
+    "stem": "健康信念模式是运用（ ）解释健康相关行为的理论模式。",
+    "sharedStem": null,
+    "options": {
+      "A": "社会学方法 B. 社会认识学方法",
+      "C": "社会心理学方法 D. 社会价值学方法 答案：C 解析：《基础知识》 P283 ，健康信念模式是运用社会心理学解释健康相关行 为的理论模式。"
+    },
+    "answers": [
+      "C"
+    ],
+    "explanation": "《基础知识》 P283 ，健康信念模式是运用社会心理学解释健康相关行 为的理论模式。",
+    "reviewStatus": "需人工核对",
+    "answerSource": "embedded",
+    "rawStem": "健康信念模式是运用（   ）解释健康相关行为的理论模式。",
+    "qualityIssues": [
+      "incomplete_options",
+      "non_contiguous_options",
+      "source_not_reviewed",
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "embedded_answer_and_explanation",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "健康信念模式是运用解释健康相关行为的理论模式",
+    "groupId": null,
+    "groupOrder": 593,
+    "duplicateCandidateIds": [
+      "C-0081"
+    ]
+  },
+  {
+    "id": "C-0595",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 602,
+    "sourcePages": [
+      94,
+      95
+    ],
+    "type": "single",
+    "stem": "每日食用粗制面粉或大米 200~250g 可为 3~6 岁儿童提供（ ）的能量。",
+    "sharedStem": null,
+    "options": {
+      "A": "50%~55% B. 50%~65% C. 60%~65% D. 65%~70% 答案：B 解析：《三级技能》 P264，每日食用大米 200~250g 可为儿童提供50%-65%的 能量。"
+    },
+    "answers": [
+      "B"
+    ],
+    "explanation": "《三级技能》 P264，每日食用大米 200~250g 可为儿童提供50%-65%的 能量。",
+    "reviewStatus": "需人工核对",
+    "answerSource": "embedded",
+    "rawStem": "每日食用粗制面粉或大米 200~250g 可为 3~6 岁儿童提供（   ）的能量。",
+    "qualityIssues": [
+      "incomplete_options",
+      "answer_not_in_options",
+      "source_not_reviewed"
+    ],
+    "verification": {
+      "method": "embedded_answer_and_explanation",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "每日食用粗制面粉或大米200~250g可为3~6岁儿童提供的能量",
+    "groupId": null,
+    "groupOrder": 594,
+    "duplicateCandidateIds": []
+  },
+  {
+    "id": "C-0596",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 603,
+    "sourcePages": [
+      95
+    ],
+    "type": "single",
+    "stem": "学龄前儿童膳食中推荐的脂肪供能比（ ）",
+    "sharedStem": null,
+    "options": {
+      "A": "25%~30% B. 20%~25% C. 20%~30% D. 25%~35% 答案：C 解析：根据《中国居民膳食营养素参考摄入量（2023 版）》，学龄前儿童脂肪 供能比建议控制在20%-30%"
+    },
+    "answers": [
+      "C"
+    ],
+    "explanation": "根据《中国居民膳食营养素参考摄入量（2023 版）》，学龄前儿童脂肪 供能比建议控制在20%-30%",
+    "reviewStatus": "需人工核对",
+    "answerSource": "embedded",
+    "rawStem": "学龄前儿童膳食中推荐的脂肪供能比（   ）",
+    "qualityIssues": [
+      "incomplete_options",
+      "answer_not_in_options",
+      "source_not_reviewed"
+    ],
+    "verification": {
+      "method": "embedded_answer_and_explanation",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "学龄前儿童膳食中推荐的脂肪供能比",
+    "groupId": null,
+    "groupOrder": 595,
+    "duplicateCandidateIds": []
+  },
+  {
+    "id": "C-0597",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 604,
+    "sourcePages": [
+      95
+    ],
+    "type": "single",
+    "stem": "脂肪的主要吸收器官是（ ）",
+    "sharedStem": null,
+    "options": {
+      "A": "胃 B. 肝脏 C. 小肠 D. 大肠 答案：C 解析：《基础知识》 P89，脂肪水解后的小分子，如甘油、短链和中链脂肪酸很 容易被小肠细胞吸收直接进入血液。大肠主要吸收水分和盐类。"
+    },
+    "answers": [
+      "C"
+    ],
+    "explanation": "《基础知识》 P89，脂肪水解后的小分子，如甘油、短链和中链脂肪酸很 容易被小肠细胞吸收直接进入血液。大肠主要吸收水分和盐类。",
+    "reviewStatus": "需人工核对",
+    "answerSource": "embedded",
+    "rawStem": "脂肪的主要吸收器官是（   ）",
+    "qualityIssues": [
+      "incomplete_options",
+      "answer_not_in_options",
+      "source_not_reviewed"
+    ],
+    "verification": {
+      "method": "embedded_answer_and_explanation",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "脂肪的主要吸收器官是",
+    "groupId": null,
+    "groupOrder": 596,
+    "duplicateCandidateIds": []
+  },
+  {
+    "id": "C-0598",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 605,
+    "sourcePages": [
+      95
+    ],
+    "type": "single",
+    "stem": "女性肥胖的皮褶厚度（ ）",
+    "sharedStem": null,
+    "options": {
+      "A": "20~40mm B. >40mm C. >50mm D. <20mm 答案：C 解析：《三级技能》 P80，女性肥胖>50mm，男性肥胖>40mm。"
+    },
+    "answers": [
+      "C"
+    ],
+    "explanation": "《三级技能》 P80，女性肥胖>50mm，男性肥胖>40mm。",
+    "reviewStatus": "需人工核对",
+    "answerSource": "embedded",
+    "rawStem": "女性肥胖的皮褶厚度（   ）",
+    "qualityIssues": [
+      "incomplete_options",
+      "answer_not_in_options",
+      "source_not_reviewed"
+    ],
+    "verification": {
+      "method": "embedded_answer_and_explanation",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "女性肥胖的皮褶厚度",
+    "groupId": null,
+    "groupOrder": 597,
+    "duplicateCandidateIds": []
+  },
+  {
+    "id": "C-0599",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 606,
+    "sourcePages": [
+      95
+    ],
+    "type": "single",
+    "stem": "一般来源于精制米面的血糖生成指数（ ）粗杂粮，复合碳水化合物的血 糖生成指数（ ）精制糖",
+    "sharedStem": null,
+    "options": {
+      "A": "高于 高于 B. 低于 低于 C. 高于 低于 D. 低于 高于 答案：C 解析：《基础知识》 P97，表3-17，表3-18."
+    },
+    "answers": [
+      "C"
+    ],
+    "explanation": "《基础知识》 P97，表3-17，表3-18.",
+    "reviewStatus": "需人工核对",
+    "answerSource": "embedded",
+    "rawStem": "一般来源于精制米面的血糖生成指数（   ）粗杂粮，复合碳水化合物的血\n糖生成指数（）精制糖",
+    "qualityIssues": [
+      "incomplete_options",
+      "answer_not_in_options",
+      "source_not_reviewed"
+    ],
+    "verification": {
+      "method": "embedded_answer_and_explanation",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "一般来源于精制米面的血糖生成指数粗杂粮复合碳水化合物的血糖生成指数精制糖",
+    "groupId": null,
+    "groupOrder": 598,
+    "duplicateCandidateIds": []
+  },
+  {
+    "id": "C-0600",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 607,
+    "sourcePages": [
+      95
+    ],
+    "type": "single",
+    "stem": "公共营养师职业守则不对从事公共营养的职业人员（ ）要求",
+    "sharedStem": null,
+    "options": {
+      "A": "职业目标 B. 同行社会关系",
+      "C": "专业技术胜任能力 D. 职业责任 答案：A 解析：《基础知识》 P2"
+    },
+    "answers": [
+      "A"
+    ],
+    "explanation": "《基础知识》 P2",
+    "reviewStatus": "需人工核对",
+    "answerSource": "embedded",
+    "rawStem": "公共营养师职业守则不对从事公共营养的职业人员（   ）要求",
+    "qualityIssues": [
+      "incomplete_options",
+      "non_contiguous_options",
+      "source_not_reviewed"
+    ],
+    "verification": {
+      "method": "embedded_answer_and_explanation",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "公共营养师职业守则不对从事公共营养的职业人员要求",
+    "groupId": null,
+    "groupOrder": 599,
+    "duplicateCandidateIds": []
+  },
+  {
+    "id": "C-0601",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 608,
+    "sourcePages": [
+      95
+    ],
+    "type": "single",
+    "stem": "职业道德从事一定职业的人在工作和劳动过程中所遵守的与其职业活动紧 密相关的（ ）",
+    "sharedStem": null,
+    "options": {
+      "A": "道德规范 B. 道德原则和规范的总和",
+      "C": "道德责任 D. 道德原则 答案：B 解析：基础知识P2"
+    },
+    "answers": [
+      "B"
+    ],
+    "explanation": "基础知识P2",
+    "reviewStatus": "需人工核对",
+    "answerSource": "embedded",
+    "rawStem": "职业道德从事一定职业的人在工作和劳动过程中所遵守的与其职业活动紧\n密相关的（   ）",
+    "qualityIssues": [
+      "incomplete_options",
+      "non_contiguous_options",
+      "answer_not_in_options",
+      "source_not_reviewed"
+    ],
+    "verification": {
+      "method": "embedded_answer_and_explanation",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "职业道德从事一定职业的人在工作和劳动过程中所遵守的与其职业活动紧密相关的",
+    "groupId": null,
+    "groupOrder": 600,
+    "duplicateCandidateIds": []
+  },
+  {
+    "id": "C-0602",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 609,
+    "sourcePages": [
+      95,
+      96
+    ],
+    "type": "single",
+    "stem": "调查表编制的基本原则不包括（ ）",
+    "sharedStem": null,
+    "options": {
+      "A": "相关性 B. 全面性 C. 适宜性 D. 专业性 答案：D 解析：《三级技能》 P404-405，调查表编制需遵循相关性、客观性、适宜性、 全面性、合理性、可比性，但“专业性”并非通用原则"
+    },
+    "answers": [
+      "D"
+    ],
+    "explanation": "《三级技能》 P404-405，调查表编制需遵循相关性、客观性、适宜性、 全面性、合理性、可比性，但“专业性”并非通用原则",
+    "reviewStatus": "需人工核对",
+    "answerSource": "embedded",
+    "rawStem": "调查表编制的基本原则不包括（   ）",
+    "qualityIssues": [
+      "incomplete_options",
+      "answer_not_in_options",
+      "source_not_reviewed"
+    ],
+    "verification": {
+      "method": "embedded_answer_and_explanation",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "调查表编制的基本原则不包括",
+    "groupId": null,
+    "groupOrder": 601,
+    "duplicateCandidateIds": []
+  },
+  {
+    "id": "C-0603",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 610,
+    "sourcePages": [
+      96
+    ],
+    "type": "single",
+    "stem": "6 岁儿童每天摄入钙为（ ）",
+    "sharedStem": null,
+    "options": {
+      "A": "600 B. 400 C. 200 D. 500 答案：A 解析：根据《中国居民膳食营养素参考摄入量(2023)》，6 岁儿童钙推荐量为 600mg/天"
+    },
+    "answers": [
+      "A"
+    ],
+    "explanation": "根据《中国居民膳食营养素参考摄入量(2023)》，6 岁儿童钙推荐量为 600mg/天",
+    "reviewStatus": "需人工核对",
+    "answerSource": "embedded",
+    "rawStem": "6 岁儿童每天摄入钙为（   ）",
+    "qualityIssues": [
+      "incomplete_options",
+      "source_not_reviewed"
+    ],
+    "verification": {
+      "method": "embedded_answer_and_explanation",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "6岁儿童每天摄入钙为",
+    "groupId": null,
+    "groupOrder": 602,
+    "duplicateCandidateIds": []
+  },
+  {
+    "id": "C-0604",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 611,
+    "sourcePages": [
+      96
+    ],
+    "type": "single",
+    "stem": "维生素 B1 在什么环境下最稳定（ ）",
+    "sharedStem": null,
+    "options": {
+      "A": "酸性环境 B. 碱酸性环境 C.亚硫酸盐 D. 高温 答案：A 解析：维生素B1（硫胺素）在酸性环境中稳定，碱性环境易分解"
+    },
+    "answers": [
+      "A"
+    ],
+    "explanation": "维生素B1（硫胺素）在酸性环境中稳定，碱性环境易分解",
+    "reviewStatus": "需人工核对",
+    "answerSource": "embedded",
+    "rawStem": "维生素 B1 在什么环境下最稳定（   ）",
+    "qualityIssues": [
+      "incomplete_options",
+      "source_not_reviewed"
+    ],
+    "verification": {
+      "method": "embedded_answer_and_explanation",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "维生素b1在什么环境下最稳定",
+    "groupId": null,
+    "groupOrder": 603,
+    "duplicateCandidateIds": []
+  },
+  {
+    "id": "C-0605",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 612,
+    "sourcePages": [
+      96
+    ],
+    "type": "single",
+    "stem": "同时富含维生素 B2 和维生素 A 的食品是（ ）",
+    "sharedStem": null,
+    "options": {
+      "A": "牛奶 B. 豆腐 C. 虾皮 D. 动物肝脏 答案： 解析：《基础知识》P172，肝脏特别富含维生素A 和维生素B2。"
+    },
+    "answers": [],
+    "explanation": "《基础知识》P172，肝脏特别富含维生素A 和维生素B2。",
+    "reviewStatus": "需人工核对",
+    "answerSource": "missing",
+    "rawStem": "同时富含维生素 B2 和维生素 A 的食品是（   ）",
+    "qualityIssues": [
+      "incomplete_options",
+      "missing_answer",
+      "single_answer_count_error",
+      "source_not_reviewed"
+    ],
+    "verification": {
+      "method": "ai_structure_review",
+      "confidence": "medium"
+    },
+    "publishable": false,
+    "contentFingerprint": "同时富含维生素b2和维生素a的食品是",
+    "groupId": null,
+    "groupOrder": 604,
+    "duplicateCandidateIds": []
+  },
+  {
+    "id": "C-0606",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 613,
+    "sourcePages": [
+      96
+    ],
+    "type": "single",
+    "stem": "缺乏维生素 A，皮肤会出现的症状有（ ）",
+    "sharedStem": null,
+    "options": {
+      "A": "脂溢性皮炎 B. 上表皮角质化 C. 皮下出血点 D. 银屑病 答案：B 解析：《基础知识》P125，维生素A 缺乏导致干眼症，上皮组织干燥、角质化"
+    },
+    "answers": [
+      "B"
+    ],
+    "explanation": "《基础知识》P125，维生素A 缺乏导致干眼症，上皮组织干燥、角质化",
+    "reviewStatus": "需人工核对",
+    "answerSource": "embedded",
+    "rawStem": "缺乏维生素 A，皮肤会出现的症状有（   ）",
+    "qualityIssues": [
+      "incomplete_options",
+      "answer_not_in_options",
+      "source_not_reviewed"
+    ],
+    "verification": {
+      "method": "embedded_answer_and_explanation",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "缺乏维生素a皮肤会出现的症状有",
+    "groupId": null,
+    "groupOrder": 605,
+    "duplicateCandidateIds": []
+  },
+  {
+    "id": "C-0607",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 614,
+    "sourcePages": [
+      96
+    ],
+    "type": "single",
+    "stem": "0-6 个月的婴儿脂肪供能比是（ ）",
+    "sharedStem": null,
+    "options": {
+      "A": "48% B. 40% C. 35% D. 30% 答案：A 解析：根据《中国居民膳食营养素参考摄入量(2023)》附表3-3 或附表3-5，0-6 个月的婴儿脂肪供能比是48%。"
+    },
+    "answers": [
+      "A"
+    ],
+    "explanation": "根据《中国居民膳食营养素参考摄入量(2023)》附表3-3 或附表3-5，0-6 个月的婴儿脂肪供能比是48%。",
+    "reviewStatus": "需人工核对",
+    "answerSource": "embedded",
+    "rawStem": "0-6 个月的婴儿脂肪供能比是（   ）",
+    "qualityIssues": [
+      "incomplete_options",
+      "source_not_reviewed"
+    ],
+    "verification": {
+      "method": "embedded_answer_and_explanation",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "0-6个月的婴儿脂肪供能比是",
+    "groupId": null,
+    "groupOrder": 606,
+    "duplicateCandidateIds": []
+  },
+  {
+    "id": "C-0608",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 615,
+    "sourcePages": [
+      96
+    ],
+    "type": "single",
+    "stem": "维生素 A 缺乏时出现最早的体征是（ ）",
+    "sharedStem": null,
+    "options": {
+      "A": "皮肤反应 B. 免疫功能下降 C. 眼部反应 D. 骨骼发育迟缓 答案：C 解析：《基础知识》P300，维生素A 缺乏眼部症状出现最早。"
+    },
+    "answers": [
+      "C"
+    ],
+    "explanation": "《基础知识》P300，维生素A 缺乏眼部症状出现最早。",
+    "reviewStatus": "需人工核对",
+    "answerSource": "embedded",
+    "rawStem": "维生素 A 缺乏时出现最早的体征是（   ）",
+    "qualityIssues": [
+      "incomplete_options",
+      "answer_not_in_options",
+      "source_not_reviewed",
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "embedded_answer_and_explanation",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "维生素a缺乏时出现最早的体征是",
+    "groupId": null,
+    "groupOrder": 607,
+    "duplicateCandidateIds": [
+      "C-0072"
+    ]
+  },
+  {
+    "id": "C-0609",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 616,
+    "sourcePages": [
+      96
+    ],
+    "type": "single",
+    "stem": "大豆中含有的亚油酸可以在体内合成（ ）",
+    "sharedStem": null,
+    "options": {
+      "A": "卵磷脂 B. EPA C. 花生四烯酸 D. DHA 答案：C 解析：《基础知识》P90，亚油酸作为n-6 脂肪酸的前体可在体内转变生成y－ 亚 麻酸、花生四烯酸等n-6 系的长链多不饱和脂肪酸。α－ 亚麻酸则作为n-3 系 脂肪酸的前体 ， 可转变生成二十碳五烯酸（EPA）、 二十二碳六烯酸（DHA） 等n-3 系脂肪酸。"
+    },
+    "answers": [
+      "C"
+    ],
+    "explanation": "《基础知识》P90，亚油酸作为n-6 脂肪酸的前体可在体内转变生成y－ 亚 麻酸、花生四烯酸等n-6 系的长链多不饱和脂肪酸。α－ 亚麻酸则作为n-3 系 脂肪酸的前体 ， 可转变生成二十碳五烯酸（EPA）、 二十二碳六烯酸（DHA） 等n-3 系脂肪酸。",
+    "reviewStatus": "需人工核对",
+    "answerSource": "embedded",
+    "rawStem": "大豆中含有的亚油酸可以在体内合成（   ）",
+    "qualityIssues": [
+      "incomplete_options",
+      "answer_not_in_options",
+      "source_not_reviewed"
+    ],
+    "verification": {
+      "method": "embedded_answer_and_explanation",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "大豆中含有的亚油酸可以在体内合成",
+    "groupId": null,
+    "groupOrder": 608,
+    "duplicateCandidateIds": []
+  },
+  {
+    "id": "C-0610",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 617,
+    "sourcePages": [
+      96,
+      97
+    ],
+    "type": "single",
+    "stem": "以玉米为主食的地区容易发生（ ）",
+    "sharedStem": null,
+    "options": {
+      "A": "佝偻病 B. 脚气病 C. 脂溢性皮炎 D. 瘢皮病 答案：D 解析：《基础知识》P90, 以玉米为主食的地区容易发生癞皮病（皮炎、腹泻、 痴呆），原因：①玉米烟酸含量较多，但是为结合性；②色氨酸含量低。"
+    },
+    "answers": [
+      "D"
+    ],
+    "explanation": "《基础知识》P90, 以玉米为主食的地区容易发生癞皮病（皮炎、腹泻、 痴呆），原因：①玉米烟酸含量较多，但是为结合性；②色氨酸含量低。",
+    "reviewStatus": "需人工核对",
+    "answerSource": "embedded",
+    "rawStem": "以玉米为主食的地区容易发生（   ）",
+    "qualityIssues": [
+      "incomplete_options",
+      "answer_not_in_options",
+      "source_not_reviewed"
+    ],
+    "verification": {
+      "method": "embedded_answer_and_explanation",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "以玉米为主食的地区容易发生",
+    "groupId": null,
+    "groupOrder": 609,
+    "duplicateCandidateIds": []
+  },
+  {
+    "id": "C-0611",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 618,
+    "sourcePages": [
+      97
+    ],
+    "type": "single",
+    "stem": "下列解释诚实守信的说法哪一种是错误的（ ）",
+    "sharedStem": null,
+    "options": {
+      "A": "不讲假话，不歪曲事实 B. 投机取巧，趁机捞点便宜",
+      "C": "讲信誉，重信用 D. 在职业上履行自己承担的义务 答案：B 解析：根据常识判断即可。"
+    },
+    "answers": [
+      "B"
+    ],
+    "explanation": "根据常识判断即可。",
+    "reviewStatus": "需人工核对",
+    "answerSource": "embedded",
+    "rawStem": "下列解释诚实守信的说法哪一种是错误的（   ）",
+    "qualityIssues": [
+      "incomplete_options",
+      "non_contiguous_options",
+      "answer_not_in_options",
+      "source_not_reviewed",
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "embedded_answer_and_explanation",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "下列解释诚实守信的说法哪一种是错误的",
+    "groupId": null,
+    "groupOrder": 610,
+    "duplicateCandidateIds": [
+      "C-0541"
+    ]
+  },
+  {
+    "id": "C-0612",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 619,
+    "sourcePages": [
+      97
+    ],
+    "type": "single",
+    "stem": "成年人的能量消耗正确的是（ ）",
+    "sharedStem": null,
+    "options": {
+      "A": "摄入量小于消耗量 B. 摄入量等于消耗量",
+      "C": "消耗体内储存的能量维持基础活动 D. 摄入量大于消耗量 答案：B 解析：《基础知识》P78，当摄人氮和排出氮相等时为零氮平衡， 健康成年人应 维持零氮平衡并富余5%。"
+    },
+    "answers": [
+      "B"
+    ],
+    "explanation": "《基础知识》P78，当摄人氮和排出氮相等时为零氮平衡， 健康成年人应 维持零氮平衡并富余5%。",
+    "reviewStatus": "需人工核对",
+    "answerSource": "embedded",
+    "rawStem": "成年人的能量消耗正确的是（   ）",
+    "qualityIssues": [
+      "incomplete_options",
+      "non_contiguous_options",
+      "answer_not_in_options",
+      "source_not_reviewed"
+    ],
+    "verification": {
+      "method": "embedded_answer_and_explanation",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "成年人的能量消耗正确的是",
+    "groupId": null,
+    "groupOrder": 611,
+    "duplicateCandidateIds": []
+  },
+  {
+    "id": "C-0614",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 621,
+    "sourcePages": [
+      97
+    ],
+    "type": "single",
+    "stem": "血清和血浆的区别在于（ ）",
+    "sharedStem": null,
+    "options": {
+      "A": "血清含有纤维蛋白原 B. 血浆含有纤维蛋白原",
+      "C": "血清含有血细胞 D. 血浆含有血细胞 答案：B 解析：《三级技能》 P96，血浆含纤维蛋白原，而血清没有。"
+    },
+    "answers": [
+      "B"
+    ],
+    "explanation": "《三级技能》 P96，血浆含纤维蛋白原，而血清没有。",
+    "reviewStatus": "需人工核对",
+    "answerSource": "embedded",
+    "rawStem": "血清和血浆的区别在于（   ）",
+    "qualityIssues": [
+      "incomplete_options",
+      "non_contiguous_options",
+      "answer_not_in_options",
+      "source_not_reviewed",
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "embedded_answer_and_explanation",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "血清和血浆的区别在于",
+    "groupId": null,
+    "groupOrder": 613,
+    "duplicateCandidateIds": [
+      "C-0670"
+    ]
+  },
+  {
+    "id": "C-0615",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 622,
+    "sourcePages": [
+      97
+    ],
+    "type": "single",
+    "stem": "标准量床或量板用于年龄在（ ）的婴幼儿体格发育测量指标的测定。",
+    "sharedStem": null,
+    "options": {
+      "A": "6 月以下 B. 1 岁以下 C. 2 岁以下 D. 3 岁以下 答案：D 解析：《三级技能》 P74，3 岁以下婴幼儿需用专用量床测量身长，3 岁以上用 身高计"
+    },
+    "answers": [
+      "D"
+    ],
+    "explanation": "《三级技能》 P74，3 岁以下婴幼儿需用专用量床测量身长，3 岁以上用 身高计",
+    "reviewStatus": "需人工核对",
+    "answerSource": "embedded",
+    "rawStem": "标准量床或量板用于年龄在（   ）的婴幼儿体格发育测量指标的测定。",
+    "qualityIssues": [
+      "incomplete_options",
+      "answer_not_in_options",
+      "source_not_reviewed",
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "embedded_answer_and_explanation",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "标准量床或量板用于年龄在的婴幼儿体格发育测量指标的测定",
+    "groupId": null,
+    "groupOrder": 614,
+    "duplicateCandidateIds": [
+      "C-0137",
+      "C-0302"
+    ]
+  },
+  {
+    "id": "C-0616",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 623,
+    "sourcePages": [
+      97,
+      98
+    ],
+    "type": "single",
+    "stem": "缺乏可能导致胎儿神经管畸形的（ ）",
+    "sharedStem": null,
+    "options": {
+      "A": "维生素 A B. 叶酸 C. 维生素 E D. 维生素 C 答案：B 解析：《基础知识》P229，叶酸摄入不足对娃振结局的影响包括低出生体重、胎 盘早剥和胎儿神经管畸形。"
+    },
+    "answers": [
+      "B"
+    ],
+    "explanation": "《基础知识》P229，叶酸摄入不足对娃振结局的影响包括低出生体重、胎 盘早剥和胎儿神经管畸形。",
+    "reviewStatus": "需人工核对",
+    "answerSource": "embedded",
+    "rawStem": "缺乏可能导致胎儿神经管畸形的（   ）",
+    "qualityIssues": [
+      "incomplete_options",
+      "answer_not_in_options",
+      "source_not_reviewed"
+    ],
+    "verification": {
+      "method": "embedded_answer_and_explanation",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "缺乏可能导致胎儿神经管畸形的",
+    "groupId": null,
+    "groupOrder": 615,
+    "duplicateCandidateIds": []
+  },
+  {
+    "id": "C-0620",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 627,
+    "sourcePages": [
+      98
+    ],
+    "type": "single",
+    "stem": "下列属于抗氧化营养素的是（ ）",
+    "sharedStem": null,
+    "options": {
+      "A": "泛酸",
+      "B": "β-胡萝卜素",
+      "C": "维生素B1",
+      "D": "烟酸"
+    },
+    "answers": [
+      "B"
+    ],
+    "explanation": "《基础知识》P26，β-胡萝卜素是维生素A 前体，具有清除自由基的抗氧 化作用",
+    "reviewStatus": "需人工核对",
+    "answerSource": "embedded",
+    "rawStem": "下列属于抗氧化营养素的是（   ）\nA.泛酸       B.β-胡萝卜素         C.维生素B1       D.烟酸\n答案：B\n解析：《基础知识》P26，β-胡萝卜素是维生素A 前体，具有清除自由基的抗氧\n化作用",
+    "qualityIssues": [
+      "source_not_reviewed",
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "embedded_answer_and_explanation",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "下列属于抗氧化营养素的是",
+    "groupId": null,
+    "groupOrder": 619,
+    "duplicateCandidateIds": [
+      "C-0129"
+    ]
+  },
+  {
+    "id": "C-0626",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 633,
+    "sourcePages": [
+      99
+    ],
+    "type": "single",
+    "stem": "幼儿全部20 颗乳牙出齐应不迟于（ ）岁。",
+    "sharedStem": null,
+    "options": {
+      "A": "2",
+      "B": "2.5",
+      "C": "3",
+      "D": "3.5"
+    },
+    "answers": [
+      "B"
+    ],
+    "explanation": "《基础知识》P46",
+    "reviewStatus": "需人工核对",
+    "answerSource": "embedded",
+    "rawStem": "幼儿全部20 颗乳牙出齐应不迟于（   ）岁。\nA.2            B.2.5         C.3         D.3.5\n答案：B\n解析：《基础知识》P46",
+    "qualityIssues": [
+      "source_not_reviewed",
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "embedded_answer_and_explanation",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "幼儿全部20颗乳牙出齐应不迟于岁",
+    "groupId": null,
+    "groupOrder": 625,
+    "duplicateCandidateIds": [
+      "C-0094"
+    ]
+  },
+  {
+    "id": "C-0630",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 637,
+    "sourcePages": [
+      100
+    ],
+    "type": "single",
+    "stem": "下列关于大众传播的特点不正确的是（ ）",
+    "sharedStem": null,
+    "options": {
+      "A": "信息公开",
+      "B": "传播对象不确定",
+      "C": "信息扩散迅速而广泛",
+      "D": "信息反馈速度缓慢且缺乏自发性"
+    },
+    "answers": [
+      "B"
+    ],
+    "explanation": "《三级技能》P211，大众传播对象大体确定的。",
+    "reviewStatus": "需人工核对",
+    "answerSource": "embedded",
+    "rawStem": "下列关于大众传播的特点不正确的是（   ）\nA.信息公开                      B.传播对象不确定\nC.信息扩散迅速而广泛            D.信息反馈速度缓慢且缺乏自发性\n答案：B\n解析：《三级技能》P211，大众传播对象大体确定的。",
+    "qualityIssues": [
+      "source_not_reviewed",
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "embedded_answer_and_explanation",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "下列关于大众传播的特点不正确的是",
+    "groupId": null,
+    "groupOrder": 629,
+    "duplicateCandidateIds": [
+      "C-0714"
+    ]
+  },
+  {
+    "id": "C-0640",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 647,
+    "sourcePages": [
+      101
+    ],
+    "type": "single",
+    "stem": "常见的社区营养问题有（ ）",
+    "sharedStem": null,
+    "options": {
+      "A": "营养不良",
+      "B": "铁缺乏和缺铁性贫血",
+      "C": "超重和肥胖",
+      "D": "以上均是"
+    },
+    "answers": [
+      "D"
+    ],
+    "explanation": "《三级技能》 P461-463",
+    "reviewStatus": "需人工核对",
+    "answerSource": "embedded",
+    "rawStem": "常见的社区营养问题有（   ）\nA.营养不良      B.铁缺乏和缺铁性贫血    C.超重和肥胖     D.以上均是\n答案：D\n解析：《三级技能》 P461-463",
+    "qualityIssues": [
+      "source_not_reviewed",
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "embedded_answer_and_explanation",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "常见的社区营养问题有",
+    "groupId": null,
+    "groupOrder": 639,
+    "duplicateCandidateIds": [
+      "C-0286"
+    ]
+  },
+  {
+    "id": "C-0646",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 653,
+    "sourcePages": [
+      102
+    ],
+    "type": "single",
+    "stem": "婴幼儿和青少年的蛋白质代谢状况应维持（ ）",
+    "sharedStem": null,
+    "options": {
+      "A": "氮平衡",
+      "B": "负氮平衡",
+      "C": "排除足够的尿素氮",
+      "D": "正氮平衡"
+    },
+    "answers": [
+      "D"
+    ],
+    "explanation": "《基础知识》P 生长期儿童需保留氮以支持组织生长（摄入＞排出）",
+    "reviewStatus": "需人工核对",
+    "answerSource": "embedded",
+    "rawStem": "婴幼儿和青少年的蛋白质代谢状况应维持（   ）\nA.氮平衡       B.负氮平衡        C.排除足够的尿素氮      D.正氮平衡\n答案：D\n解析：《基础知识》P 生长期儿童需保留氮以支持组织生长（摄入＞排出）",
+    "qualityIssues": [
+      "source_not_reviewed",
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "embedded_answer_and_explanation",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "婴幼儿和青少年的蛋白质代谢状况应维持",
+    "groupId": null,
+    "groupOrder": 645,
+    "duplicateCandidateIds": [
+      "C-0102",
+      "C-0312",
+      "C-0665"
+    ]
+  },
+  {
+    "id": "C-0661",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 668,
+    "sourcePages": [
+      105
+    ],
+    "type": "single",
+    "stem": "65 岁以上老年人BMI 适宜范围是（ ）",
+    "sharedStem": null,
+    "options": {
+      "A": "20-24 kg/m2",
+      "B": "18.5-23.9 kg/m2",
+      "D": "20-26.9 kg/m2"
+    },
+    "answers": [
+      "D"
+    ],
+    "explanation": "《中国居民膳食指南（2022）》P270。65 岁以上老年人 BMI 范围为 20-26.9kg/m2，略高于普通成人。",
+    "reviewStatus": "需人工核对",
+    "answerSource": "embedded",
+    "rawStem": "65 岁以上老年人BMI 适宜范围是（  ）\nA.20-24 kg/m2\nB.18.5-23.9 kg/m2\nD.24-28 kg/m2\nD.20-26.9 kg/m2\n答案：D\n解析：《中国居民膳食指南（2022）》P270。65 岁以上老年人 BMI 范围为\n20-26.9kg/m2，略高于普通成人。",
+    "qualityIssues": [
+      "incomplete_options",
+      "non_contiguous_options",
+      "source_not_reviewed"
+    ],
+    "verification": {
+      "method": "embedded_answer_and_explanation",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "65岁以上老年人bmi适宜范围是",
+    "groupId": null,
+    "groupOrder": 660,
+    "duplicateCandidateIds": []
+  },
+  {
+    "id": "C-0664",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 671,
+    "sourcePages": [
+      105
+    ],
+    "type": "single",
+    "stem": "生长发育期的儿童应注意优质蛋白质的摄入和足够的（ ）来保证蛋白质能 在体内被有效利用。",
+    "sharedStem": null,
+    "options": {
+      "A": "水",
+      "B": "能量",
+      "C": "膳食纤维",
+      "D": "胡萝卜素"
+    },
+    "answers": [
+      "B"
+    ],
+    "explanation": "《三级技能》P256。充足能量避免蛋白质被分解供能，提高利用率。",
+    "reviewStatus": "需人工核对",
+    "answerSource": "embedded",
+    "rawStem": "生长发育期的儿童应注意优质蛋白质的摄入和足够的( )来保证蛋白质能\n在体内被有效利用。\nA.水          B.能量         C.膳食纤维        D.胡萝卜素\n答案：B\n解析：《三级技能》P256。充足能量避免蛋白质被分解供能，提高利用率。",
+    "qualityIssues": [
+      "source_not_reviewed",
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "embedded_answer_and_explanation",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "生长发育期的儿童应注意优质蛋白质的摄入和足够的来保证蛋白质能在体内被有效利用",
+    "groupId": null,
+    "groupOrder": 663,
+    "duplicateCandidateIds": [
+      "C-0579"
+    ]
+  },
+  {
+    "id": "C-0665",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 672,
+    "sourcePages": [
+      106
+    ],
+    "type": "single",
+    "stem": "婴幼儿和青少年的蛋白质代谢状况应维持（ ）",
+    "sharedStem": null,
+    "options": {
+      "A": "氮平衡",
+      "B": "零氮平衡",
+      "C": "正氮平衡",
+      "D": "负氮平衡"
+    },
+    "answers": [
+      "C"
+    ],
+    "explanation": "《基础知识》P78-79。婴幼儿和青少年处于生长发育阶段，需要合成更多 蛋白质，应维持正氮平衡，即摄入氮大于排出氮。",
+    "reviewStatus": "需人工核对",
+    "answerSource": "embedded",
+    "rawStem": "婴幼儿和青少年的蛋白质代谢状况应维持（  ）\nA.氮平衡        B.零氮平衡        C.正氮平衡         D.负氮平衡\n答案：C\n解析：《基础知识》P78-79。婴幼儿和青少年处于生长发育阶段，需要合成更多\n蛋白质，应维持正氮平衡，即摄入氮大于排出氮。",
+    "qualityIssues": [
+      "source_not_reviewed",
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "embedded_answer_and_explanation",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "婴幼儿和青少年的蛋白质代谢状况应维持",
+    "groupId": null,
+    "groupOrder": 664,
+    "duplicateCandidateIds": [
+      "C-0102",
+      "C-0312",
+      "C-0646"
+    ]
+  },
+  {
+    "id": "C-0670",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 677,
+    "sourcePages": [
+      106
+    ],
+    "type": "single",
+    "stem": "血清和血浆的区别在于（ ）",
+    "sharedStem": null,
+    "options": {
+      "A": "血浆含有纤维蛋白原",
+      "B": "血浆含有血细胞",
+      "C": "血清含有纤维蛋白原",
+      "D": "血清含有血细胞"
+    },
+    "answers": [
+      "A"
+    ],
+    "explanation": "《三级技能》P96。血浆是加入抗凝剂后的血液分离出的液体，含纤维蛋 白原；血清是血液凝固后析出的液体，不含纤维蛋白原，二者都不含血细胞。",
+    "reviewStatus": "需人工核对",
+    "answerSource": "embedded",
+    "rawStem": "血清和血浆的区别在于（  ）\nA.血浆含有纤维蛋白原           B.血浆含有血细胞\nC.血清含有纤维蛋白原           D.血清含有血细胞\n答案：A\n解析：《三级技能》P96。血浆是加入抗凝剂后的血液分离出的液体，含纤维蛋\n白原；血清是血液凝固后析出的液体，不含纤维蛋白原，二者都不含血细胞。",
+    "qualityIssues": [
+      "source_not_reviewed",
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "embedded_answer_and_explanation",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "血清和血浆的区别在于",
+    "groupId": null,
+    "groupOrder": 669,
+    "duplicateCandidateIds": [
+      "C-0614"
+    ]
+  },
+  {
+    "id": "C-0671",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 678,
+    "sourcePages": [
+      106,
+      107
+    ],
+    "type": "single",
+    "stem": "下列有关唾液作用的描述，错误的是（ ）",
+    "sharedStem": null,
+    "options": {
+      "A": "唾液可杀灭进入口腔内的微生物",
+      "B": "唾液可湿润与溶解食物",
+      "C": "唾液淀粉酶可对淀粉进行彻底的分解",
+      "D": "唾液可清理和保护口腔"
+    },
+    "answers": [
+      "C"
+    ],
+    "explanation": "《基础知识》P34。唾液淀粉酶能初步分解淀粉，但不能彻底分解，淀粉 在小肠等部位会进一步被消化分解。A、B、D 选项均是唾液的正确作用。",
+    "reviewStatus": "需人工核对",
+    "answerSource": "embedded",
+    "rawStem": "下列有关唾液作用的描述，错误的是（  ）\nA.唾液可杀灭进入口腔内的微生物\nB.唾液可湿润与溶解食物\nC.唾液淀粉酶可对淀粉进行彻底的分解\nD.唾液可清理和保护口腔\n答案：C\n解析：《基础知识》P34。唾液淀粉酶能初步分解淀粉，但不能彻底分解，淀粉\n在小肠等部位会进一步被消化分解。A、B、D 选项均是唾液的正确作用。",
+    "qualityIssues": [
+      "source_not_reviewed",
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "embedded_answer_and_explanation",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "下列有关唾液作用的描述错误的是",
+    "groupId": null,
+    "groupOrder": 670,
+    "duplicateCandidateIds": [
+      "C-0340"
+    ]
+  },
+  {
+    "id": "C-0673",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 680,
+    "sourcePages": [
+      107
+    ],
+    "type": "single",
+    "stem": "科普文章的准确性不包括（ ）",
+    "sharedStem": null,
+    "options": {
+      "A": "数据准确",
+      "B": "事实准确",
+      "C": "概念准确",
+      "D": "字数准确"
+    },
+    "answers": [
+      "D"
+    ],
+    "explanation": "《三级技能》P220-221。解析:科普文章准确性要求数据、事实、概念、 语言准确，以正确传播知识，字数准确不是准确性范畴。",
+    "reviewStatus": "需人工核对",
+    "answerSource": "embedded",
+    "rawStem": "科普文章的准确性不包括（  ）\nA.数据准确       B.事实准确        C.概念准确         D.字数准确\n答案:D\n解析：《三级技能》P220-221。解析:科普文章准确性要求数据、事实、概念、\n语言准确，以正确传播知识，字数准确不是准确性范畴。",
+    "qualityIssues": [
+      "source_not_reviewed",
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "embedded_answer_and_explanation",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "科普文章的准确性不包括",
+    "groupId": null,
+    "groupOrder": 672,
+    "duplicateCandidateIds": [
+      "C-0252"
+    ]
+  },
+  {
+    "id": "C-0675",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 682,
+    "sourcePages": [
+      107
+    ],
+    "type": "single",
+    "stem": "菜肴原料先洗后切，主要是为了减少（ ）的损失",
+    "sharedStem": null,
+    "options": {
+      "A": "水溶性营养素",
+      "B": "蛋白质",
+      "C": "脂肪",
+      "D": "脂溶性维生素"
+    },
+    "answers": [
+      "A"
+    ],
+    "explanation": "《三级技能》P148。水溶性营养素(如B 族维生素、维生素C 等)易溶于水， 先洗后切可减少其因切割后接触水而流失,蛋白质、脂肪、脂溶性维生素受此操 作影响小。",
+    "reviewStatus": "需人工核对",
+    "answerSource": "embedded",
+    "rawStem": "菜肴原料先洗后切，主要是为了减少（  ）的损失\nA.水溶性营养素       B.蛋白质       C.脂肪         D.脂溶性维生素\n答案：A\n解析：《三级技能》P148。水溶性营养素(如B 族维生素、维生素C 等)易溶于水，\n先洗后切可减少其因切割后接触水而流失,蛋白质、脂肪、脂溶性维生素受此操\n作影响小。",
+    "qualityIssues": [
+      "source_not_reviewed",
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "embedded_answer_and_explanation",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "菜肴原料先洗后切主要是为了减少的损失",
+    "groupId": null,
+    "groupOrder": 674,
+    "duplicateCandidateIds": [
+      "C-0253"
+    ]
+  },
+  {
+    "id": "C-0680",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 687,
+    "sourcePages": [
+      108
+    ],
+    "type": "single",
+    "stem": "机体的免疫系统不包括（ ）",
+    "sharedStem": null,
+    "options": {
+      "A": "肝脏",
+      "B": "骨髓",
+      "C": "脾",
+      "D": "淋巴结"
+    },
+    "answers": [
+      "A"
+    ],
+    "explanation": "《基础知识》P24。肝脏属于消化系统，不属于免疫系统主要组成。",
+    "reviewStatus": "需人工核对",
+    "answerSource": "embedded",
+    "rawStem": "机体的免疫系统不包括（  ）\nA.肝脏        B.骨髓         C.脾        D.淋巴结\n答案：A\n解析：《基础知识》P24。肝脏属于消化系统，不属于免疫系统主要组成。",
+    "qualityIssues": [
+      "source_not_reviewed",
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "embedded_answer_and_explanation",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "机体的免疫系统不包括",
+    "groupId": null,
+    "groupOrder": 679,
+    "duplicateCandidateIds": [
+      "C-0592"
+    ]
+  },
+  {
+    "id": "C-0690",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 698,
+    "sourcePages": [
+      110
+    ],
+    "type": "single",
+    "stem": "参与构成谷胱甘肽过氧化物酶的微量元素是（ ）",
+    "sharedStem": null,
+    "options": {
+      "A": "硒",
+      "B": "锌",
+      "C": "铁",
+      "D": "铜"
+    },
+    "answers": [
+      "A"
+    ],
+    "explanation": "《基础知识》P117。",
+    "reviewStatus": "需人工核对",
+    "answerSource": "embedded",
+    "rawStem": "参与构成谷胱甘肽过氧化物酶的微量元素是（  ）\nA.硒         B.锌        C.铁       D.铜\n答案:A\n解析：《基础知识》P117。",
+    "qualityIssues": [
+      "source_not_reviewed",
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "embedded_answer_and_explanation",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "参与构成谷胱甘肽过氧化物酶的微量元素是",
+    "groupId": null,
+    "groupOrder": 689,
+    "duplicateCandidateIds": [
+      "A-0105",
+      "C-0038",
+      "C-0456"
+    ]
+  },
+  {
+    "id": "C-0696",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 704,
+    "sourcePages": [
+      110
+    ],
+    "type": "single",
+    "stem": "下列不是WHO 推荐选用皮褶厚度的测量点为（ ）",
+    "sharedStem": null,
+    "options": {
+      "A": "肩胛下角",
+      "B": "肩峰",
+      "C": "脐旁",
+      "D": "肱三头肌"
+    },
+    "answers": [
+      "B"
+    ],
+    "explanation": "《三级技能》P80。WHO 推荐皮褶厚度测量点为肩胛下角、肱三头肌和脐 旁，肩峰不属于测量点。",
+    "reviewStatus": "需人工核对",
+    "answerSource": "embedded",
+    "rawStem": "下列不是WHO 推荐选用皮褶厚度的测量点为（  ）\nA.肩胛下角       B.肩峰        C.脐旁        D.肱三头肌\n答案:B\n解析：《三级技能》P80。WHO 推荐皮褶厚度测量点为肩胛下角、肱三头肌和脐\n旁，肩峰不属于测量点。",
+    "qualityIssues": [
+      "source_not_reviewed",
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "embedded_answer_and_explanation",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "下列不是who推荐选用皮褶厚度的测量点为",
+    "groupId": null,
+    "groupOrder": 695,
+    "duplicateCandidateIds": [
+      "C-0133"
+    ]
+  },
+  {
+    "id": "C-0714",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 722,
+    "sourcePages": [
+      113
+    ],
+    "type": "single",
+    "stem": "下列关于大众传播的特点不正确的是（ ）",
+    "sharedStem": null,
+    "options": {
+      "A": "传播对象为特定受众群体",
+      "B": "信息公开，面向社会公众",
+      "C": "信息反馈速度缓慢且缺乏自发性",
+      "D": "信息扩散迅速而广泛"
+    },
+    "answers": [
+      "A"
+    ],
+    "explanation": "大众传播面向不特定大众，而非特定群体。",
+    "reviewStatus": "需人工核对",
+    "answerSource": "embedded",
+    "rawStem": "下列关于大众传播的特点不正确的是（  ）\nA.传播对象为特定受众群体             B.信息公开，面向社会公众\nC.信息反馈速度缓慢且缺乏自发性       D.信息扩散迅速而广泛\n答案:A\n解析：大众传播面向不特定大众，而非特定群体。",
+    "qualityIssues": [
+      "source_not_reviewed",
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "embedded_answer_and_explanation",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "下列关于大众传播的特点不正确的是",
+    "groupId": null,
+    "groupOrder": 713,
+    "duplicateCandidateIds": [
+      "C-0630"
+    ]
+  },
+  {
+    "id": "C-0715",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 723,
+    "sourcePages": [
+      113
+    ],
+    "type": "single",
+    "stem": "2025 年全民营养周传播主题为（ ）",
+    "sharedStem": null,
+    "options": {
+      "A": "奶豆添营养，少油更健康",
+      "B": "合理膳食，食养是良医",
+      "C": "会烹会选，会看标签",
+      "D": "吃动平衡，健康体重，全民行动"
+    },
+    "answers": [
+      "D"
+    ],
+    "explanation": "2025 年全民营养周传播主题为“吃动平衡，健康体重，全民行动”",
+    "reviewStatus": "需人工核对",
+    "answerSource": "embedded",
+    "rawStem": "2025 年全民营养周传播主题为（  ）\nA.奶豆添营养，少油更健康        B.合理膳食，食养是良医\nC.会烹会选，会看标签            D.吃动平衡，健康体重，全民行动\n答案:D\n解析：2025 年全民营养周传播主题为“吃动平衡，健康体重，全民行动”",
+    "qualityIssues": [
+      "source_not_reviewed",
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "embedded_answer_and_explanation",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "2025年全民营养周传播主题为",
+    "groupId": null,
+    "groupOrder": 714,
+    "duplicateCandidateIds": [
+      "A-0028"
+    ]
+  },
+  {
+    "id": "C-0729",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 737,
+    "sourcePages": [
+      115
+    ],
+    "type": "single",
+    "stem": "维生素E的主要生理功能",
+    "sharedStem": null,
+    "options": {
+      "A": "调节钙磷比",
+      "B": "参与凝血",
+      "C": "抗氧化",
+      "D": "促进红细胞的生成"
+    },
+    "answers": [
+      "C"
+    ],
+    "explanation": null,
+    "reviewStatus": "需人工核对",
+    "answerSource": "source",
+    "rawStem": "维生素E的主要生理功能\nA.调节钙磷比      B.参与凝血       C.抗氧化        D.促进红细胞的生成",
+    "qualityIssues": [
+      "source_not_reviewed",
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "ai_structure_review",
+      "confidence": "medium"
+    },
+    "publishable": false,
+    "contentFingerprint": "维生素e的主要生理功能",
+    "groupId": null,
+    "groupOrder": 728,
+    "duplicateCandidateIds": [
+      "C-0732"
+    ]
+  },
+  {
+    "id": "C-0732",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 740,
+    "sourcePages": [
+      115
+    ],
+    "type": "single",
+    "stem": "维生素E 的主要生理功能",
+    "sharedStem": null,
+    "options": {
+      "A": "调节钙磷比",
+      "B": "参与凝血",
+      "C": "抗氧化",
+      "D": "促进红细胞的生成"
+    },
+    "answers": [
+      "C"
+    ],
+    "explanation": null,
+    "reviewStatus": "需人工核对",
+    "answerSource": "source",
+    "rawStem": "维生素E 的主要生理功能\nA.调节钙磷比         B.参与凝血\nC.抗氧化             D.促进红细胞的生成",
+    "qualityIssues": [
+      "source_not_reviewed",
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "ai_structure_review",
+      "confidence": "medium"
+    },
+    "publishable": false,
+    "contentFingerprint": "维生素e的主要生理功能",
+    "groupId": null,
+    "groupOrder": 731,
+    "duplicateCandidateIds": [
+      "C-0729"
+    ]
+  },
+  {
+    "id": "C-0756",
+    "bank": "C",
+    "sourceFile": "Exercises_C_decrypted.pdf",
+    "sourceQuestionNo": 764,
+    "sourcePages": [
+      117
+    ],
+    "type": "single",
+    "stem": "下列不属于食品物理污染的是",
+    "sharedStem": null,
+    "options": {
+      "A": "农药残留 B.石子 C.沙土 D.玻璃渣"
+    },
+    "answers": [
+      "A"
+    ],
+    "explanation": null,
+    "reviewStatus": "需人工核对",
+    "answerSource": "source",
+    "rawStem": "下列不属于食品物理污染的是",
+    "qualityIssues": [
+      "incomplete_options",
+      "source_not_reviewed"
+    ],
+    "verification": {
+      "method": "ai_structure_review",
+      "confidence": "medium"
+    },
+    "publishable": false,
+    "contentFingerprint": "下列不属于食品物理污染的是",
+    "groupId": null,
+    "groupOrder": 755,
+    "duplicateCandidateIds": []
+  },
+  {
+    "id": "D-0014",
+    "bank": "D",
+    "sourceFile": "Exercises_D_decrypted.pdf",
+    "sourceQuestionNo": 14,
+    "sourcePages": [
+      3
+    ],
+    "type": "multiple",
+    "stem": "在进行人际传播沟通时",
+    "sharedStem": null,
+    "options": {
+      "A": "交谈时要寻求共同点",
+      "B": "听对话讲话要专心倾耳细听",
+      "C": "谈话时要及时取得反馈",
+      "D": "力求讲普通话，不得使用方言或当地话"
+    },
+    "answers": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": null,
+    "reviewStatus": "已核对",
+    "answerSource": "source",
+    "rawStem": "在进行人际传播沟通时",
+    "qualityIssues": [
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "source_reviewed",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "在进行人际传播沟通时",
+    "groupId": null,
+    "groupOrder": 13,
+    "duplicateCandidateIds": [
+      "D-0061"
+    ]
+  },
+  {
+    "id": "D-0019",
+    "bank": "D",
+    "sourceFile": "Exercises_D_decrypted.pdf",
+    "sourceQuestionNo": 19,
+    "sourcePages": [
+      3,
+      4
+    ],
+    "type": "multiple",
+    "stem": "烟酸缺乏可出现下列典型症状。",
+    "sharedStem": null,
+    "options": {
+      "A": "贫血",
+      "B": "胃肠蠕动增强",
+      "C": "腹泻",
+      "D": "皮炎"
+    },
+    "answers": [
+      "C",
+      "D"
+    ],
+    "explanation": null,
+    "reviewStatus": "已核对",
+    "answerSource": "source",
+    "rawStem": "烟酸缺乏可出现下列典型症状。",
+    "qualityIssues": [
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "source_reviewed",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "烟酸缺乏可出现下列典型症状",
+    "groupId": null,
+    "groupOrder": 18,
+    "duplicateCandidateIds": [
+      "D-0051"
+    ]
+  },
+  {
+    "id": "D-0051",
+    "bank": "D",
+    "sourceFile": "Exercises_D_decrypted.pdf",
+    "sourceQuestionNo": 52,
+    "sourcePages": [
+      9
+    ],
+    "type": "multiple",
+    "stem": "烟酸缺乏可出现下列典型症状。",
+    "sharedStem": null,
+    "options": {
+      "A": "腹泻",
+      "B": "皮炎",
+      "C": "延缓胃肠蠕动",
+      "D": "贫血"
+    },
+    "answers": [
+      "A",
+      "B"
+    ],
+    "explanation": null,
+    "reviewStatus": "已核对",
+    "answerSource": "source",
+    "rawStem": "烟酸缺乏可出现下列典型症状。",
+    "qualityIssues": [
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "source_reviewed",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "烟酸缺乏可出现下列典型症状",
+    "groupId": null,
+    "groupOrder": 50,
+    "duplicateCandidateIds": [
+      "D-0019"
+    ]
+  },
+  {
+    "id": "D-0061",
+    "bank": "D",
+    "sourceFile": "Exercises_D_decrypted.pdf",
+    "sourceQuestionNo": 62,
+    "sourcePages": [
+      10,
+      11
+    ],
+    "type": "multiple",
+    "stem": "在进行人际传播沟通时",
+    "sharedStem": null,
+    "options": {
+      "A": "听对方讲话要专心，倾耳细听",
+      "B": "留意对方的“话外音”",
+      "C": "交谈时要寻求共同点",
+      "D": "求讲普通话，不得使用方言、当地话"
+    },
+    "answers": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": null,
+    "reviewStatus": "已核对",
+    "answerSource": "source",
+    "rawStem": "在进行人际传播沟通时",
+    "qualityIssues": [
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "source_reviewed",
+      "confidence": "high"
+    },
+    "publishable": false,
+    "contentFingerprint": "在进行人际传播沟通时",
+    "groupId": null,
+    "groupOrder": 60,
+    "duplicateCandidateIds": [
+      "D-0014"
+    ]
+  },
+  {
+    "id": "D-0110",
+    "bank": "D",
+    "sourceFile": "Exercises_D_decrypted.pdf",
+    "sourceQuestionNo": 112,
+    "sourcePages": [
+      19
+    ],
+    "type": "multiple",
+    "stem": "人体的必需氨基酸包括",
+    "sharedStem": null,
+    "options": {
+      "A": "亮氨酸",
+      "B": "赖氨酸",
+      "C": "蛋氨酸",
+      "D": "缬氨酸",
+      "E": "胱氨酸"
+    },
+    "answers": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "explanation": null,
+    "reviewStatus": "需人工核对",
+    "answerSource": "source",
+    "rawStem": "人体的必需氨基酸包括",
+    "qualityIssues": [
+      "source_not_reviewed",
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "ai_structure_review",
+      "confidence": "medium"
+    },
+    "publishable": false,
+    "contentFingerprint": "人体的必需氨基酸包括",
+    "groupId": null,
+    "groupOrder": 109,
+    "duplicateCandidateIds": [
+      "D-0128"
+    ]
+  },
+  {
+    "id": "D-0122",
+    "bank": "D",
+    "sourceFile": "Exercises_D_decrypted.pdf",
+    "sourceQuestionNo": 124,
+    "sourcePages": [
+      21
+    ],
+    "type": "multiple",
+    "stem": "含钙丰富的食物有",
+    "sharedStem": null,
+    "options": {
+      "A": "牛奶",
+      "B": "鸡蛋",
+      "C": "豆腐干",
+      "D": "芝麻酱",
+      "E": "香菇"
+    },
+    "answers": [
+      "A",
+      "C",
+      "D"
+    ],
+    "explanation": null,
+    "reviewStatus": "需人工核对",
+    "answerSource": "source",
+    "rawStem": "含钙丰富的食物有",
+    "qualityIssues": [
+      "source_not_reviewed",
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "ai_structure_review",
+      "confidence": "medium"
+    },
+    "publishable": false,
+    "contentFingerprint": "含钙丰富的食物有",
+    "groupId": null,
+    "groupOrder": 121,
+    "duplicateCandidateIds": [
+      "D-0147"
+    ]
+  },
+  {
+    "id": "D-0128",
+    "bank": "D",
+    "sourceFile": "Exercises_D_decrypted.pdf",
+    "sourceQuestionNo": 130,
+    "sourcePages": [
+      22
+    ],
+    "type": "multiple",
+    "stem": "人体的必需氨基酸包括",
+    "sharedStem": null,
+    "options": {
+      "A": "异亮氨酸",
+      "B": "苯丙氨酸",
+      "C": "苏氨酸",
+      "D": "胱氨酸",
+      "E": "组氨酸"
+    },
+    "answers": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": null,
+    "reviewStatus": "需人工核对",
+    "answerSource": "source",
+    "rawStem": "人体的必需氨基酸包括",
+    "qualityIssues": [
+      "source_not_reviewed",
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "ai_structure_review",
+      "confidence": "medium"
+    },
+    "publishable": false,
+    "contentFingerprint": "人体的必需氨基酸包括",
+    "groupId": null,
+    "groupOrder": 127,
+    "duplicateCandidateIds": [
+      "D-0110"
+    ]
+  },
+  {
+    "id": "D-0147",
+    "bank": "D",
+    "sourceFile": "Exercises_D_decrypted.pdf",
+    "sourceQuestionNo": 150,
+    "sourcePages": [
+      26
+    ],
+    "type": "multiple",
+    "stem": "含钙丰富的食物有",
+    "sharedStem": null,
+    "options": {
+      "A": "牛奶",
+      "B": "玉米",
+      "C": "虾皮",
+      "D": "发菜",
+      "E": "黄瓜"
+    },
+    "answers": [
+      "A",
+      "C",
+      "D"
+    ],
+    "explanation": null,
+    "reviewStatus": "需人工核对",
+    "answerSource": "source",
+    "rawStem": "含钙丰富的食物有",
+    "qualityIssues": [
+      "source_not_reviewed",
+      "duplicate_candidate"
+    ],
+    "verification": {
+      "method": "ai_structure_review",
+      "confidence": "medium"
+    },
+    "publishable": false,
+    "contentFingerprint": "含钙丰富的食物有",
+    "groupId": null,
+    "groupOrder": 146,
+    "duplicateCandidateIds": [
+      "D-0122"
+    ]
+  }
+]

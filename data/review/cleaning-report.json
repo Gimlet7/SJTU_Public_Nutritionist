@@ -1,0 +1,40 @@
+{
+  "generatedAt": "2026-09-04T10:31:55.717Z",
+  "sourceFiles": [
+    "Exercises_A.json",
+    "Exercises_B.json",
+    "Exercises_C.json",
+    "Exercises_D.json"
+  ],
+  "total": 1492,
+  "published": 1334,
+  "needsReview": 158,
+  "byBank": {
+    "A": {
+      "total": 311,
+      "published": 276
+    },
+    "B": {
+      "total": 199,
+      "published": 199
+    },
+    "C": {
+      "total": 759,
+      "published": 644
+    },
+    "D": {
+      "total": 223,
+      "published": 215
+    }
+  },
+  "issueCounts": {
+    "answer_not_in_options": 38,
+    "duplicate_candidate": 97,
+    "incomplete_options": 68,
+    "missing_answer": 15,
+    "non_contiguous_options": 12,
+    "shared_stem_needs_review": 30,
+    "single_answer_count_error": 15,
+    "source_not_reviewed": 691
+  }
+}

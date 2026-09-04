@@ -1,7 +1,7 @@
 // Adjust these paths when the repository layout changes.
 const APP_PATHS = {
-  questions: ["./data/questions.json", "./questions.json"],
-  manifest: ["./data/manifest.json", "./manifest.json"],
+  questions: ["./SJTU_Public_Nutritionist/data/questions.json", "./questions.json"],
+  manifest: ["./SJTU_Public_Nutritionist/data/manifest.json", "./manifest.json"],
 };
 // Fallback used when config.js is missing or temporarily cached by static hosting.
 const DEFAULT_CONFIG = {

@@ -24,7 +24,16 @@ const DEFAULT_DISPLAY_SETTINGS = { theme: "paper", fontSize: "medium" };
 const state = { authorized: false, questions: [], manifest: null, route: "gate", session: null, wrong: new Map(), bookmarks: new Set(), attempts: 0, attemptedQuestionIds: new Set(), passedQuestionIds: new Set(), storage: true, display: { ...DEFAULT_DISPLAY_SETTINGS } };
 
 const esc = (value) => String(value ?? "").replace(/[&<>"']/g, (char) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#039;" }[char]));
-const resourceUrl = (relativePath) => new URL(relativePath, document.baseURI).href;
+function resourceUrls(relativePath) {
+  const cleanPath = relativePath.replace(/^\.\//, "");
+  const urls = [new URL(relativePath, document.baseURI).href];
+  // Project Pages can be opened from a nested directory; always also try the repository root.
+  if (location.hostname.endsWith(".github.io")) {
+    const repositoryName = location.pathname.split("/").filter(Boolean)[0];
+    if (repositoryName) urls.push(`${location.origin}/${repositoryName}/${cleanPath}`);
+  }
+  return [...new Set(urls)];
+}
 const hash = () => location.hash.replace(/^#/, "") || "/";
 const go = (path) => { location.hash = path; };
 const text = (value) => esc(value).replace(/\n/g, "<br>");
@@ -86,12 +95,13 @@ async function authorize(key, remember) { const digest = await sha256(key); if (
 async function fetchFirst(paths) {
   const attempted = [];
   for (const path of paths) {
-    const url = resourceUrl(path);
-    attempted.push(url);
-    try {
-      const response = await fetch(url, { cache: "no-store" });
-      if (response.ok) return response;
-    } catch { /* Try the next layout. */ }
+    for (const url of resourceUrls(path)) {
+      attempted.push(url);
+      try {
+        const response = await fetch(url, { cache: "no-store" });
+        if (response.ok) return response;
+      } catch { /* Try the next layout. */ }
+    }
   }
   throw new Error(`题库文件加载失败，请确认文件已上传：${attempted.join(" 或 ")}`);
 }

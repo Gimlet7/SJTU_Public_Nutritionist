@@ -3,8 +3,12 @@ const APP_PATHS = {
   questions: "./SJTU_Public_Nutritionist/data/questions.json",
   manifest: "./SJTU_Public_Nutritionist/data/manifest.json",
 };
+const DEFAULT_CONFIG = {
+  accessKeyHash: "4836f7ae932396e81d9a543fe646e28c21064535a243f06f914ecdc3ff74edb5",
+  rememberAccess: true,
+};
 const app = document.querySelector("#app");
-const config = window.APP_CONFIG || {};
+const config = { ...DEFAULT_CONFIG, ...(window.APP_CONFIG || {}) };
 const DB_NAME = "nutritionist-question-bank";
 const DB_VERSION = 1;
 const MAX_ATTEMPTS = 10000;

@@ -37,6 +37,15 @@ function resourceUrls(relativePath) {
 const hash = () => location.hash.replace(/^#/, "") || "/";
 const go = (path) => { location.hash = path; };
 const text = (value) => esc(value).replace(/\n/g, "<br>");
+function renderQuestionBlocks(blocks, fallback) {
+  if (!Array.isArray(blocks) || !blocks.length) return text(fallback);
+  return blocks.map((block) => {
+    if (block.type !== "table") return `<div class="question-block-text">${text(block.text)}</div>`;
+    const head = (block.columns || []).map((column) => `<th scope="col">${text(column)}</th>`).join("");
+    const rows = (block.rows || []).map((row) => `<tr>${row.map((cell) => `<td>${text(cell)}</td>`).join("")}</tr>`).join("");
+    return `<div class="question-table-wrap"><table class="question-table">${block.caption ? `<caption>${text(block.caption)}</caption>` : ""}<thead><tr>${head}</tr></thead><tbody>${rows}</tbody></table></div>`;
+  }).join("");
+}
 
 function loadDisplaySettings() {
   try { state.display = { ...DEFAULT_DISPLAY_SETTINGS, ...JSON.parse(localStorage.getItem(DISPLAY_SETTINGS_KEY) || "{}") }; } catch { state.display = { ...DEFAULT_DISPLAY_SETTINGS }; }
@@ -170,7 +179,7 @@ function renderPractice() {
   const feedback = submitted ? `<div class="feedback ${correct ? "ok" : "bad"}"><strong>${correct ? "回答正确" : "回答错误"}</strong><div>正确答案：${q.answers.join("、")}</div>${q.explanation ? `<p>${text(q.explanation)}</p>` : ""}</div>` : "";
   const numberGrid = session.questions.map((item, index) => `<button class="question-number ${questionStatus(item.id)} ${index === session.index ? "current" : ""}" data-jump="${index}" title="第 ${index + 1} 题">${index + 1}</button>`).join("");
   const picker = `<details class="question-picker"><summary>题目选择 <strong>${session.index + 1} / ${session.questions.length}</strong></summary><div class="question-picker-panel"><div class="question-legend"><span><i class="unanswered"></i>未作答</span><span><i class="wrong"></i>错题</span><span><i class="passed"></i>已通过</span></div><div class="question-number-grid">${numberGrid}</div></div></details>`;
-  layout(`<div class="practice-head"><button class="btn ghost" id="back-home">退出练习</button><span class="progress">按顺序练习 · ${session.index + 1} / ${session.questions.length}</span></div>${picker}<article class="panel question-panel"><div class="question-meta"><span class="badge">${q.type === "multiple" ? "多选题" : "单选题"}</span><span class="progress">${q.bank} 题库 · 原题 ${q.sourceQuestionNo}</span></div>${q.sharedStem ? `<div class="shared-stem">${text(q.sharedStem)}</div>` : ""}<h2 class="question-stem">${text(q.stem)}</h2><div class="options">${optionHtml}</div>${feedback}<div class="practice-actions"><button class="btn ghost" id="bookmark">${state.bookmarks.has(q.id) ? "已收藏" : "收藏本题"}</button>${submitted ? `<button class="btn" id="next">${session.index === session.questions.length - 1 ? "查看结果" : "下一题"}</button>` : `<button class="btn" id="submit">提交答案</button>`}</div></article>`, "");
+   layout(`<div class="practice-head"><button class="btn ghost" id="back-home">退出练习</button><span class="progress">按顺序练习 · ${session.index + 1} / ${session.questions.length}</span></div>${picker}<article class="panel question-panel"><div class="question-meta"><span class="badge">${q.type === "multiple" ? "多选题" : "单选题"}</span><span class="progress">${q.bank} 题库 · 原题 ${q.sourceQuestionNo}</span></div>${q.sharedStem ? `<div class="shared-stem">${q.sharedStemBlocks ? renderQuestionBlocks(q.sharedStemBlocks, q.sharedStem) : text(q.sharedStem)}</div>` : ""}<h2 class="question-stem">${q.stemBlocks ? renderQuestionBlocks(q.stemBlocks, q.stem) : text(q.stem)}</h2><div class="options">${optionHtml}</div>${feedback}<div class="practice-actions"><button class="btn ghost" id="bookmark">${state.bookmarks.has(q.id) ? "已收藏" : "收藏本题"}</button>${submitted ? `<button class="btn" id="next">${session.index === session.questions.length - 1 ? "查看结果" : "下一题"}</button>` : `<button class="btn" id="submit">提交答案</button>`}</div></article>`, "");
   document.querySelector("#back-home").onclick = () => { saveProgress(); go("/home"); }; document.querySelector("#bookmark").onclick = async () => { if (state.bookmarks.has(q.id)) { state.bookmarks.delete(q.id); await remove("bookmarks", q.id); } else { state.bookmarks.add(q.id); await put("bookmarks", { id: q.id, createdAt: Date.now() }); } renderPractice(); };
   document.querySelectorAll("[data-jump]").forEach((button) => button.onclick = () => { session.index = Number(button.dataset.jump); session.selected = []; session.submitted = false; saveProgress(); renderPractice(); });
   document.querySelectorAll("[data-option]").forEach((button) => button.onclick = () => { const key = button.dataset.option; if (q.type === "single") session.selected = [key]; else session.selected = selected.has(key) ? session.selected.filter((item) => item !== key) : [...session.selected, key]; renderPractice(); });
